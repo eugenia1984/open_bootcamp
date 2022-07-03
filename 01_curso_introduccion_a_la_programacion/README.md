@@ -264,6 +264,26 @@ class Juguete {
 
 ---
 
-## :star: 2.7
+## :star: 2.7 Consejos y curiosidades sobre los tipos de datos
 
+Al tener una cadena de texto, por detrás van concatenando caracteres, y siempre al ir guardando el interprete siempre agrega al final el **0**, que indica fin de cadena. Entonces con :
+```
+nombre = "Victor"
+nombre[0] = 'V'
+nombre[1] = 'i'
+nombre[2] = 'c'
+nombre[3] = 't'
+nombre[4] = 'o'
+nombre[5] = 'r'
+```
+
+Tenemos: ```nombre[6] = 0```
+
+Si lo veo como un array de caracteres, sería:
+
+```arrayCaracteres = ['V', 'i', 'c', 't', 'o', 'r', 0]```
+
+Termina con el caracter **NULL** (**0**)
+
+---
 ---
