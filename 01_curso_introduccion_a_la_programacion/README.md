@@ -336,6 +336,18 @@ Termina con el caracter **NULL** (**0**)
 
 # 5.Errores
 
+
+## :star: 5.1 GEstión de errores
+
+---
+
+## :star:  5.2 Errores del programador
+
+---
+
+## :star: 5.3 Repercusión de los erroes
+
+
 ---
 ---
 
