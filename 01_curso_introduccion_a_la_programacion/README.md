@@ -67,3 +67,17 @@ Por ejemplo: Java (Java Virtual Machine), Python, Pearl, PHP.
 
 ----
 
+
+## :star:  1.3 Aplicaciones cliente-servidor
+
+Hay un cliente (la apliación, el Front End) y un Back End (que obtiene los datos de forma remota). 
+
+Salieron desde los 90: un CRM para los clientes, un sistema para Facturar.
+
+Se utiliza le protocolo HTTP para utilizar las APIs.
+
+La arquitectura es REST.
+
+
+---
+
