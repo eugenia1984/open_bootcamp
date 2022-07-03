@@ -159,12 +159,19 @@ Declaración -> ``` texto = "hola"```, va entre comillas.
 
 Si el texto tiene 4 caracteres ocupa **32 bits** (8 bits x 4 -> 4 bytes).
 
-...
-
-
 ---
 
-## :star: 2.2
+## :star: 2.2 Tipos de datos primitivos - Datos Numéricos
+
+... **numeros**, no va entre comillas.
+
+Declaración -> ```numeros = 1234```
+
+Pueden ser **enteros** ó **flotantes** (decimales).
+
+Tienen 32 o 64 bits -> 4 u 8 bytes.
+
+Son 0 y 1, en memoria se guardan en binario, con 0 y 1, se comienza a contar de derecha a izquierda, o sea de atrás hacia adelante, son en base 2
 
 ---
 
