@@ -78,3 +78,17 @@ Se utiliza el **protocolo HTTP** para utilizar las **APIs**. La arquitectura es 
 
 ---
 
+
+## :star:  1.4 Memoria y variable
+
+- **Memoria** donde el **ordenador** contiene **información**, la cuál va a ser leida por el **procesador**. Se la puede ver como una hilera de cajas, una al lado de la otra, y cada una tiene su **dirección de memoria**, en cada una se guardará un **dato**. Recordar que las posiciones de memoria empiezan desde **0** y son varios millones.
+
+- **Variable** es un nombre humano para una posición de memoria. Es dinámico, su valor puede ir modificandose en el transcurso de mi programa.
+
+```numero = 1234``` -> designo a la variable *numero* el valor *1234*
+
+```decimal = 2.2 ``` -> designo a la variable *decimal* el valor *2.2*
+
+Las variables que pueden cambiar su valor en cualquier momento son **variables** y las que no pueden modificar su valor una vez asignado son **constantes**.
+
+---
