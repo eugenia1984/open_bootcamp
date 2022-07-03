@@ -74,10 +74,7 @@ Hay un cliente (la apliación, el Front End) y un Back End (que obtiene los dato
 
 Salieron desde los 90: un CRM para los clientes, un sistema para Facturar.
 
-Se utiliza le protocolo HTTP para utilizar las APIs.
-
-La arquitectura es REST.
-
+Se utiliza el **protocolo HTTP** para utilizar las **APIs**. La arquitectura es REST. Nos ayudan mucho las **librerías** que nos abstrae de la APi subyacente (la que obtiene la información de la aplicación cliente - servidor).
 
 ---
 
