@@ -287,3 +287,66 @@ Termina con el caracter **NULL** (**0**)
 
 ---
 ---
+
+# 3. Funciones
+
+## :star: 3.1 Definición y conceptos
+
+---
+
+## :star: 3.2 Usos
+
+---
+
+## :star: 3.3 Funciones avanzadas
+
+---
+
+## :star: 3.4 Video sesion 3 parte 2
+
+---
+
+## :star:  3.5 Ejercicios tema 3
+
+---
+---
+
+# 4. Sentencias de control
+
+---
+---
+
+# 5.Errores
+
+---
+---
+
+# 6. Depuración de código
+
+---
+---
+
+# 7. Introducción a la Programación Orientada a Objetos
+
+---
+---
+
+# 8. Privacidad, abstracción y encapsulamiento
+
+---
+---
+
+# 9. Herencia, Polimorfismo e Itnerfaces
+
+---
+---
+
+# 10. Métodos de clases
+
+---
+---
+
+# 11. Lenguajes: compilados e interpretados 
+
+---
+---
