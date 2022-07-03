@@ -142,3 +142,36 @@ Le hacemos click en el boton **play** y por consola vemos **Hola mundo**
 ---
 
 ## :star: 2.1 Introducción a los tipos de datos primitivos
+
+La **memoria** guarda **datos**, que se alamcenan en **variables**/**constantes**.
+
+En la **memoria** al guardar los valores, debemos explicar el **tipo de dato** que guardará, los **DATOS PRIMITIVOS** (dato básico), pueden ser...
+
+... **caracter**: representa un único caracter, puede ser tanto una letra, como un número o un símbolo, por ejemplo: ```a```, utiliza los valores de la tabla ASCII, y ahi veo que **a** eslmacena el número **97** y el **9** es el **57**, por ejemplo.
+
+Declaración -> ``` caracter = 'a'```, va entre comillas.
+
+1 caracter ocupa **8 bits** -> 1 byte
+
+... **texto** (**String**): es una secuencia de caracteres. En memoria cada caracter se guarda en una caja.
+
+Declaración -> ``` texto = "hola"```, va entre comillas.
+
+Si el texto tiene 4 caracteres ocupa **32 bits** (8 bits x 4 -> 4 bytes).
+
+...
+
+
+---
+
+## :star: 2.2
+
+---
+
+## :star: 2.3
+
+---
+
+## :star: 2.4
+
+---
