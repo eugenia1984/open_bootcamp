@@ -175,7 +175,17 @@ Son 0 y 1, en memoria se guardan en binario, con 0 y 1, se comienza a contar de 
 
 ---
 
-## :star: 2.3
+## :star: 2.3 Tipos de datos primitivos - Boolean
+
+Solo tiene dos valores...
+
+... **0** / **true** / **True**
+
+... **1** / **false** / **False**
+
+Declaración -> ``` esVerdadero = true``` ó ```esVerdadero = false```
+
+En memoria se alamcenan como 0 y 1
 
 ---
 
