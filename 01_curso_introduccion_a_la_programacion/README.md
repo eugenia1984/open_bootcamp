@@ -313,6 +313,24 @@ Termina con el caracter **NULL** (**0**)
 
 # 4. Sentencias de control
 
+## :star: 4.1 Condicionales
+
+---
+
+## :star:  4.2 Bucles While y Do While
+
+---
+
+## :star: 4.3 Bucles For
+
+---
+
+## :star: 4.4 Switch Case
+
+---
+
+## :star:  4.5 Ejercicios Tema 4
+
 ---
 ---
 
