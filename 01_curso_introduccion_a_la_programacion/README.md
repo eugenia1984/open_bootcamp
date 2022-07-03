@@ -167,7 +167,7 @@ Si el texto tiene 4 caracteres ocupa **32 bits** (8 bits x 4 -> 4 bytes).
 
 Declaración -> ```numeros = 1234```
 
-Pueden ser **enteros** ó **flotantes** (decimales).
+Pueden ser **enteros** ó **flotantes** / **double**(decimales).
 
 Tienen 32 o 64 bits -> 4 u 8 bytes.
 
@@ -189,6 +189,28 @@ En memoria se alamcenan como 0 y 1
 
 ---
 
-## :star: 2.4
+## :star: 2.4 Tipos de datos complejos - Arrays
+
+Es una **colección** o un **conjunto** de un mismo tipo de dato, se suelen poner entre **[]**
+
+Declaración -> 
+
+```arrayChar = ['a', 'b', 'c']```  de caracteres
+
+```arrayString = ['hola', 'chaub', 'c']``` de Strings
+
+```arrayChar = [1, 2, 3]``` de numeros enteros
+
+```arrayChar = [1.1, 2.32, 5.2]``` de floats o doubles
+
+```arrayArrays = [ [1, 2, 3], [4, 5, 6]]```  arrays de arrays, este es bidimensional.
+
+-> Se re presenta como las cajas una al lado de la otra, comienza en el indice **0**. 
+
+---
+
+## :star: 2.5 
+
+
 
 ---
