@@ -229,7 +229,38 @@ Son muy similares a los **diccionarios**.
 
 ---
 
-## :star: 2.6
+## :star: 2.6 Tipos de datos complejos - Objetos
+
+
+Se utiliza mucho en Java y C++.
+
+Objetos que representan el munod real, pueden tener **propiedades** (**properties**, sus características) y **metodos** (funciones, su comportamiento, pueden alterar las propiedades  del objetos -con los setters-).
+
+En pseudocodigo:
+
+```
+Juguete:
+  Propiedades:
+    -Color: marron
+    -Forma: patata
+  Metodos:
+    -Poner sombrero
+    -Quitar brazo
+```
+
+En java:
+
+```Java
+class Juguete {
+  // Propiedades 
+  String color ="marron";
+  String forma = "patata";
+
+  // Metodos
+  ponerSombrero{}
+  quitarBrazo{}
+}
+```
 
 ---
 
