@@ -1,6 +1,11 @@
 # :book: 1 - Curso Introduccion a la programacion
 
 ---
+---
+
+# 1. Programación. Variables y constantes
+
+---
 
 ## :star:  1.1 - Historia de la programación
 
@@ -127,3 +132,13 @@ public class Main {
 ```
 
 Le hacemos click en el boton **play** y por consola vemos **Hola mundo**
+
+
+---
+---
+
+# 2. Tipos de datos: primitivos y complejos
+
+---
+
+## :star: 2.1 Introducción a los tipos de datos primitivos
