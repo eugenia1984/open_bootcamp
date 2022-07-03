@@ -209,8 +209,30 @@ Declaración ->
 
 ---
 
-## :star: 2.5 
+## :star: 2.5 Tipos de datos complejos - Tuplas
 
+Son similares a los arrays, pero están entre **()** y sus elementos son **inmutables**, vvarían acorde al lenguaje.
 
+Declaración -> ```tupla = (a, b, c)```
+
+**mapa asociativo** / **array asociativo** / **map** -> son compuestos porque dentro tienen **key** (clave) y **value **valor**
+
+Declaración -> 
+```
+arrayCapitalesPais = [
+  "Kyev" : "Ucrania",
+  "Madrid": "España"
+]
+```
+
+Son muy similares a los **diccionarios**.
+
+---
+
+## :star: 2.6
+
+---
+
+## :star: 2.7
 
 ---
