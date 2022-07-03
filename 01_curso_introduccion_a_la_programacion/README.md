@@ -1,8 +1,8 @@
-# Curso Introduccion a la programacion
+# :book: 1 - Curso Introduccion a la programacion
 
 ---
 
-## Historia de la programación
+## :star:  1.1 - Historia de la programación
 
 Empezó hace unos 100 años, pero empezamos con la década del 40, con el **sistema de codificación ENIAC** (sistema de instrucciones memotécnicas). 
 
@@ -23,3 +23,40 @@ Del 2000 al 2022, tenemos: **Action Script** (para animaciones 2D, era Flash, pa
 Desde el 2000 sale **Scratch** que es ideal para comenzar con logica de programación.
 
 ---
+
+## :star:  1.2 Tipos de lenguajes de programación
+
+Pueden ser...
+
+
+... COMPILADO o INTERPRETADO:
+
+- **Compilado**: que a partir del codigo se general un programa que el compilador lo ejecuta directamente a través del SO (Sistema Operativo). Se ejecuta nativamente.
+
+Ventaja: va más rápido. Tiene máximo rendimiento.
+
+Desventaja: para cada programa debo tener una versión acorde al compilador.
+
+Por ejemplo: C y Go.
+
+
+- **Interpretado**: parte de un codigo fuente, pero se compila a algo intermedio (**Bitecode**) lo que el procesador no entiende, por lo que se necesita un *interprete* (lee el codigo y lo ejecuta paso a paso).
+
+Ventaja: Se escribe una sola vez y se corre en todos lados (la Java Virtual Machine funciona en todos lados). Tiene mayor portabilidad.
+
+Desventaja: si bien el compilado es más ráìdo, no vale para todas las arquitecturas.
+
+Por ejemplo: Java (Java Virtual Machine), Python, Pearl, PHP.
+
+
+- **Hibrido**: lenguaje interpretado cuyo interprete es capaz de compilar al codigo nativo según le haga falta(Just in Time). Interpreta en cualquier plataforma.
+
+... TIPADOS o NO TIPADOS
+
+- **Tipados** : 
+
+- **No tipados**:
+
+
+----
+
