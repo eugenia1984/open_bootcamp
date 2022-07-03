@@ -353,30 +353,58 @@ Termina con el caracter **NULL** (**0**)
 
 # 6. Depuración de código
 
+## :star: 6.1 Video del tema 6: depiración del código
+
 ---
 ---
 
 # 7. Introducción a la Programación Orientada a Objetos
+
+## :star: 7.1 Video del tema 7:  Introducción a la Programación Orientada a Objetos
 
 ---
 ---
 
 # 8. Privacidad, abstracción y encapsulamiento
 
+
+## :star: 8.1 Video del tema 8: Privacidad, abstracción y encapsulamiento
+
+---
+
+## :star: 8.2 Ejercicios del tema 8
+
 ---
 ---
 
-# 9. Herencia, Polimorfismo e Itnerfaces
+# 9. Herencia, Polimorfismo e Interfaces
+
+## :star: 9.1 Video del tema 9: Herencia, Polimorfismo e Interfaces
+
+---
+
+## :star: 9.2 Ejercicios del tema 9
 
 ---
 ---
 
 # 10. Métodos de clases
 
+
+## :star: 10.1 Video del tema 10: Métodos de clases
+
 ---
 ---
 
 # 11. Lenguajes: compilados e interpretados 
+
+
+## :star: 11.1 Video del tema 11. Lenguajes: compilados e interpretados 
+
+---
+
+
+## :star: 11.2 Ronda de preguntas
 
 ---
 ---
