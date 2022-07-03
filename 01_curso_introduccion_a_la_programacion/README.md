@@ -53,10 +53,17 @@ Por ejemplo: Java (Java Virtual Machine), Python, Pearl, PHP.
 
 ... TIPADOS o NO TIPADOS
 
-- **Tipados** : 
+- **Tipados** : se deben especificar el tipo de dato que se guardara. Por ejemplo: Go, Java, C.
 
-- **No tipados**:
+- **No tipados**: el copilador / interprete es capaz de deducir que tipo de dato es. Por ejemplo: PHP.
 
+#### ¿ Qué tipo de aplicaciones puedo hacer ?
+
+- **Aplicaciones Webs**: arquitectura con capas: chapa y pintura (lo que ve el usuario, el **Front End**) con **HTML** -define la estructura-, **CSS** -le da el estilo- y **JavaScript** -le da funcionalidad- y el **Back End** (peticiones del cliente al **servidor**, el sistema remoto que contiene la información, puede estar escrito en uno o en varios lenguajes de programación).
+
+- **Aplicaciones de escritorio**: como por ejemplo **drawio**, la parte con la que el usuario interactua, lo que ve. Tiene mucha inforamción, un menú.
+
+- **Aplicaciones móbiles**: las apps de los celulares. Hay una sola ventana a la vez, se centra en una sola vista, que vamos seleccionando , tocando y hacemos acciones.
 
 ----
 
