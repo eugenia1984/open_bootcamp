@@ -92,3 +92,38 @@ Se utiliza el **protocolo HTTP** para utilizar las **APIs**. La arquitectura es 
 Las variables que pueden cambiar su valor en cualquier momento son **variables** y las que no pueden modificar su valor una vez asignado son **constantes**.
 
 ---
+
+## :star: 1.5 Instalación Java e Intellij
+
+- Descarga de Java Development Kit (JDK), desde **open JDK**, descomprimirlo en una carpeta y copiar la ruta, para agregarla en **variable de entorno** para que apunte con **java home**, asi en la terminal si hacemos ```java --version``` debemos ver la version instalada.
+
+
+- Descargar entorno de desarrollo IntelliJ, tneemos la version **Community** (free) y la versión **Ultimate** (paga, se puede tener con correo de estudiante).
+
+- Creación de Proyecto: **Welcome to InteliJ IDEA** > **New Proyect** > **Java** > **Proyect SDK** (elegimos la version que descargamos de JDK y sino desde ahi descargamos) > **Next**.
+
+Se puede hacer click en **crear proyecto a partir de una plantilla** > **Proyect Name**:  (el nombre del proyecto), **Proyecto location** : (donde estara ubicado) > **Finish**.
+
+Se crea el proyecto con la clase **main**
+
+```
+- proyect
+  -src
+      -com.company
+           -main
+```
+
+- Verificar funcionamiento: “Hola mundo”
+
+
+```Java
+package com.company;
+
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hola mundo!");
+  }
+}
+```
+
+Le hacemos click en el boton **play** y por consola vemos **Hola mundo**
