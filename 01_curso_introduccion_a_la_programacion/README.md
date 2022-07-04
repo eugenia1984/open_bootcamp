@@ -301,9 +301,9 @@ La función debe tener:
 
 - nombre (en el ejemplo con Java es **suma**)
 
-- valores que acepta -> **parametros**  (en el ejemplo con Java es **num1**, **num2**)
+- puede aceptar, o no valore -> **parametros**  (en el ejemplo con Java es **num1**, **num2**)
 
-- que devuelve  (en el ejemplo con Java es **num1 + num2**)
+- que devuelve  (en el ejemplo con Java es **num1 + num2**) o puede no devolver
 
 Ejemplo de función en Java:
 
@@ -359,6 +359,56 @@ Solo va a mostrar el resultado, pero no va a etornar un número que no puedo uti
 
 ## :star: 3.2 Usos
 
+Los **parametros** son variables que solo existen dentro de esta función. Una vez que se termina de ejecutar la función, cuando la invocamos, esas variables se destruyen, no existen fuera de la función; por eso necesitamos el **return** para poder acceder al valor de retorno de la función.
+
+Otro ejemplo en Go:
+
+```Go
+package main
+
+import"fmt"
+
+func main() {
+  resultado:= suma(10, 30)
+  
+  fat.Println(resultado)
+}
+
+func suma(a int, b int) int {
+  return a + b
+}
+```
+
+
+- Además de **evitar repetir código** las funcones nos ayudan a **simplificar el cñodigo**.
+
+- Los lenguajes son modulares, puedo crear varias funciones, guardarlas en un módulo y otros programadores pueden importarlo y utilizarlo
+
+- El cuerpo de la función es donde implementa su lógica, en Java es lo que están entre las {}
+
+- La función debe ser pequeña y útil. Es mejor que cada función realice una sola cosa, no es bueno tener una función que realice muchas cosas a la vez.
+
+#### Ámbito de una variable
+
+Las variables declaradas dentro de la función, existen dentro de ellas, al invocarlas.
+
+En este ejemplo la variabla **int a = 60;**  ocupa un lugar de memoria y no es lo mismo que la variable **a** que recibe como parametro la función **suma**.
+
+```Java
+package com.open_bootcamp;
+
+public class Main {
+  public static void main (String[] args) {
+    int a = 60;
+    int resultado = suma(10, 20);
+    System.out.println(resultado);
+  }
+  
+  public static int suma(int num1, int num2) {
+  return num1 + num2;
+  }
+}
+``` 
 ---
 
 ## :star: 3.3 Funciones avanzadas
