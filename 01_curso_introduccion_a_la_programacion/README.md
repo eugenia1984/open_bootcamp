@@ -733,7 +733,7 @@ public class Main {
 
 - **DO WHILE** (**HACER MIENTRAS**)
 
-En este caso la difernecia es que **primero se ejecuta el bloque de cósigo** y luego se **evalúa la condoición**, por lo cual si la condición nunca se cumple el codigo se ejecutará al menos una vez.
+En este caso la difernecia es que **primero se ejecuta el bloque de códgo** y luego se **evalúa la condición**, por lo cual si la condición nunca se cumple el codigo se ejecutará al menos una vez.
 
 En pseudocodigo:
 ```
@@ -745,8 +745,23 @@ MIENTRAS (CONTADOR SEA MAYOR QUE DIEZ)
 ```
 
 
+En Java
+```Java
+package com.open_bootcamp;
+
+public class Main {
+  public static void main(String[] args) {
+    int contador = 10;
+    
+    do {
+      System.out.println("Contador vale: "  + contador);
+      contador --; 
+    } while (contador > 0 ); // al final evalua la condicion
+    // Mi codigo sigue por aca
+  }
+}
 ```
-```
+
 ---
 
 ## :star: 4.3 Bucles For
