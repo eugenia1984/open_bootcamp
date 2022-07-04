@@ -588,7 +588,7 @@ Todas utilizan **condiciones** : si se cumple una condición hace una cosa, si n
 
 - ```==``` igual que (recordar que con el ```=``` se le asigna el valor a la variable)
  
-- ```!=``` diatinto que 
+- ```!=``` distinto que 
 
 
 Ejemplo 1: ``` 40 > 30 = true ``` es Verdadero
