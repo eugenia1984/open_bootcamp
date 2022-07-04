@@ -409,9 +409,76 @@ public class Main {
   }
 }
 ``` 
+
 ---
 
 ## :star: 3.3 Funciones avanzadas
+
+Java no tiene el concepto de puntero, y tiene dos formas de paso de los valores...
+
+... **paso por valor** se hace una copia tanto del valor como del tipo de dato. Se copian los valores y luego se los pasamos a la función.
+
+```Java 
+public static int suma(int num1, int num2) {
+  return num1 + num2;
+}
+```
+
+... **paso por referencia** hay una dirección de memoria como parametro y la función modifica ese contenido, no se hace una copia. En java se ve utilizando una instancia.
+
+```Java 
+package com.open_bootcamp;
+
+public class Main {
+  
+  public static void main (String[] args) {
+    //instancia de Potato
+    Potato miPotato = new Potato();
+    miPotato.quitarBrazo();
+    miPotato.quitarBrazo();
+    miPotato.quitarBrazo();
+    System.out.println(miPotato.brazos);
+  }
+  
+  public static int suma(int a, int b) {
+    return a + b;
+  }
+  
+  //La clase Potato
+  class Potato {
+    // property
+    public int brazos = 4;
+    // Method
+    public void quitarBrazo() {
+      tris.brazos--;
+    }
+  }
+}
+```
+
+Para ver otro ejemplo, con **Go** la funcion **suma** no va a devolver nada, y va a tener el parametro **c** que va a guardar el resultado de la suma
+
+```Go
+package main
+
+import "fat"
+
+func main() {
+  param1 := 10
+  param2 := 30
+  var resultado int
+  
+  suma(param1, param2, &resultado)
+ 
+  fat.Println(resultado)
+}
+
+func suma(a int, b int, c*int) {
+*c = a + b}
+}
+```
+
+Por consola se va **40**, esta funcion no devuelve, pero lo guarda en la raviable C y lo garda en el espacio en memoria **&resultado**, se le pasa el puntero. Java lo tiene escondido, por eso cada vez que se invoca a quitarBrazos() se le descuenta un brazo.
 
 ---
 
