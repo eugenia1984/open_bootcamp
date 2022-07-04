@@ -484,6 +484,14 @@ Por consola se va **40**, esta funcion no devuelve, pero lo guarda en la raviabl
 
 ## :star: 3.4 Video sesion 3 parte 2
 
+- PHP es más para desarrollo web
+
+- Python es más para machine learning o para automatizar
+
+- VARIABLE es una zona d ela memoria del ordenador donde se guardan datos. Saber definirla, cambiarle su valor, mostrarla en pantalla. Puedo luego crear una función e invocarla para modificar el valor de la variable.
+
+
+
 ---
 
 ## :star:  3.5 Ejercicios tema 3
