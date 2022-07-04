@@ -133,6 +133,7 @@ public class Main {
 
 Le hacemos click en el boton **play** y por consola vemos **Hola mundo**
 
+[Aca se puede ver el proyecto dentro de Proyect / src / proyect / Proyect.java](https://github.com/eugenia1984/open_bootcamp/blob/main/01_curso_introduccion_a_la_programacion/Proyect)
 
 ---
 ---
@@ -291,6 +292,68 @@ Termina con el caracter **NULL** (**0**)
 # 3. Funciones
 
 ## :star: 3.1 Definición y conceptos
+
+Una función nos evita tener que repetir código. 
+
+Dentro de la función puede ir cualquier sintaxis del lenguaje.
+
+La función debe tener:
+
+- nombre (en el ejemplo con Java es **suma**)
+
+- valores que acepta -> **parametros**  (en el ejemplo con Java es **num1**, **num2**)
+
+- que devuelve  (en el ejemplo con Java es **num1 + num2**)
+
+Ejemplo de función en Java:
+
+```Java
+public static int suma(int num1, int num2) {
+  return num1 + num2;
+}
+```
+
+#### ¿ Cómo se invoca la función ?
+
+Con el mismo ejemplo de Java :
+
+```Java
+suma(10, 30);
+```
+
+Y como la función solo me devuelve el valor, si lo quiero ver, sería así:
+
+```Java
+package com.open_bootcamp;
+
+public class Main {
+  public static void main (String[] args) {
+    int resultado = suma(10, 20);
+    System.out.println(resultado);
+  }
+  
+  public static int suma(int num1, int num2) {
+  return num1 + num2;
+  }
+}
+```
+
+#### Las funciones pueden devolver o no
+
+Si no devuelven serán **void** en Java y **no tendrá return**, por ejemplo:
+
+```Java
+public static void suma(int num1, int num2) {
+  int resultado = num1 + num2;
+  System.out.println(resultado);
+}
+```
+
+Solo va a mostrar el resultado, pero no va a etornar un número que no puedo utilizar para asignar a una variable, esta función no devuelve nada.
+
+- La función devuelve algo cuando en otra parte del programa espero invocar a esa función para que genere un resultado que utilizaré luego.
+
+- Un ejemplo de función que no me devuelve nada es la clase **Main** en Java.
 
 ---
 
