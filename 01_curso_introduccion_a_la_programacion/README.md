@@ -523,6 +523,8 @@ Segunda parte:
 
 - Asegúrate de tener todo lo que necesites preparado ya que una vez se acabe el tiempo si no has realizado la entrega esta contará como no superada.
 
+-->> [En Proyect2 / src / proyect2 / Proyect2.java pueden ver mi resolucion](https://github.com/eugenia1984/open_bootcamp/blob/main/01_curso_introduccion_a_la_programacion/Proyect2/src/proyect2/Proyect2.java)
+
 ---
 ---
 
