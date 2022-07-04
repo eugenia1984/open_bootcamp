@@ -545,9 +545,9 @@ Todas utilizan **condiciones** : si se cumple una condición hace una cosa, si n
 
 - ```>``` mayor que
 
-- ```<` menor quue
+- ```<``` menor quue
 
-- ```>=`` mayor o igual que
+- ```>=``` mayor o igual que
 
 - ```<=``` menor o igual que
 
@@ -601,7 +601,7 @@ public class Main {
   public static void main(String[] args) {
     String estacion = "primavera";
     
-    if (estacion = "primavera") {
+    if (estacion == "primavera") {
       System.out.print("Es primavera");
     }
   }
@@ -637,10 +637,10 @@ public class Main {
   public static void main(String[] args) {
     String estacion = "primavera";
     
-    if (estacion = "primavera") {
+    if (estacion == "primavera") {
       System.out.print("Es primavera");
     } else {
-      System.out.println("Es verano");
+      System.out.println("No es primavera");
     }
   }
 }
@@ -678,9 +678,9 @@ public class Main {
   public static void main(String[] args) {
     String estacion = "primavera";
     
-    if (estacion = "primavera") {
+    if (estacion == "primavera") {
       System.out.print("Es primavera");
-    } else if (estacion = "verano"){
+    } else if (estacion == "verano"){
       System.out.println("Es verano");
     } else {
       System.out.println("Es otra estacion");
@@ -693,6 +693,60 @@ public class Main {
 
 ## :star:  4.2 Bucles While y Do While
 
+Es hacere algo un número determinado / indeterminado de veces, mientras se cumpla una determinada condición.
+
+Siempre el contador debe ir modificandose para que la condición en algún momento deje de cumplirse y e rompa, sino estoy en un bucle infinito.
+
+
+- **WHILE** (**MIENTRAS**)
+
+En pseudocodigo:
+```
+CONTADOR = 10
+
+MIENTRAS (CONTEDOR > 0)
+  RESTA UNO AL CONTADOR
+```
+
+En Java
+```Java
+package com.open_bootcamp;
+
+public class Main {
+  public static void main(String[] args) {
+    int contador = 10;
+    
+    while (contador > 0 ) {
+      System.out.println("Contador vale: "  + contador);
+      // le voy a ir restando por cada iteración
+      contador --; // contador = contador - 1;
+    }
+    // Mi codigo sigue por aca
+  }
+}
+```
+
+-->> **Go** no tiene WHILE, el resto de los lenguajes lo tiene todo
+
+-->> En este caso siempre primero va a **evaluar la condición** y si se cumple ejecuta el bloque de código, si no se cumple no se ejecuta. Por eso si la condición es Falsa desde el principio, el bloque de código nunca se ejecuta.
+
+
+- **DO WHILE** (**HACER MIENTRAS**)
+
+En este caso la difernecia es que **primero se ejecuta el bloque de cósigo** y luego se **evalúa la condoición**, por lo cual si la condición nunca se cumple el codigo se ejecutará al menos una vez.
+
+En pseudocodigo:
+```
+VAR CONTADOR = 10
+
+HAZ
+  RESTA UNO AL CONTADOR
+MIENTRAS (CONTADOR SEA MAYOR QUE DIEZ)
+```
+
+
+```
+```
 ---
 
 ## :star: 4.3 Bucles For
