@@ -530,7 +530,164 @@ Segunda parte:
 
 # 4. Sentencias de control
 
+
+Instrucciones que se le dan a un programa para que se comporte de un modo u otro.
+
+Todas utilizan **condiciones** : si se cumple una condición hace una cosa, si no se cumple una condición hace otra, mientras se cumpla dicha condición hace una cosa.
+
+#### Condiciones lógicas
+
+- **Y** ( **AND** , **&&** ): para que sea verdadero todo debe ser verdadero
+
+- **O** ( **OR**, **||** ): con que al menos una sea verdadera ya es verdadero.
+
+#### Condiciones lógicas comparativas
+
+- ```>``` mayor que
+
+- ```<` menor quue
+
+- ```>=`` mayor o igual que
+
+- ```<=``` menor o igual que
+
+- ```==``` igual que (recordar que con el ```=``` se le asigna el valor a la variable)
+ 
+- ```!=``` diatinto que 
+
+
+Ejemplo 1: ``` 40 > 30 = true ``` es Verdadero
+
+Ejemplo 2: ``` (40 > 30) && (30 < 50) = true ``` es Verdadero, en este caso primero se ve lo de adentro de los () :
+
+```
+(40 > 30)   Y   (30 < 50) 
+ verdadero  Y  verdadero 
+======================= 
+         verdadero
+```
+
+-->> A esto lo llamamos **logica booleana**
+
 ## :star: 4.1 Condicionales
+
+Se basan en la lógica booleana.
+
+- **IF** (**SI**):
+
+En pseudocodigo
+```
+VAR ESTACION = "VERANO"
+VAR TEMPERATURA = 30
+
+SI (ESTACION = "VERANO") Y (TEMPERATURA > 20) ENTONCES
+  BEBER_AGUA
+  BAÑARSE_EN_LA_PISCINA
+  TOMARSE_UN_MOJITO
+```
+
+-> Si se cumple la condición, entonces ejecuta el bloque de código, si no se cumple no entra.
+
+-> si la TEMPERATURA fuera de 19, no se cumpliría la segunda condición y nunca se ejecutarían las acciones de adentro.
+
+
+En Java:
+
+```Java
+package com.open_bootcamp;
+
+public class Main {
+
+  public static void main(String[] args) {
+    String estacion = "primavera";
+    
+    if (estacion = "primavera") {
+      System.out.print("Es primavera");
+    }
+  }
+}
+```
+
+- **IF** / **ELSE** ( **SI / SINO** ó **SI * EN CASO CONTRARIO ENTONCES**)
+
+En pseudocodigo
+```
+VAR ESTACION = "VERANO"
+VAR TEMPERATURA = 10
+
+SI (ESTACION = "VERANO") Y (TEMPERATURA > 20) ENTONCES
+  BEBER_AGUA
+  BAÑARSE_EN_LA_PISCINA
+  TOMARSE_UN_MOJITO
+EN CASO CONTRARIO ENTONCES
+  PONERSE_EL_ABRIGO
+  BEBER_CHOCOLATE_CALIENTE
+```
+
+-> aca si se cumple la condición se va a ejecutar el primer bloque de cósigo, pero al tneer el EN CASO OCNTRARIO entonces al no cumplirse se va a ejecutar el segundo bloque de código.
+
+
+En Java:
+
+```Java
+package com.open_bootcamp;
+
+public class Main {
+
+  public static void main(String[] args) {
+    String estacion = "primavera";
+    
+    if (estacion = "primavera") {
+      System.out.print("Es primavera");
+    } else {
+      System.out.println("Es verano");
+    }
+  }
+}
+```
+
+- **IF** / **ELSE IF** Ò **ELIF** / **ELSE** ( **SI / SINO / ENTONCES** ó **SI * EN CASO CONTRARIO SI / EN CASO CONTRARIO ENTONCES**)
+
+En pseudocodigo
+```
+VAR ESTACION = "INVIERNO"
+VAR TEMPERATURA = 10
+
+SI (ESTACION = "VERANO") Y (TEMPERATURA > 20) ENTONCES
+  BEBER_AGUA
+  BAÑARSE_EN_LA_PISCINA
+  TOMARSE_UN_MOJITO
+EN CASO CONTRARIO SI (ESTACION = "PRIMAVERA") ENTONCES
+  SALIR_DE_PASEO  
+EN CASO CONTRARIO ENTONCES
+  PONERSE_EL_ABRIGO
+  BEBER_CHOCOLATE_CALIENTE
+```
+
+-> aca si se cumple la condición se va a ejecutar el primer bloque de cósigo, pero al tneer el EN CASO OCNTRARIO entonces al no cumplirse se va a ejecutar el segundo bloque de código.
+
+
+
+En Java:
+
+```Java
+package com.open_bootcamp;
+
+public class Main {
+
+  public static void main(String[] args) {
+    String estacion = "primavera";
+    
+    if (estacion = "primavera") {
+      System.out.print("Es primavera");
+    } else if (estacion = "verano"){
+      System.out.println("Es verano");
+    } else {
+      System.out.println("Es otra estacion");
+    }
+  }
+}
+```
 
 ---
 
