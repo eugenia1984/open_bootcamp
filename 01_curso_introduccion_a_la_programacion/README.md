@@ -1038,7 +1038,40 @@ public class Main {
 # 5.Errores
 
 
-## :star: 5.1 GEstión de errores
+## :star: 5.1 Gestión de errores
+
+
+Los que se cometen como desarrollador que recién empieza:
+
+- ¿Cómo llamamos a una variable? Sus nombres deben ser significativos/descriptivos si necesito una variable que cuente la nombro **contador**. Vamos a tener otros desarrolladores que miraran nuestro código y debe comprenderlo. EL código debe ser legible. La única excepción es utilizar variables nombradas **i**, **j** y **k** dentro del FOr ya que es un standard de la industria, porque i es equvalente a **indice** y j es equivalente a **fila** y j equivale a **columnas**, se utilizan para recorrer matrices bidimensionales.
+
+
+Ejemplo en Java:
+
+```Java
+public class Main {
+
+  public static void main(String[] args) {
+    int numeros[] = {
+      {10, 20, 30, 40, 50},
+      {10, 20, 30, 40, 50}
+    };
+    
+    // Recorremos el array bidimensional numeros, y por cada
+    // subarray del mismo, mostramos el valor que tiene en 
+    // ese momento
+    for(int j = 0; j < numeros.length; j++) {
+      for(int k = 0; k < numeros.length; k++) {
+        System.out.println(numeros[j][k]);
+      }
+    }
+  }
+}
+```
+
+- Es buena práctica comentar el codigo
+
+- Es de mala práctica comentar cosas que ya son obvias
 
 ---
 
