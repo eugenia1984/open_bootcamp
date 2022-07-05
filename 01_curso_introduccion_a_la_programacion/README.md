@@ -938,6 +938,34 @@ swith(hoyEs) {
 
 ## :star:  4.5 Ejercicios Tema 4
 
+- Duración aproximada: 5min
+
+- Tiempo disponible: 30 días
+
+- Enunciado del ejercicio:
+
+```
+- Usando un if, crear una condición que compare si la variable numeroIf es positivo, negativo, o 0.
+Pista: Los números inferiores a 0 son negativos y los superiores, positivos.
+
+- Crea un bucle While, este bucle tendrá que tener como condición que la variable numeroWhile sea inferior a 3, el bloque de código que tendrá el bucle deberá:
+  - Incrementar el valor de la variable en uno cada vez que se ejecute.
+  - Mostrarlo por pantalla cada vez que se ejecute.
+
+- Para el bucle Do While, deberás crear la misma estructura que en el While, pero solo se debe ejecutar una vez.
+
+- Para el bucle For, crea una variable numeroFor, esta variable tendrá como valor 0 y su condición será que la variable sea igual o menor que 3, se irá incrementando en 1 su valor cada vez que se ejecute y deberá mostrarse por pantalla.
+
+- Por último, para el Switch, deberás crear la variable estacion, y distintos case para las cuatro estaciones del año. Dependiendo del valor de la variable estacion se deberá mandar un mensaje por consola informando de la estación en la que está. También habrá que poner un default para cuando el valor de la variable no sea una estación.
+```
+- Cuando comiences el ejercicio se te mostrarán las especificaciones para la realización y entrega del mismo. La entrega del ejercicio deberá realizarse a través de una carpeta .zip empaquetada o un enlace al repositorio del ejercicio en GitHub.
+
+
+- **Una vez le des al botón de comenzar ejercicio el tiempo del que dispones para realizarlo empezará a contar**.
+
+
+- Asegúrate de tener todo lo que necesites preparado ya que una vez se acabe el tiempo si no has realizado la entrega esta contará como no superada.
+
 ---
 ---
 
