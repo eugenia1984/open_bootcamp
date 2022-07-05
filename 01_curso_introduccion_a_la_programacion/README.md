@@ -1098,6 +1098,13 @@ public class Main {
 
 ## :star: 5.3 Repercusión de los errores
 
+Esta el ejemplo del cohete de la NASA que se estrello, porque estaban trabajando los equipos de Estados Unidos y los de Inglaterras y al tener distintas medidas hicieron mal la conversión, por lo que los cálculos estaban mal.
+
+Por eso por ejemplo si parseo de un **double** a un **int** voy a tenr problemas de presición, pierdo la parte decimal. Es muy importante también al manejar dinero, no se puede redondear ni un centavo. Lo que se puede hacer, en vez de castear es tener otra función similar, solo que reciba el parametro correcto, asi no redondeo ni pierdo nada.
+
+- Error de out of bounce, cuando me paso del limite dle array, ya que los indices empiezan desde 0 y entonces mis elementos siempre serán uno más que el índice. Si tengo un array de 5 elementos la última posición es la 4 (indice de 4).
+
+- El stack overflow, cuando asigo un valor mayor al máximo o menor al mínimo en el tipo de dato, cuando le paso uno por encima del máximo me muestra el mínimo.
 
 ---
 ---
