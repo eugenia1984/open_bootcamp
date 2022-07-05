@@ -797,9 +797,73 @@ public class Main {
 }
 ```
 
+
+-> ALGUNOS LENGUAJES NO TIENEN EL DO wHILE, PORQUE ES SIMILAR A PONER LA CONDICIÓN AFUERA Y LUEGO EL WHILE.
+
+-> El DO WHILE se suele utilizar poco.
+
 ---
 
 ## :star: 4.3 Bucles For
+
+Tiene 3 partes...
+
+... **declaración e inicialización**.
+
+... **comparación**
+
+... **acción**, es cuanto va a ir modificandose en cada iteración
+
+```
+PARA (INICIALIZACION; COMPARACION; ACCION)
+```
+
+En pseudocodigo:
+
+
+```
+PARA ( VAR CONTADOR = 10; CONTADOR > 0; CONTADOR--)
+  IMPRIME EL VALOR DE LA VARIABLE CONTADOR
+```
+
+Mientras la variable CONTADOR sea mayor a 0, entonces imprimis el valor de la variable contador, y en cada ciclo del bucle voy a ir decrementando en 1 la variable contador.
+
+-->> Es el que más se utiliza.
+
+-->> La parte de acción es lo último en ejecutarse: 1ro declaro la variable, 2do veo que se cumpla al condición, 3ro ejecuto el bloque de codigo, 4to realizo la modificacion, el incremento o decremento. 
+
+Otro ejemplo en Java, para imprimir los números del 1 al 10:
+
+```Java
+package com.opne_bootcammp;
+
+public class Main {
+
+  public static void main(String[] args) {
+    for(int contador = 1; contador <=10; contador++) {
+      System.out.println(contador)
+    }
+  }
+}
+```
+
+-->> El WHILE lo solemos utilizar para verificar condiciones booleanas, en cambio en el FOR evaluo otras cosas. Además en el for se cuantas iteraciones voy a tener, en cambio en el while no.
+
+-->> Con el for recorremos arrays, ejemplo en Java
+
+```Java
+int valores[] = new int[5];
+valores= [10, 20, 30, 40, 50];
+
+for(int i = 0; i < valores.lenght; i++) {
+  System.out.println(valores[i]);
+}
+// 10
+// 20
+// 30
+// 40
+// 50
+```
 
 ---
 
