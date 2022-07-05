@@ -1111,7 +1111,18 @@ Por eso por ejemplo si parseo de un **double** a un **int** voy a tenr problemas
 
 # 6. Depuración de código
 
-## :star: 6.1 Video del tema 6: depiración del código
+## :star: 6.1 Introducción
+
+Buscar anomalías durante la ejecución del programa. La mayoría de los lenguajes soportan depuración remota, asi se puede depurar el código en ejecución.
+
+
+## :star: 6.2 Que es la depuración de código
+
+Funcionan mediante **Punto de ruptura** (**Breakpoint**) que ya está incorporao en el entorno (IDE).
+
+- watcher
+
+- Pila de llamadas
 
 ---
 ---
