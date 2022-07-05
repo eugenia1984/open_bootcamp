@@ -966,6 +966,10 @@ Pista: Los números inferiores a 0 son negativos y los superiores, positivos.
 
 - Asegúrate de tener todo lo que necesites preparado ya que una vez se acabe el tiempo si no has realizado la entrega esta contará como no superada.
 
+
+-->> [Acá pueden ver como lo resolví yo](https://github.com/eugenia1984/open_bootcamp/blob/main/01_curso_introduccion_a_la_programacion/Proyect3/src/proyect3/Proyect3.java)
+
+
 ---
 ---
 
