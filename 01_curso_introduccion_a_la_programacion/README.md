@@ -1077,9 +1077,26 @@ public class Main {
 
 ## :star:  5.2 Errores del programador
 
+- No mantener la coherencia en el formato del codigo, por eso hay reglas de identacion, cuando dejar un espacio y cuando no, debe ser CONSISTENTE. Hay que seguir la GUIA DE ESTILOS. Cada lenguaje teine su propio estilo y Go y Rust tienen una herramienta que lo pretifica, lo mismo pasa a veces con  los IDEs.
+
+- no tener ni copia de seguridad ni tener versiones. -> Lo mejor...
+
+...Utilizar el control de versiones en local. Lo mejor es mantener el control de versiones (usar GIT, GitHub y GitLab). 
+
+... hacer copia de seguridad que este en otro lado, porque si esta en el mismo disco duro y se rompe se pierde. 
+
+- Utilizar la forma simple que me otorga el lengiaje.
+
+- Depurar utilizando el print por todos lados. Lo que hay que hacer es debuguear.
+
+- Crear funciones grandes. Lo que debe hacer la funcion es hacer una sola cosa, si hace más de una la tengo que dividir en varias. Y debe ser concreta a su nombre, si se llama getValores debe darme valores.
+
+
+-->> TIP, las variables no inicializadas se inicializan en 0.
+
 ---
 
-## :star: 5.3 Repercusión de los erroes
+## :star: 5.3 Repercusión de los errores
 
 
 ---
