@@ -869,6 +869,71 @@ for(int i = 0; i < valores.lenght; i++) {
 
 ## :star: 4.4 Switch Case
 
+
+Son los INTERRUPTORES, es una forma de control, se DICIERNE sobre una VARIABLE (CONDICION) y dentro tiene los CASOS.
+
+Es similar al IF / ELSE IF / ELSE IF / ELSE
+
+Ejemplo en pseudocodigo:
+
+```
+VAR ESTACION = "VERANO"
+
+DISIERNE (ESTACION)
+  CASO "VERANO"
+    IMPRIME = "ES VERANO"
+  CASO "INVIERNO"
+    IMPRIMIE = "ES INVIERNO"
+  OTRO CASO:
+    IMPRIMIE LA ESTACION DE LA VARIABLE
+```
+
+-->> Si hay más de dos ELSE IF se suele utilizar el SWITH, lo unico malo es que en el caso no podemos tener muchas comparaciones
+
+
+Ejemplo en Java
+
+```Java
+String estacion = "verano";
+
+swith(estacion) {
+  case "verano":
+    System.out.println("Es verano");
+    break;
+  case "invierno":
+    System.out.println("Es invierno");
+    break;
+  default:
+    System.out.println("Es otra estacion");
+    break;
+}
+```
+
+En Java con el break me voy del siclo, es decir una vez que encuentra el case que se cumple corta y sale del switch; de no tener el break se va a seguir ejecutando los demás cases que falten.
+
+
+Otro ejemplo:
+
+```Java
+String hoyEs = "MARTES";
+
+swith(hoyEs) {
+  case "LUNES":
+  case "MARTES":
+  case "MIERCOLES":
+  case "JUEVES":
+  case "VIERNES":
+    System.out.println("Es laborable");
+    break;
+  case "CABADO":
+  case "DOMINGO":
+    System.out.println("Es fin de semana");
+    break;
+  default:
+    System.out.println("No ingreso una opción incorrecta");
+    break;
+}
+```
 ---
 
 ## :star:  4.5 Ejercicios Tema 4
