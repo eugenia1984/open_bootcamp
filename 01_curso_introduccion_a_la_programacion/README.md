@@ -1148,6 +1148,16 @@ En Java podemos lanzar excepciones, como en python, por consola, que nos va a de
 
 ## :star: 7.1 Video del tema 7:  Introducción a la Programación Orientada a Objetos
 
+## ¿ Que es un objeto ?
+
+##  Crear una clase en Java
+
+## Constructor de clase
+
+## Sobrecarga de constructores
+
+## Buenas practicas
+
 ---
 ---
 
@@ -1155,6 +1165,9 @@ En Java podemos lanzar excepciones, como en python, por consola, que nos va a de
 
 
 ## :star: 8.1 Video del tema 8: Privacidad, abstracción y encapsulamiento
+
+
+
 
 ---
 
