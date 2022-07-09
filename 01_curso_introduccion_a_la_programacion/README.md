@@ -1120,9 +1120,22 @@ Buscar anomalías durante la ejecución del programa. La mayoría de los lenguaj
 
 Funcionan mediante **Punto de ruptura** (**Breakpoint**) que ya está incorporao en el entorno (IDE).
 
-- watcher
+-> Me ubico en la linea que deseo, hago un click y se me pone un puntito rojo (break point), y el programa se va a ejecutar, ahsta llegar al punto de quiebre, se detiene, se queda en la sentencia, siempre y cuando en vez de hacer click en **run** le doy click en **debug mode**.
+
+Vamos a tener el panel de depuración, me va a mostrar como esta el programa en el momento del punto de quiebre, me muestra el valor de la variable, por ejemplo.
+
+Si le doy click en **step over** va a avanzar al proximo paso, va a ir renglon por renglon.
+
+-> Con un depuarador puedo...
+
+... bloquear el programa en un punto para ver el estado de las variables
+
+... puedo modificar el valor, para evaluar el comportamiento posterior al programa, ante casos inesperados. 
+
+- **watcher** (watch point) es un breakpoint que solo se dipara cuando se cumple una condición, en IntelliJ lo que hago es hacer click derecho en el puntito rojo. Puedo poner la condción para que me salte si en un for recorro un array en una posición mayor al indice de elementos que tiene.
 
 - Pila de llamadas
+
 
 ---
 ---
