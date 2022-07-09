@@ -1134,7 +1134,11 @@ Si le doy click en **step over** va a avanzar al proximo paso, va a ir renglon p
 
 - **watcher** (watch point) es un breakpoint que solo se dipara cuando se cumple una condición, en IntelliJ lo que hago es hacer click derecho en el puntito rojo. Puedo poner la condción para que me salte si en un for recorro un array en una posición mayor al indice de elementos que tiene.
 
-- Pila de llamadas
+- **Pila de llamadas** para saber por donde paso el programa, muestra en orden inverso por donde paso el programa , lo dos puntos y en numero dice en que linea se invoco, y en que clase y paquete. 
+
+En Java podemos lanzar excepciones, como en python, por consola, que nos va a decir que tipo de excepcion tenemos y en que linea, por ejemplo si quiero dividir por 0, me va a avisar que no se puede.
+
+-->> Con todo esto no es necesario tener todos los pint mostrando valores de variables, es mejor depurar.
 
 
 ---
