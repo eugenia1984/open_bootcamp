@@ -1347,7 +1347,69 @@ En mi ejemplo si instancio el objeto sin parametros voy a tener un cacho de 5 pu
 # 8. Privacidad, abstracción y encapsulamiento
 
 
-## :star: 8.1 Video del tema 8: Privacidad, abstracción y encapsulamiento
+## :star: 8.1  Propiedad privada y publica
+
+Al definir una clase, esta tiene ciertas **propiedades** las cuales pueden ser ...
+
+... **private** (PRIVADAS) solamente se utilizan en la implementación de la clase, es decir SOLO DENTRO DE LA CLASE.
+
+... **public** (PUBLICAS), cuando se puede acceder desde fuera de una clase a sus propiedades directamente, estas son PUBLICAS. La puedo utilizar tanto dentro de la calse como fuera de la misma. 
+
+... **protected** (PROTEGIDA)
+
+## :star: 8.2 Cuando se define publico o privado
+
+Ejemplo en código:
+
+```Java
+package com.open_bootcamp;
+
+public class Main {
+
+  public static void main(String[+ args) {
+    Vehiculo vechiculo = new Vehiculo();
+    vehiculo.tipo = "coche";
+    System.out.println(vehiculo.tipo); // coche
+  }
+}
+
+class Vehiculo {
+  String tipo;
+}
+```
+
+Puedo acceder a la propiedad del objeto porque es publica, cuando no aclaro el tipo de propuiedad, por default es PUBLIC.
+
+Pero en el caso de que sea privada, no voy a poder acceder directamente a la propiedad desde el objeto que instancio:
+
+
+```Java
+package com.open_bootcamp;
+
+public class Main {
+
+  public static void main(String[+ args) {
+    Vehiculo vechiculo = new Vehiculo();
+    //no puedo hacer: vehiculo.tipo = "coche";
+  }
+}
+
+class Vehiculo {
+  private String tipo;
+}
+```
+
+
+## :star: 8.3 Encapsulación
+
+
+## :star: 8.4 Usos de encapsulación
+
+
+## :star: 8.5 Abstracción
+
+
+## :star: 8.6 Ejemplo de clase abstracta
 
 
 
