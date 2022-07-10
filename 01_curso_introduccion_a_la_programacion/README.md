@@ -1146,17 +1146,69 @@ En Java podemos lanzar excepciones, como en python, por consola, que nos va a de
 
 # 7. Introducción a la Programación Orientada a Objetos
 
-## :star: 7.1 Video del tema 7:  Introducción a la Programación Orientada a Objetos
+Se usa mucho en aplicaciones grandes, para que quede todo segmentado.
 
-## ¿ Que es un objeto ?
+## :star: 7.1  ¿ Que es un objeto ?
 
-##  Crear una clase en Java
+Un objeto es una entidad que representa un objeto del mundo real.
 
-## Constructor de clase
+Por ejemplo en la realidad tenemos un cuadro, que tiene como **propiedades**: el tamaño, el material, los colores, un peso. 
 
-## Sobrecarga de constructores
+Hay otros objetos, por ejemplo un coche, que además de tener propiedades tienen **metodos**: abrirPuerta, cerrarPuerta.
 
-## Buenas practicas
+Volviendo al ejemplo del señorPatata, como propiedades tiene: ojos:2, oreja:1, nariz:1, boca:1  y como metodos tiene: quitarOjos, ponerOjos, quitarNariz, ponerNariz.
+
+Los objetos se declaran en **clases**
+
+Ejemplo en Java:
+
+### ¿ Cómo voy a tener un objeto de la clase coche?
+
+Instanciandolo, voy a crear un objeto de la clase coche, lo guardo en variable, o sea queda guardado en un espacio de memoria.
+
+
+```Java
+package com.open_bootcamp;
+
+public class Main {
+  
+   public static void main(String[] args) {
+    // instancio y creo un objeto coche
+    Coche coche = new Coche();
+    System.out.println(coche.velocidadActual); // hereda las mismas propiedades que la clase Coche
+    coche.acelerar(); // ya puedo usar los metodos de la clase
+    System.out.println(coche.velocidadActual);
+   }
+}
+
+class Coche {
+  // propiedades (atributos)
+  int numeroDePuertas;
+  int velocidadMaxima;
+  float velocidadActual;
+  
+  // metodos (funciones)
+  public void acelerar() {
+    velocidadActual += 15;
+  }
+  
+  public void desacelerar() {}
+}
+```
+
+Por consola voy a ver:
+```
+0.0
+15.0
+```
+
+## :star: 7.2 Crear una clase en Java
+
+## :star: 7.3 Constructor de clase
+
+## :star: 7.4 Sobrecarga de constructores
+
+## :star: 7.5 Buenas practicas
 
 ---
 ---
