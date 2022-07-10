@@ -1158,6 +1158,8 @@ Hay otros objetos, por ejemplo un coche, que además de tener propiedades tienen
 
 Volviendo al ejemplo del señorPatata, como propiedades tiene: ojos:2, oreja:1, nariz:1, boca:1  y como metodos tiene: quitarOjos, ponerOjos, quitarNariz, ponerNariz.
 
+## :star: 7.2 Crear una clase en Java
+
 Los objetos se declaran en **clases**
 
 Ejemplo en Java:
@@ -1202,13 +1204,142 @@ Por consola voy a ver:
 15.0
 ```
 
-## :star: 7.2 Crear una clase en Java
+
 
 ## :star: 7.3 Constructor de clase
 
+Cuando no creo un constructor, Java lo crea por mi.
+
+Al crear yo le constructor Java no lo crea por mi.
+
+#### ¿Qué es un constructor? 
+
+Es una forma de inciializar las propiedades de una clase cuando la instanciamos.
+
+
+Y debe seguir ciertas reglas:
+
+- no devuelve ningún tipo de dato.
+
+- siempre es publico
+
+- el nombre dle constructor debe ser identico al nombre de la clase
+
+- puede tener opcionalmente parametros
+
+-->> al instanciar el objeto con new Class() ahi llamamos al constructor. En este momento podemos aprovechar e inicializar ciertas variables, en el ejemplo voeo que al numero de puertas le doy el valor 5.
+
+Ejemplo en codigo:
+
+```Java
+class Coche {
+  //propiedades
+  int numeroPuertas;
+  int velocidadMaxima;
+  float velocidadActual
+  
+  // constructor
+  public Coche() {
+    numeroDePuertas = 5;
+    System.out.println("Estoy en el constructor");
+  }
+  
+  // metodos
+  public void acelerar() {
+    velocidadActual +=15;
+  }
+}
+```
+
+Entonces si instancio un coche y veo las puertas voy a tener 5:
+
+```Java
+Coche coche2 = new Coche();
+System.out.println("El coche tiene" + coche2.numeroDePuertas +  " puertas");
+```
+
+Otro modo de escribirlo con format:
+
+```Java
+Coche coche2 = new Coche();
+System.out.println("El coche tiene %d puertas", coche2.numeroDePuertas);
+```
+
+Si quiero que la velocidad maxima sea de 120 por ejemplo tambien la inicializo en el constructor:
+
+
+
+```Java
+class Coche {
+  //propiedades
+  int numeroPuertas;
+  int velocidadMaxima;
+  float velocidadActual
+  
+  // constructor
+  public Coche() {
+    numeroDePuertas = 5;
+    velocidadMaxima = 120;
+  }
+  
+  // metodos
+  public void acelerar() {
+    velocidadActual +=15;
+  }
+}
+```
+
+-->> Otro modo es pasando por parametro los valores para la cantidad de puertas y a velocidad maxima
+
+
+```Java
+class Coche {
+  //propiedades
+  int numeroPuertas;
+  int velocidadMaxima;
+  float velocidadActual
+  
+  // constructor
+  public Coche(int puerta, int velocidadMaxima) {
+    this.puerta = puerta;
+    this.velocidadMaxima = velocidadMaxima;
+  }
+  
+  // metodos
+  public void acelerar() {
+    velocidadActual +=15;
+  }
+}
+```
+
+Entonces al instanciarlo debo indicar las puertas y la velocidad:
+```Java
+Coche coche2 = new Coche(3, 180);
+System.out.println("El coche tiene" + coche2.numeroDePuertas +  " puertas");
+System.out.println("La velocidad maxima es de " + coche2.velocidadMaxima);
+```
+
+Va a mostrarme que tiene 3 puertas y la velocidad maxima es 180
+
+
+-->> En el constructor podemos inicializar las propiedades.
+
+
 ## :star: 7.4 Sobrecarga de constructores
 
+Es cuando tengo más de un constructor, puedo tener el constructor que no tenga parametros, y el que tenga 2 parametros, puedo tneer otro que tenga 3 parámetros (va a tener todas las propiedades del objeto).
+
+En mi ejemplo si instancio el objeto sin parametros voy a tener un cacho de 5 puertas con velocidad maxima de 120 y si lo hago con los parametros va a tener la cantidad de puertas y la velocidad que yo le indique.
+
+-->> Tengo dos funciones con el mismo prototipo pero con distintos parámetros.
+
+-->> Luego con herencia se verá como un constructor uede inicializar a su padre. 
+
+
+
 ## :star: 7.5 Buenas practicas
+
+- Cuando tenemos un constructor con parametros y queremos incializar variaables internas, se da como nombre de los parametros los mismos nombres que tiene la clase como atributo, es decir que si quiero inciializar numeroDePuertas le doy el nombre al parametro de numeroDepuertas. Para referirme a la **variable de la clase** debo anteponer **this**
 
 ---
 ---
