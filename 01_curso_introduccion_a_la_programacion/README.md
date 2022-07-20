@@ -1399,9 +1399,12 @@ class Vehiculo {
 }
 ```
 
+->> Al tener el acceso **private** tipo no puedo acceder directamente a la propiedad desde el objeto que instancie (que cree).
+
 
 ## :star: 8.3 Encapsulación
 
+Utilizamos los tipos **public** y **private** de forma que desde la clase los manipule y desde fuera de la clase los puedo utilizar. 
 
 ## :star: 8.4 Usos de encapsulación
 
