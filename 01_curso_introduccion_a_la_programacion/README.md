@@ -1406,6 +1406,30 @@ class Vehiculo {
 
 Utilizamos los tipos **public** y **private** de forma que desde la clase los manipule y desde fuera de la clase los puedo utilizar. 
 
+Para **encapsular** declaramos las propiedades (variables) como **private**.
+
+Y por cada propiedades vamos a tener **dos funciones** a las que llamaremos **setters** y **getters** para poder acceder a dicho valor y pra poder modificarlo.
+
+**encapsulamos** las propiedades para acceder a ellas únicamente **por medio de funciones**.
+
+Ejemplo en codigo:
+
+```Java
+public class main {
+  
+   public static void main(String[] args) {
+     Vehiculo vehiculo = new Vehiculo();
+     vehiculo.tipo = "coche";
+     System.out.println(vehiculo.tipo);
+   }
+   
+   class Vehiculo {
+   //atributo
+    private String tipo;
+   }
+}
+```
+
 ## :star: 8.4 Usos de encapsulación
 
 
