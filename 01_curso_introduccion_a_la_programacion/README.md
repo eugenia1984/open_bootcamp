@@ -1419,16 +1419,31 @@ public class main {
   
    public static void main(String[] args) {
      Vehiculo vehiculo = new Vehiculo();
-     vehiculo.tipo = "coche";
-     System.out.println(vehiculo.tipo);
+     vehiculo.setTipo("coche");
+     System.out.println(vehiculo.getTipo);
    }
    
    class Vehiculo {
    //atributo
     private String tipo;
    }
+   // setter
+   public void setTipo(String tipo) {
+     this.tipo = tipo; 
+   }
+   //getter
+   public String getTipo() {
+    return tipo;
+   }
 }
 ```
+
+->> Los **setters** nunca devuelven nada y siempre toman como parametro el tipo de dato de la **propiedad**. Y como el nombre de la variable que recibe como parametro es igual a la propiedad de la clase, usamos **this** para aclarar que hacemos referencia a la propiedad de la clase y el otro sin this es el parametro.
+
+->> Los setters siempre comienzan con la palabra **set** y luego el nombre del atributo con la primer letrra capitalizada.
+
+->> Los **getters** no fija el valor, sino que lo devuelve, por eso no tienen parametros, devuelven la propiedad de la clase.
+
 
 ## :star: 8.4 Usos de encapsulación
 
