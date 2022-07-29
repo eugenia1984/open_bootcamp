@@ -1630,7 +1630,89 @@ class Persona {
 
 # 9. Herencia, Polimorfismo e Interfaces
 
-## :star: 9.1 Video del tema 9: Herencia, Polimorfismo e Interfaces
+## :star: 9.1  Herencia
+
+Seguimos con nuestra clase **Vehiculo** que tiene un setter y getter y ta mbién tenemos nuestra clase **Coche**.
+
+En pseudocodigo:
+
+Clase padre / super clase:
+```
+CLASE VEHICULO
+  PRIVADA VELOCIDADMAXIMA
+  PRIVADA TIPOGASOLINA
+  
+  FUNCION SETTERVALOCIDADMAXIMA(INTEGER valor)
+    ESTA_CLASE.VELOCIDADMAXIMAO = valor
+    
+  FUNCION GETTERVELOCIDADMAXIMA(INTEGER valor)
+    DEVUELVE ESTA_CLASE.VELOCIDADMAXIMA
+    
+  FUNCION diHola()
+    IMPRIME "Hola"
+```
+
+Clase hija:
+```
+CLASE COCHE HEREDA DE VEHICULO
+  (heredada)VELOCIDADMAXIMA
+  (heredada)TIPOGASOLINA
+  NUMERO_DE_PUERTAS
+  
+  (heredada)FUNCION diHola()
+    IMPRIME "Hola"
+    
+  FUNCTION SETTERNUMERODEPUERTAS(INTEGER puerta)
+    ESTA_CLASE.NUMERO_DE_PUERTAS = puertas
+    
+  FUNCTION GETTERNUMERODEPUERTAS() INTEGER
+    DEVUELVE ESTA_CLASE.NUMERO_DE_PUERTAS
+```
+
+Y a la vez voy a tener la clase **Coupe** que va a heredar de coche, seria como el *nieto* de la clase *Vehiculo*
+
+```
+CLASE COUPE HEREDA DE COCHE
+  (heredada)VELOCIDADMAXIMA
+  (heredada)TIPOGASOLINA
+  (heredada)NUMERO_DE_PUERTAS
+  
+  (heredada)FUNCION diHola()
+    IMPRIME "Hola"
+    
+  (heredada)FUNCTION SETTERNUMERODEPUERTAS(INTEGER puerta)
+      ESTA_CLASE.NUMERO_DE_PUERTAS = puertas
+    
+  (heredada)FUNCTION GETTERNUMERODEPUERTAS() INTEGER
+      DEVUELVE ESTA_CLASE.NUMERO_DE_PUERTAS
+```
+
+
+Una clase (clase hija) **hereda métodos y propiedades** de otra clase (clase padre / super clase) y además puede tener sus propios métodos (numero de puertas) y propiedades.
+
+No es tan buena practica tneer tantas clases que deriven de otra derivada
+
+**clase hija** -> la clase que **hereda**
+
+**clase padre / super clase** -> la clase que cede sus propiedades y metodos a heredar.
+
+
+## :star: 9.2 Abstract
+
+
+## :star: 9.3 Herencia multiple
+
+
+## :star: 9.4 Herencia jerarquica
+
+
+## :star: 9.5 Herencia hibrida
+
+
+## :star: 9.6 Polimorfismo
+
+
+## :star: 9.7 Interfaces
 
 ---
 
