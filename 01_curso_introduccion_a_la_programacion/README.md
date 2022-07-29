@@ -1697,6 +1697,24 @@ No es tan buena practica tneer tantas clases que deriven de otra derivada
 **clase padre / super clase** -> la clase que cede sus propiedades y metodos a heredar.
 
 
+---
+
+El ejemplo en Java:
+
+```Java
+public class Main {
+
+  public static void main(String[] argas) {
+  
+  
+  }
+}
+
+class Vehiculo {
+  int velocidadMaxima;
+  String matricula;
+}
+```
 ## :star: 9.2 Abstract
 
 
