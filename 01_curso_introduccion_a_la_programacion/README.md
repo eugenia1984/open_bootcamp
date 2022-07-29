@@ -1495,22 +1495,66 @@ Con pesudocodigo:
 
 ```
 CLASE ABSTRACTA VEHICULO
-  PRIVADA TIPO;
+  PRIVADA SONIDO;
   PRIVADA SONIDO;
   
-FUNCION SETTERTIPO(TEXTO valor)
-   esta_clase.tipo = VALOR
+  FUNCION SETTERTIPO(TEXTO valor)
+     esta_clase.tipo = VALOR
 
-FUNCION ABSTRACTA GETTERSONIDO() TEXTO
-  DEVUELVE "ALGO"
+  FUNCION ABSTRACTA SETTERSONIDO(TEXTO sonido)
+  FUNCION ABSTRACTA GETTERSONIDO() TEXTO  
+
+
+CLASE COCHE HIJA_DE_VEHICULO
+  FUNCION SETTERSONIDO(TEXTO sonido)
+  FUNCION GETTERSONIDO() TEXTO  
+  
 ```
 
-El getter sonido se va a implementar en las clases hijas asi por ejemplo si instancio una moto voy a tener un sonido y si instancio un auto o camión voy a tener otros sonidos, son propios de cda clase hija.
+En las clases abstractas nos dan una serie de metodos ya hechas, pero tambien nos van a dar metodos que al derivarlos, se implementan en las clases hijas.
 
+El getter sonido se va a implementar en las clases hijas asi por ejemplo si instancio una moto voy a tener un sonido y si instancio un auto o camión voy a tener otros sonidos, son propios de cada clase hija.
+
+Ejemplo en Java:
+
+```Java
+abstract class Vehiculo {
+  private String sonido;
+  
+  abstract  public void setSonido(String sonido) {}
+  abstract public String getSonido() {}
+}
+```
+
+-> tanto setSonido como getSonido son abstractas por lo que no tienen un cuerpo en su metodo, ese lo tendra la clase hija al implementarlo.
+
+-> Las clases ABSTRACTAS no las puedo implementar por si solas, las debo HEREDAR.
 
 ---
 
 ## :star: 8.2 Ejercicios del tema 8
+
+
+Duración aproximada: 5min
+
+- Enunciado del ejercicio:
+
+```
+Para practicar la encapsulación:
+-Crear clase Persona.
+-Crear variables las privadas edad, nombre y telefono de la clase Persona.
+-Crear gets y sets de cada propiedad.
+-Crear un objeto persona en el main.
+-Utiliza los gets y sets para darle valores a las propiedades edad, nombre y telefono, por último muéstralas por consola
+```
+
+-> Cuando comiences el ejercicio se te mostrarán las especificaciones para la realización y entrega del mismo. La entrega del ejercicio deberá realizarse a través de una carpeta .zip empaquetada o un enlace al repositorio del ejercicio en GitHub.
+
+
+-> Una vez le des al botón de comenzar ejercicio el tiempo del que dispones para realizarlo empezará a contar.
+
+
+-> Asegúrate de tener todo lo que necesites preparado ya que una vez se acabe el tiempo si no has realizado la entrega esta contará
 
 ---
 ---
