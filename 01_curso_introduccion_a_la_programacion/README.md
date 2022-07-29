@@ -1420,20 +1420,32 @@ public class main {
    public static void main(String[] args) {
      Vehiculo vehiculo = new Vehiculo();
      vehiculo.setTipo("coche");
-     System.out.println(vehiculo.getTipo);
+     vehiculo.setVelocidadMaxima(250);
+     System.out.println("Mi vehiculo es: " + vehiculo.getTipo);
+     System.out.println("La velocidad maxima es: " + vehiculo.getVelocidadMaxima)
    }
    
    class Vehiculo {
    //atributo
     private String tipo;
+    private int velocidadMaxima;
    }
-   // setter
+   
+   // setters
    public void setTipo(String tipo) {
      this.tipo = tipo; 
    }
-   //getter
+   
+   public void setVelocidadMaxima(int velocidadMaxima) {
+    this.velocidadMaxima = velocidadMaxima;
+   }
+   
+   //getters
    public String getTipo() {
     return tipo;
+   }
+   public int getVelocidadMaxima() {
+    retun velocidadMaxima;
    }
 }
 ```
@@ -1443,6 +1455,8 @@ public class main {
 ->> Los setters siempre comienzan con la palabra **set** y luego el nombre del atributo con la primer letrra capitalizada.
 
 ->> Los **getters** no fija el valor, sino que lo devuelve, por eso no tienen parametros, devuelven la propiedad de la clase.
+
+->> Los IDEs nos ayudan y nos crean ellos mismos los getters y setters, haciendo solo click en unas opciones. 
 
 
 ## :star: 8.4 Usos de encapsulación
