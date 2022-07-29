@@ -1421,31 +1421,43 @@ public class main {
      Vehiculo vehiculo = new Vehiculo();
      vehiculo.setTipo("coche");
      vehiculo.setVelocidadMaxima(250);
+     vehiculo.setRapido(true);
      System.out.println("Mi vehiculo es: " + vehiculo.getTipo);
-     System.out.println("La velocidad maxima es: " + vehiculo.getVelocidadMaxima)
+     System.out.println("La velocidad maxima es: " + vehiculo.getVelocidadMaxima);
+     System.out.println("El coche es rapido? + vehiculo.isRapido);
    }
    
    class Vehiculo {
-   //atributo
+   //atributos / propiedades
     private String tipo;
     private int velocidadMaxima;
+    private int estado; // como solo la uso dentro de mi clase, no necesito crearle un getter ni un setter
+    private boolean rapido;
    }
    
    // setters
    public void setTipo(String tipo) {
-     this.tipo = tipo; 
+     if(this.estado == 0) {
+        this.tipo = tipo;
+     } 
    }
    
    public void setVelocidadMaxima(int velocidadMaxima) {
     this.velocidadMaxima = velocidadMaxima;
    }
    
+   public void setRapido(boolean rapido) {
+    this.rapido = rapido;
+   }
    //getters
    public String getTipo() {
     return tipo;
    }
    public int getVelocidadMaxima() {
     retun velocidadMaxima;
+   }
+   public boolean isRapido() { //isRapido en vez de setRapido porque es boolean
+    return rapido;
    }
 }
 ```
@@ -1458,16 +1470,42 @@ public class main {
 
 ->> Los IDEs nos ayudan y nos crean ellos mismos los getters y setters, haciendo solo click en unas opciones. 
 
+->> Dentro de una **clase** las **variables** son las **propiedades** que son propias de la clase o sino las particulares de la funcion (coo en el ejemplo el caso de *estado*).
+
+->> Cuando el tipo de dato es **boolean** el setter es exactamente igual, pero el **getter** en vez de llamarse **getProperty** se llamara **isProperty** (es como decir esPropiedad).
+
 
 ## :star: 8.4 Usos de encapsulación
+
+- Para programación multihilo **multi treads** (se va a ejecutar de forma paralela en más de un core del procesador), va a ser capaz de hacer dos o más cosas a la vez. 
+
+- Necesitamos que la clase tenga información de su estado y que esas variables solo se puedan modificar a través de los getters y setters., y al invocarlos pueden tener un código adicional que hagan otras cosas.
+
 
 
 ## :star: 8.5 Abstracción
 
+Se va a implementar parte de una clase y se deja otra parte a su libre alberdío.
+
+Va a tener **abstract** tanto en la clase como en un método y su clase hija va a implementarla (vera que hace ese metodo en particular).
 
 ## :star: 8.6 Ejemplo de clase abstracta
 
+Con pesudocodigo:
 
+```
+CLASE ABSTRACTA VEHICULO
+  PRIVADA TIPO;
+  PRIVADA SONIDO;
+  
+FUNCION SETTERTIPO(TEXTO valor)
+   esta_clase.tipo = VALOR
+
+FUNCION ABSTRACTA GETTERSONIDO() TEXTO
+  DEVUELVE "ALGO"
+```
+
+El getter sonido se va a implementar en las clases hijas asi por ejemplo si instancio una moto voy a tener un sonido y si instancio un auto o camión voy a tener otros sonidos, son propios de cda clase hija.
 
 
 ---
