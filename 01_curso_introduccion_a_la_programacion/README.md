@@ -1625,6 +1625,56 @@ class Persona {
 }
 ```
 
+->> La forma en que lo resolvieron ellos:
+
+```Java
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Persona persona = new Persona();
+        persona.setNombre("Raul");
+        System.out.println("Mi nombre es " + persona.getNombre());
+        persona.setEdad(23);
+        System.out.println("Tengo " + persona.getEdad() + " años");
+        persona.setTelefono(829240212);
+        System.out.println("Mi teléfono es " + persona.getTelefono());
+    }
+}
+
+class Persona {
+    private String nombre;
+    private int edad;
+    private int telefono;
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setEdad(int edad){
+        this.edad = edad;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setTelefono(int telefono){
+        this.telefono = telefono;
+    }
+
+    public int getTelefono() {
+        return telefono;
+    }
+}
+```
+
 ---
 ---
 
@@ -1705,16 +1755,41 @@ El ejemplo en Java:
 public class Main {
 
   public static void main(String[] argas) {
-  
-  
+    Coche coche = new Coche();
+    coche.velocidadMaxima = 14;
+    coche.matricula = "ABC 1234 ES";
+    CocheElectrico cocheElectrico = new CocheElectrico();
+    cocheElectrico.velocidadMaxima = 24;
+    cocheElectrico.matricula = "DEF 1234 ES";
+    
+    System.out.println(cocheElectrico.compruebaMatricula("DEF 1234 ES"));
   }
 }
 
 class Vehiculo {
   int velocidadMaxima;
   String matricula;
+  
+  // si necesitaria verificar alguna matricula
+  pulic boolean compruebaMatricula(String matricula) {
+    if( matricula == "XXX") {
+      return true;
+    }
+    return false;
+  }
 }
+
+class Coche extends Vehiculo {}
+
+class CocheElectrico extends Coche {}
 ```
+
+- En Java con la palabra reservada **extends** indicamos que es una clase que hereda de otra **clase padre/madre/super**.
+
+- Como la clase **Coche** **extiende** de **Vehiculo** va a tener sus atributos y métodos.
+
+
+
 ## :star: 9.2 Abstract
 
 
