@@ -1804,7 +1804,7 @@ Como la clase es **abstract** debo tener alguno de sus propiedades y metodos com
 ```Java
 public class Main {
 
-  public static void main(String[] argas) {
+  public static void main(String[] args) {
    // no puedo instanciar un objeto Vehiculo por ser ABSTRACT
    
    // instancio un objeto Coche
@@ -1951,10 +1951,99 @@ CLASE_A
 
 ## :star: 9.6 Polimorfismo
 
+Las clases hijas implementan el mismo método, pero cada una lo ejecuta de distinto modo.
+
+Hay un **override**, es decir se sobreescribe la función.
+
+Ejemplo en pseudocodigo:
+
+```
+CLASE VEHICULO
+  FUNCION diHola
+    IMPRIMIE "Hola"
+    
+CLASE COCHE HEREDA DE VEHICULO
+  FUNCION diHola
+    IMPRIME "Soy un coche"
+       
+CLASE MOTO HEREDA DE VEHICULO
+  FUNCION diHola
+    IMPRIME "Soy una moto"
+```
+
+
+Ejemplo en Java
+
+```Java
+public class Main {
+
+  public static void main(String[] args) {
+    Coche coche = new Coche();  
+    coche.diHola();
+  }
+}
+
+  class Vehiculo {
+  public void diHola() {
+    System.out.println("Hola!!");
+  }
+}
+
+class Coche extends Vehiculo {
+  @Overrides
+  public void diHola() {
+    System.out.println("Soy un coche");
+  }
+}
+```
+
+->> También se lo conoce como sobreescritura de métodos.
 
 ---
 
 ## :star: 9.7 Interfaces
+
+Nos van a permit poder tener una especie de 'herencia multiple' en Java, ya que una misma clase va a poder implementar más de una Interfaz.
+
+Las interfeces son parecidas a las clases abstractas, pero a diferencia de estas **no implementan ninguna funcion**.
+
+Nos va a decir que al crear una clase hija ella va a implementar los métodos.
+
+Se utiliza la palabra reservada **interface** en Java.
+
+La interfaz no tiene propiedades, solo tiene métodos.
+
+Ejemplo en Java:
+
+```Java
+package com.open_bootcamp;
+
+public class Main {
+  
+   public static void main(String[] args) {
+    
+   }
+}
+
+insterface Vehiculo {
+  void Acelerar(int cuantaVelocidad);
+  void frenar(int cuantaVelocidad);
+}
+
+class Coche implements Vehiculo {
+  public void Acelerar(int cuantaVelocidad) {
+  }
+  public void frenar(int cuantaVelocidad) {
+  }
+}
+
+class Moto implements Vehiculo {
+  public void Acelerar(int cuantaVelocidad) {
+  }
+  public void frenar(int cuantaVelocidad) {
+  }
+}
+```
 
 ---
 
