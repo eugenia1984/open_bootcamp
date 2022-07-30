@@ -1859,17 +1859,100 @@ class Moto extends Vehiculo {
 
 ->> En la abstraccion una clase dice que hay que hacer algo, pero no dice cómo hacerlo, el como lo van a determinar los hijos.
 
+
+---
+
+El tipo de herencia es la relación que tenemos entre las clases heredadas.
+
+---
+
+
 ## :star: 9.3 Herencia multiple
+
+La **herencia múltiple** consiste en que una clase hereda de **dos o más clases padres**.
+
+Ejemplo en pseudocodigo:
+
+```
+CLASE VEHICULO
+  PRIVADA VELOCIDAD_MAXIMA
+  
+CLASE MOTOR
+  PRIVADA TIPO_GASOLINA
+  
+CLASE COCHE HEREDA DE VEHICULO Y MOTOR
+  (heredada) VELOCIDAD_MAXIMA
+  (heredada) TIPO_GASOLINA
+```
+
+En Java no hay herencia múltiple, Java tiene **herencia simple**, es decir que una clase hereda de otra.
+
+
+
+Ejemplo en Java
+
+```Java
+class Vehiculo {
+  int velocidadMaxima;
+  
+  public Vehiculo() {
+    System.out.println("Estoy en el constructor de Vehiculo");
+  }
+}
+
+class Motor {
+  String tipoMotor;
+  
+  public Motor() {
+    System.print.ln("Estoy en el constructor de Motor");
+  }
+}
+
+class Coche extends Vehiculo {} // Java tiene solo herencia simple, o hereda de Vehiculo o hereda de Motor
+```
 
 
 ## :star: 9.4 Herencia jerarquica
 
+De una clase derivan otras, de las cuales a su vez van a derivar otras.
+
+Se puede pensar como un árbol genealígo, en pseudocodigo:
+
+```
+CLASE_A
+
+  CLASE_B HEREDA DE CLASE_A
+
+    CLASE_UNO HEREDA DE CLASE_B
+    CLASE_DOS HEREDA DE CLASE_A
+   
+  CLASE_C HEREDA DE CLASE_A
+    CLASE_PERRO HEREDA DE CLASE_C
+```
+
+La **herencia multinvel** también es **herencia simple** solo que hay varias, tenemos a la clase "abuela" , "padre" (que hereda de abuela), "hija" (que hereda de padre), como para dar un ejemplo.
+
 
 ## :star: 9.5 Herencia hibrida
 
+Combina modelos de herencia (tiene herencia simple y herencia múltiple).
+
+Ejemplo en pseudocodigo:
+
+```
+CLASE_A
+
+  CLASE_B HEREDA DE CLASE_A // es herencia simple
+  CLASE_C HEREDA DE CLASE_A // es herencia simple
+    CLASE_D HEREDE DE CLASE_B Y CLASE_C // es herencia multiple
+```
+
+---
 
 ## :star: 9.6 Polimorfismo
 
+
+---
 
 ## :star: 9.7 Interfaces
 
