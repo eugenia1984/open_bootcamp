@@ -2218,7 +2218,27 @@ class Trabajador extends Persona {
 
 # 10. Métodos de clases
 
+---
 
+## :star: Métodos de clase
+
+---
+
+## :star: Como invocamos a nuestros métodos
+
+---
+
+## :star: Como usar una interface
+
+---
+
+## :star: Parámetros por valor o por referencia
+
+---
+
+## :star: Recursívidad
+
+---
 ## :star: 10.1 Video del tema 10: Métodos de clases
 
 ---
