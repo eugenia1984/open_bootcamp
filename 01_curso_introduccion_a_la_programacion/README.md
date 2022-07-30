@@ -1779,19 +1779,85 @@ class Vehiculo {
   }
 }
 
-class Coche extends Vehiculo {}
+final class Coche extends Vehiculo {}
 
-class CocheElectrico extends Coche {}
+// class CocheElectrico extends Coche {} -> no lo podria hacer ya que Coche es final
 ```
 
 - En Java con la palabra reservada **extends** indicamos que es una clase que hereda de otra **clase padre/madre/super**.
 
 - Como la clase **Coche** **extiende** de **Vehiculo** va a tener sus atributos y métodos.
 
+- la palabra reservada **final** en al clase indica que dicha clase no va a ser padre de ninguna, no se va a poder heredar de ella.
+
 
 
 ## :star: 9.2 Abstract
 
+Si la clase es **abstracta** entonces **no la puedo instanciar**, debo instanciar las clases hijas.
+
+Como la clase es **abstract** debo tener alguno de sus propiedades y metodos como abstract también, en este caso lo vamos a ver en *sonido*.
+
+-> Los métodos abstractos no tienene cuerpo, ya que los hijos van a decir que hace dicho método o sino también van a ser clases abstractas para que sus clses hijas implementen dicho método..
+
+
+```Java
+public class Main {
+
+  public static void main(String[] argas) {
+   // no puedo instanciar un objeto Vehiculo por ser ABSTRACT
+   
+   // instancio un objeto Coche
+    Coche coche = new Coche();
+    coche.setSonido("RRR");
+    System.out.println(coche.getSonido());
+    
+    // instancio un objeto Moto
+    Moto moto = new Moto();
+    moto.setSonido("RRR!");
+    System.out.println(moto.getSonido());
+  }
+}
+
+// clase ABSTRACTA
+abstract class Vehiculo {
+  // propiedades
+  int velocidadMaxima;
+  String matricula;
+  String sonido;
+  
+  // constructor
+  public Vehiculo() {
+    System.out.println("Estoy en el contructor de Vehiculo");
+  }
+  
+  // getter y setter para sonido que es abstracto
+  alstract public String getSonido();
+  abstract public void setSonido(String sonido);
+
+}
+
+// como deriva de una clase abstract debe implementar el metodo abstracto o sino tambien ser clase abstracta
+class Coche extends Vehiculo { 
+  public String getSonido() {
+    this.sonido;
+  }
+  public void setSonido(String sonido) {
+    return "Soy un coche y mi sonido es: " + this.sonido = sonido;
+  }
+}
+
+class Moto extends Vehiculo {
+  public String getSonido() {
+    this.sonido;
+  }
+  public void setSonido(String sonido) {
+    return "Soy una moto y mi sonido es: " + this.sonido;
+  }
+}
+```
+
+->> En la abstraccion una clase dice que hay que hacer algo, pero no dice cómo hacerlo, el como lo van a determinar los hijos.
 
 ## :star: 9.3 Herencia multiple
 
