@@ -2272,8 +2272,21 @@ Ejemplo en codigo:
 
 ```Java
 Coche coche = new Coche();
-coche.Acelerar(50);
+coche.Acelerar(50); //invocando al metodo
 ```
+
+Si en cambio es un metodo de mi propia clase, por ejemplo estando en el main, no voy a necesitar crear una instancia de mi clase.
+
+```Java
+public static void main (String[] args) {
+  int resultado = suma(2, 5);
+  
+  public static int suma(int operandoA, int operandoB) {
+    return operandoA + operandoB;
+  }
+}
+```
+
 ---
 
 ## :star: Como usar una interface
