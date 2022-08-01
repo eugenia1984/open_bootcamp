@@ -2428,7 +2428,7 @@ public class Main {
 }
 ```
 
-A difernecia del metodo suma, en este caso hacemos referencia a un objeto dle tippo Coche
+A diferencia del metodo suma, en este caso hacemos referencia a un objeto dle tippo Coche
 
 En este caso vamos a manipular al zona de momeria y modificar la variable, vamos a maniular la propiedad velocidad del coche.
 
@@ -2443,6 +2443,7 @@ Un método se llama a si mismo una y otra vez.
 
 Ejemplo en pseudoodigo:
 
+```
 FUNCION SUMA(INT A, INT B) {
   VAR TEMP = A+B
   
@@ -2489,8 +2490,6 @@ public static int factorialNR(int numero) {
 
 # 11. Lenguajes: compilados e interpretados 
 
-
-## :star: 11.1 Video del tema 11. Lenguajes: compilados e interpretados 
 
 ---
 
