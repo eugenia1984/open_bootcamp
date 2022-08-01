@@ -2280,6 +2280,7 @@ Si en cambio es un metodo de mi propia clase, por ejemplo estando en el main, no
 ```Java
 public static void main (String[] args) {
   int resultado = suma(2, 5);
+  System.out.println(resultado);
   
   public static int suma(int operandoA, int operandoB) {
     return operandoA + operandoB;
@@ -2291,16 +2292,151 @@ public static void main (String[] args) {
 
 ## :star: Como usar una interface
 
+```Java
+public class Main {
+  public static void main (String[] args) {
+    Coche coche = new Codche(); // instancia de mi clase Coche
+    Moto moto = new Moto();
+    ejecutarAcelerar(coche);  // le paso como parametro el objeto coche que tiene la implementacion de la interfaz
+    
+   //moto.Acelerar();
+    //moto.Frenar();
+    ejecutarAcelerar(moto);
+    
+    // el parametro es de tipo Vehiculo (como mi interfaz)
+    public static void ejecutaAcelerar(Vehiculo vehiculo) { 
+      vehiculo.Acelarar(15);
+    }
+  }
+}  
+
+// mi interfaz
+interface Vehiculo { 
+  void Acelerar(int cuantaVelocidad);
+  void Frenar(int cuantaVelocidad);
+}
+
+ // mi clase Coche va a implementar la interfaz Vehiculo
+class Coche implements Vehiculo {
+  void Acelerar(int cuantaVelocidad) {
+    System.out.println("acelerar");
+  }
+  void Frenar(int cuantaVelocidad) {
+    System.out.println("Frenar");
+  }
+}
+
+// mi clase Moto va a implementar la interfaz Vehiculo
+class Moto implements Vehiculo {
+  void Acelerar(int cuantaVelocidad) {
+    System.out.println("acelerar la Moto");
+  }
+  void Frenar(int cuantaVelocidad) {
+    System.out.println("Frenar la Moto");
+  }
+}
+```
+
+Una clase satisface una interfaz cuando una clase implementa **todos** los metodos de esa interfaz. Se lo suele llamar **wrapper**.
+
+
+Ejemplo en pseudoclase:
+
+```
+INTERFAZ USUARIOS
+  METODO GETUSUARIO()
+  
+CLASE USUARIOSTXT IMPLEMENTA LA INTERFAZ USUARIOS
+  METODO GETUSUARIOS()
+    LEER UN FICHERO .TXT
+    DEVOLVER TODAS LAS LINEAS
+    
+CLASE USUARIOSBBDD IMPLEMENTA LA INTERFAZ USUARIOS
+  METODO GETUSUARIOS()
+    CONECTAME A MYSQL
+    EJECUTAR "SELECT * FROM ..."
+    DEVOLVER TODOS LOS RESULTADOS
+  
+CLASE USUARIOSREDIS IMPLEMENTA LA INTERFAZ USUARIOS
+  METODO GETUSUARIOS()
+    CONECTATE A REDIS
+    DEVOLVER TODOS LOS USUARIOS
+
+FUNCION LISTARUSUARIOS( NECESITO INTERFAZ USUARIOS )
+  DE LA INTERFAZ USUARIOS EJECUTA EL METODO GETURUARIOS
+
+
+// INVOCO A LISTARUSUARIOS( TE DOY CLASE USUARIOSTXT)
+NVOCO A LISTARUSUARIOS( TE DOY CLASE USUARIOSREDIS)
+```
+
+En este caso voy a tener que solo cambiar la implemntacion del metodo en la clase
+
+
+Las interfaces se utilizan mucho, por ejemplo en testing, para simular una base de datos, asi podemos probar nuestros metodos.
+
 ---
 
 ## :star: Parámetros por valor o por referencia
+
+
+- **Paso por valor**, al llamar a una funcion copio los valores en memoria y se los doy.
+
+Ejemplo en pseudocodigo:
+
+```
+FUNCION SUMA(INT A, INTB) {
+  DEVUELVE A+B
+}
+
+VAR VALA = 5;
+VAR VALB = 10;
+SUMA(VALA, VALB);
+```
+
+En Java
+
+```Java
+int valA = 5;
+int calB = 10;
+suma(valA, valB);
+System.out.println(valA); //5
+System.out.println(valB); // 10
+
+public satic int suma(int a. int b) {
+  retun a+b ;
+}
+```
+
+- **Paso por referencia** se tabaja con la variable, se modifica su valor, no se hace copia.
+
+Ejemplo en Java
+
+```Java
+package com.open_bootcamp;
+
+public class Main {
+
+  public static vid main(String[] args) {
+    Coche coche = new Coche();
+    cocheChanger(coche);
+  }
+  
+  public static void cocheChanger(Coche coche) {
+    coche.velocidad += coche.velocidad +50;
+  }
+}
+```
+
+A difernecia del metodo suma, en este caso hacemos referencia a un objeto dle tippo Coche
+
+En este caso vamos a manipular al zona de momeria y modificar la variable, vamos a maniular la propiedad velocidad del coche.
 
 ---
 
 ## :star: Recursívidad
 
----
-## :star: 10.1 Video del tema 10: Métodos de clases
+
 
 ---
 ---
