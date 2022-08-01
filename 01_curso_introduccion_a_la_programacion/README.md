@@ -2490,11 +2490,110 @@ public static int factorialNR(int numero) {
 
 # 11. Lenguajes: compilados e interpretados 
 
+## :star: Compilador
+
+
+Toma una secuencia de caracteres y lo convierte en otra cosa. Se lo puede pensar como un traductor. El INPUT lo compila a CODIGO MAQUINA o a OTRO LENGUAJE.
+
+
+## :star: Tipos de compiladores
+
+Hay dos tipos:
+
+- los que generan codigo maquina
+
+- los que generan codigo intermedio -> Un lenguaje interpretado no se va a compilar a codigo maquina.
+
+Se diferencian por el onjetivo final.
+
+
+
+## :star: Fases de compilación
+
+
+```
+CODIGO  -> AQUI TRABAJA EL  -> CODIGO
+FUENTE      COMPILADOR          FINAL
+```
+
+- FASE DE **analizador lexico**, va leyendo todo el input y genera **tokens** (el tokenizador), es decir va leyendo la secuencia de los caracteres
+
+```
+VARIABLE VARIABLE =10;
+
+V -> ETRA V
+A -> LETRA A
+= -> SIMBOLO IGUAL
+1 -> NUMERO
+0 -> NUMERO
+; -> PUNTO Y COMA
+
+VAR -> PALABRA RESERVADA "VAR"
+VARIABLE -> "IDENTIFICADOR"
+= -> SIMBOLO DE ASIGNACION
+10 -> NUMERO ENTERO
+```
+
+- fase de **análisis sintáctico** va a ver si tiene coherencia, va a ir mostrando si hay errores.
+- Ejeplo en pseudocodigo:
+
+```
+VAR VARIABLE = ;
+```
+-> aca no esta inciializada, no le asigno un valor
+
+Otro ejemplo:
+```
+if(numero > 10) {...}
+
+1 - IF
+2 - ABRE PARENTESIS
+3 - CONDICION
+4 - CIERRA PARENTESIS
+5 - ABRE LLAVE
+6 - EXPRESIONES
+7 - CIERRA LLAVES
+```
+
+- genera un **codigo intermedio**, utiliza un lenguaje de más bajo nivel, simplifica le lenguaje humano y lo puede manipular mejor el compilador. **abstract sintax tree** (árbol sintáctico abstracto).
+
+Ejemplo con operacion de suma 5 + 2 + 4
+
+```
+   +
+   5
+  +
+2 4
+```
+
+Se lee de arriba a abajo y de izquierda a derecha.
+
+- fase de **optimización del códiogo intermedio**, algunos lenguajes no tienen esta fase. Generan un codigo más optimo que el escrito o elimina cosas redundantes.
+
+- fase **generacion de codigo**, ahora vamos a tener el *codigo maquina* ó un *cosigo para ser interpretado*
+
+
+## :star: Tipos de lenguaje hay
+
+- **lenguaje compilado** se ejecuta directamente en el procesador a traves del sistema operativo.
+
+Ejemplos: C, C++, Rust, Go, Ensamblador
+
+- **lenguaje interpretado** no son ejecutador directamente en el CPU o en el sistema operativo, se ejecuta a través de una máquina virtual o intérprete.
+
+Ejemplo: Java (JVM Java Virtual Machine, va leyendo linea por linea el bytecode), Python, PHP.
+
+- **lenguajes compilados e interpretados**, como por ejemplo C#(.net) que genera un codigo intermedio llamado MSIL(Microsoft Intermediate Lenguage) y si algo se ejecuta muchas veces lo compila (JIT Jist-In-Time Compiler).
+
+Los lenguajes compilados son más rapidos que los interpretados, porque se ejecutan en otro lado y el lenguaje interpretado necesita un programa adicional.
 
 ---
 
 
 ## :star: 11.2 Ronda de preguntas
+
+
+Despejan algunas dudas de la unidad
 
 ---
 ---
