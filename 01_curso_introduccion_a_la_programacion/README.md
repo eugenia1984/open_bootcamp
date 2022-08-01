@@ -2218,14 +2218,62 @@ class Trabajador extends Persona {
 
 # 10. Métodos de clases
 
----
 
-## :star: Métodos de clase
+Los **métodos** son **funciones** que tienen una **signature** / **protptipo** que va a declarar...
+
+... el ámbito: **public** (va a poder ser utilizada por fuera de la clase) / **private** (solo se puede utilizar en la propia clase)
+
+... el **nombre** dl método
+
+... entre **()** pueden tener **parametros** con su tipo de dato
+
+... puede **devolver valor**
+
+Ejemplo en Go:
+
+```Go
+type miclase struct ()
+func (m cmclase) leerLibro(libr string) string {
+  codigo
+}
+```
+
+Otro ejemplo en PHP
+```PHP
+class MiClase {
+  public function leerLibros($libro) {
+    return "aaa";
+  }
+}
+```
+
+Ejemplo en Java
+
+```Java
+class Coche implements Vehiculo {
+  public void Acelerar(int cuentaVelodidad) {
+  }
+  
+  public void Frenar(int cuentaVelocidad) {
+  }
+}
+```
+
 
 ---
 
 ## :star: Como invocamos a nuestros métodos
 
+- 1ro: creamos una instancia de nuestra clase (un objeto), creamos una nueva referencia en memoria a un objeto.
+
+- 2do nombramos a la variable que hace referencia al objeto + **.** + nombre del metodo, en el caso de que el método lleve parmámetros, entonces entre los **()** lo ponemos.
+
+Ejemplo en codigo:
+
+```Java
+Coche coche = new Coche();
+coche.Acelerar(50);
+```
 ---
 
 ## :star: Como usar una interface
