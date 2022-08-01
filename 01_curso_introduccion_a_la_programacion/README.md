@@ -2432,12 +2432,58 @@ A difernecia del metodo suma, en este caso hacemos referencia a un objeto dle ti
 
 En este caso vamos a manipular al zona de momeria y modificar la variable, vamos a maniular la propiedad velocidad del coche.
 
+
+->> En java se suele hacer paso por valor, salvo que se reciba un objeto y ahi es paso por referencia.
+
 ---
 
 ## :star: Recursívidad
 
+Un método se llama a si mismo una y otra vez.
 
+Ejemplo en pseudoodigo:
 
+FUNCION SUMA(INT A, INT B) {
+  VAR TEMP = A+B
+  
+  SI TEMP ES MAYOR A 15
+    PARA
+    
+  SUMA(A, TEMP)
+}
+```
+
+Hay que controlar bien lo que se hace, porque sino se nos va a quedar todo tildado (creamos un bucle infinito). Debe tener una condición en la cual pasa a ser false y se sale de la misma. 
+
+El típico ejemplo de una función recursiva es el factorial de un número.
+
+```Java
+public static int factorial(int nuemro) {
+  int resultado;
+  if(numero == 1 ) {
+    return 1;
+  }
+  
+  resultado = factorial(numero - 1 ) * numero;
+  return resultado;
+}
+```
+
+Para calcularlo sin recursividad:
+
+```Java
+public static int factorialNR(int numero) {
+  int temp;
+  let resultado = 1;
+  
+  for(temp = 1; temp <= numero; temp++) {
+    resultado += temp;
+  }
+  
+  return resultado;
+}
+```
+ 
 ---
 ---
 
