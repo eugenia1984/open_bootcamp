@@ -31,7 +31,7 @@
 - 11 - Lenguajes: compilados e interpretados
 
 
--> [HTML y CSS]((https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css)
+-> [HTML y CSS](https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css)
 
 - 1 - Introduccion a HTML, etiquetas y atributos
 
