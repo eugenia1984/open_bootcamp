@@ -171,7 +171,9 @@ La practica se puede ver dentro de la carpeta **02_forms_tables**
 
 ```<label></label>``` esta relacionado con el input, mediante el atributo **fro** en el label y el atributo **id** en el input.
 
-```<input>``` para poder ingresar datos, tengo distintos tipos **type="text"** por ejemplo, tambien pueden ser **number**, **password**, **date**, **email**.
+```<input>``` para poder ingresar datos, tengo distintos tipos **type="text"** por ejemplo, tambien pueden ser **number**, **password**, **date**, **email**. Otro atributo que si o si deben tener es el **name** que va a ser como la key con la que ira el value introducido.
+
+Otros atributos pueden ser: **required** (para que sea un campo requerido, obligatorio), para los tipo **number** le puedo agregar **min** o **max** para limitar el rango de nuúeros que puedo ingresar.
 
 ```<button></button>``` para enviar el formulario, hay de tipo **reset** y **submit**
 
@@ -223,6 +225,12 @@ Y para que se vea lo que ingreso tengo el archivo **resultados.html**:
 
 ### Botones
 
+Hay de dos tipos:
+
+- Enviar, para enviar la información, por ejemplo: ```<button type="submit">Enviar</button>```
+
+- Resetear, para resetear todo el formulario, por ejemplo: ```<button type="reset">Reset</button>```
+   
 ### Tablas en HTML
 
 ### Ejercicio 1
