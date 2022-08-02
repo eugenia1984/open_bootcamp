@@ -72,6 +72,24 @@ Atajos en Windows:
 
 ### Mi primera pagina web
 
+```
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi primera pagina html</title>
+</head>
+<body>
+  <p>Hola mundo!</p>
+</body>
+</html>
+```
+
+En el head van las meta etiquetas y los links a css y otras cosas que utilizo, todo eso no es visualizado en el navegador, lo unco que se ve es el title. Toda esta información ayuda a posicionarnos para el SEO, para el posicionamiento orgánico
+
+En el Body va todo lo que si se renderiza y ve en el mavegador.
 
 ### Etiquetas más utilizadas
 
