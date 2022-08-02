@@ -83,25 +83,95 @@ Atajos en Windows:
 </head>
 <body>
   <p>Hola mundo!</p>
+  <p>Bienvenidos a mi primer práctica</p>
 </body>
 </html>
 ```
 
-En el head van las meta etiquetas y los links a css y otras cosas que utilizo, todo eso no es visualizado en el navegador, lo unco que se ve es el title. Toda esta información ayuda a posicionarnos para el SEO, para el posicionamiento orgánico
+En el **head** van las meta etiquetas y los links a css y otras cosas que utilizo, todo eso no es visualizado en el navegador, lo unico que se ve es el **title**. Toda esta información ayuda a posicionarnos para el SEO, para el posicionamiento orgánico
 
-En el Body va todo lo que si se renderiza y ve en el mavegador.
+En el **Body** va todo lo que si se renderiza y ve en el mavegador.
 
+
+--->>> Podés ver la práctica en el archivo **mi-primera-pagina-web.html**
 ### Etiquetas más utilizadas
+
+Una de las más utilizada es ```<div></div>``` que nos ofrece dividir el cósigo. Pero no hay que abuzar de los div ya que contamos con etiquetas semánticas como : ```<header>```, ```<nav>```, ```<section>```, ```<aside>```, ```<footer>```.
+
+Los encabezados van del nivel 1 al 6, solo podemos tener un solo encabezado de nivel 1, dle resto podemos tener la cantidad que queramos. ```<h1>```, ```<h2>```, ```<h3>```, ```<h4>```, ```<h5>```, ```<h6>```.
+
+Para textos tenemos los parrafos con la etiqueta ```<p>``` y tenemos los ```<span>``` que son bloques de texto que no son parrafos en si mismos.
+
+Tenemos la posibilidad de tener enlaces ```<a>``` (anchor / ancla) que tiene el atributo **href** hacia donde me va a llevar el enlace. Hay dos tipos de enlaces: 
+
+**interno** hacia la misma web, ejemplo:
+
+```<a href="#">click aca</a>```
+**externo** hacia otra web, ejemplo:
+
+```<a href="https://google.com" target="_blank" rel="noopener noreferrer">google.com</a>```
+
+También tenemos las **listas** que pueden ser:
+
+```<ul>``` **unorderer list** (desordenadas)
+
+```<ol>``` **orderer list** (ordenadas)
+
+Y para nombrar a los items que pertenecen a la lista utilizamos ```<li>``` (**list items**)
+
+
+Los etiquetas pueden tneer distintos atributos, van a depender de la etiqueta que utilicemos, pero para nombrar algunos: **href**, **src**, **id**, **alt**, **class**.
+
+--->>> Podés ver la práctica en el archivo **etiquetas-habituales.html**
 
 
 ### Repositorio del curso
 
+[https://github.com/Open-Bootcamp/HTML-CSS](https://github.com/Open-Bootcamp/HTML-CSS)
 
 ### Ejercicio
+
+
+Duración aproximada: 5min
+
+Enunciado del ejercicio:
+
+```
+- Crea un nuevo documento HTML e implementa lo siguiente:
+
+-Utiliza la etiqueta de título para poner en el título "Ejercicio de Introducción a HTML en OpenBootcamp"
+-Dentro de la etiqueta body pon un comentario de dos líneas
+ -Este es mi primer comentario de dos líneas
+ -Aprendiendo a documentar mi código con OpenBootcamp
+-Crea una lista desordenada de tus tres vídeos de Youtube favoritos, siguiendo las siguientes pautas:
+ -Cada elemento de la lista tiene que ser un enlace
+ -El texto del enlace debe ser el título del vídeo
+```
+
+- Cuando comiences el ejercicio se te mostrarán las especificaciones para la realización y entrega del mismo. La entrega del ejercicio deberá realizarse a través de una carpeta .zip empaquetada o un enlace al repositorio del ejercicio en GitHub.
+
+
+- Una vez le des al botón de comenzar ejercicio el tiempo del que dispones para realizarlo empezará a contar.
+
+
+- Asegúrate de tener todo lo que necesites preparado ya que una vez se acabe el tiempo si no has realizado la entrega esta contará como no superada.
+
+
+-->>> Lo podes ver en el archivo **practica.html**
 
 ---
 
 ## :star: 2 - Formularios y tablas
+
+### Etiquetas para formularios
+
+### Botones
+
+### Tablas en HTML
+
+### Ejercicio 1
+
+### Ejercicio 2
 
 ---
 
