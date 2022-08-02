@@ -163,7 +163,63 @@ Enunciado del ejercicio:
 
 ## :star: 2 - Formularios y tablas
 
+La practica se puede ver dentro de la carpeta **02_forms_tables**
+
 ### Etiquetas para formularios
+
+```<form></form>``` para tener el formulario, tiene dos atributos **action** (hacia donde voy a enviar la informacion) y **method** (que puede ser GET, PUT, etc). EL método POST lo tenemos que utilizar siempre que hagamos una accion desde un servidor.
+
+```<label></label>``` esta relacionado con el input, mediante el atributo **fro** en el label y el atributo **id** en el input.
+
+```<input>``` para poder ingresar datos, tengo distintos tipos **type="text"** por ejemplo, tambien pueden ser **number**, **password**, **date**, **email**.
+
+```<button></button>``` para enviar el formulario, hay de tipo **reset** y **submit**
+
+```<textarea></textarea>``` area de texto, como cuando se puede ingresar el comentario.
+
+Ejemplo del archivo **formularios.html**:
+
+```
+<form action="resultados.html" method="POST">
+  <div>
+    <label for="name">Nombre:</label>
+    <input type="text" name="name" id="name">
+  </div>
+  <div>
+    <label for="password">Contraseña:</label>
+    <input type="password" name="password" id="password">
+  </div>
+  <button type="submit">Enviar</button>
+</form>
+```  
+
+
+Y para que se vea lo que ingreso tengo el archivo **resultados.html**:
+
+```
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resultados</title>
+</head>
+<body>
+  <h3>Estos son los resultados</h3>
+  <div id="resultados"></div>
+  <br>
+  <a href="./resultados.html">Volver al formulario</a>
+  <script>
+    const resDiv = document.getElementById("resultados")
+    new URLSearchParams(window.location.search).forEach((val, name) => {
+      resDiv.append(`${name}: ${val}`)
+      resDiv.append(document.createElement('br'))
+    })
+</script>
+</body>
+</html>
+```
 
 ### Botones
 
