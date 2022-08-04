@@ -246,6 +246,7 @@ etiquetas:
 
 - ```<td>``` table data para los campos.
 
+
 Puede tener atributos, como: ```border="1"``` para delimitar el borde de la tabla (va en la etiqueta **table**).
 
 Los atributos **colspan** y **rowspan** permiten unir una celda con las celdas contiguas, tanto horizontal como verticalmente...
@@ -271,20 +272,6 @@ Ejemplos en codigo:
 </table>
 ```
 
-```html
-<table>
-  <caption>Esto es una tabla</caption>
-  <tbody>
-    <tr>
-      <td colspan="2">celdas a1 y b1 unidas</td>
-    </tr>
-    <tr>
-      <td>celda a2</td>
-      <td>celda b2</td>
-    </tr>
-  </tbody>
-</table>
-```
 
 ### Ejercicio 1
 
