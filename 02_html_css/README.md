@@ -246,6 +246,46 @@ etiquetas:
 
 - ```<td>``` table data para los campos.
 
+Puede tener atributos, como: ```border="1"``` para delimitar el borde de la tabla (va en la etiqueta **table**).
+
+Los atributos **colspan** y **rowspan** permiten unir una celda con las celdas contiguas, tanto horizontal como verticalmente...
+
+... el valor de **colspan** indica la cantidad de celdas unidas en horizontal , se aplica en la etiqueta ```<td>```
+
+... el valor de **rowspan** indica la cantidad de celdas unidas en vertical, se aplica en la etiqueta ```<td>```.
+
+Ejemplos en codigo:
+
+```
+<table>
+  <caption>Esto es una tabla</caption>
+  <tbody>
+    <tr>
+      <td colspan="2">celdas a1 y b1 unidas</td>
+    </tr>
+    <tr>
+      <td>celda a2</td>
+      <td>celda b2</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+```html
+<table>
+  <caption>Esto es una tabla</caption>
+  <tbody>
+    <tr>
+      <td colspan="2">celdas a1 y b1 unidas</td>
+    </tr>
+    <tr>
+      <td>celda a2</td>
+      <td>celda b2</td>
+    </tr>
+  </tbody>
+</table>
+```
+
 ### Ejercicio 1
 
 Duración aproximada: 5min
