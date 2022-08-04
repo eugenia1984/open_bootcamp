@@ -386,17 +386,65 @@ Crea un nuevo documento HTML que cumpla los siguientes parámetros:
 
 ## :star: 3 - Multimedia
 
+### Imágenes
+
+### Videos y Audio
+
+### Ejercicio 1
+
 ---
 
 ## :star: 4 - Introduccion a CSS
+
+
+### Introduccion a las hojas de estilo
+
+### Selectores en CSS
+
+### Las tres formas de insertar estilos
+
+### Colores
+
+### Fondos de colores e imagenes
+
+### Estilos de altura , anchura, padding y margin
+
+### Fuentes en CSS
+
+### Ejercicio
 
 ---
 
 ## :star: 5 - Disposición de elementos y para multimedia
 
+
+### Disposiciones y alineaciones
+
+### Posicionamiento
+
+### Flexbox
+
+### Overflow
+
+### Trabajo la opacidad y galeria de imagenes
+
+### Reproductores de video
+
+### Ejercicio
+
 ---
 
 ## :star: 6 - Anidación de selectores
+
+### Anisacion de selectores
+
+### Pseudoclases
+
+### Pseudoelementos
+
+### Especificidad
+
+### Ejercicio
 
 ---
 
