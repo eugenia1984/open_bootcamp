@@ -238,12 +238,14 @@ etiquetas:
 
 - ```<table></table>``` me indica que es una tabla
 
+- ```<thead>``` table header, para los encabezados
+
+- ```<tbody>``` table body, para el cuerpo de la tabla
+
 - ```<tr>``` table row, para las filas
 
-- ```<th>``` table header, para los encabezados
-
-
 - ```<td>``` table data para los campos.
+
 ### Ejercicio 1
 
 Duración aproximada: 5min
