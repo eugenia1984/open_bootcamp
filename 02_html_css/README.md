@@ -347,6 +347,54 @@ Crea un nuevo documento HTML que cumpla los siguientes parámetros:
   -Debe tener tres entradas, que corresponderán a tus tres libros favoritos
 ```
 
+
+-->> Lo podes ver en **ejercicio2.html**
+
+->> Asi lo resolvieron ellos:
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 02/2 - Tablas en HTML</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td>Título</td>
+                <td>Autor</td>
+                <td>Año de publicación</td>
+                <td>Enlace</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>El monje que vendió su Ferrari</td>
+                <td>Robin Sharma</td>
+                <td>1996</td>
+                <td><a href="https://www.amazon.es/dp/B0062XBS32/">https://www.amazon.es/dp/B0062XBS32/</a></td>
+            </tr>
+            <tr>
+                <td>Padre Rico, Padre Pobre</td>
+                <td>Robert T Kiyosaki</td>
+                <td>1997</td>
+                <td><a href="https://www.amazon.es/Padre-rico-pobre-edici%C3%B3n-actualizada-ebook/dp/B007HPS120">https://www.amazon.es/Padre-rico-pobre-edici%C3%B3n-actualizada-ebook/dp/B007HPS120</a></td>
+            </tr>
+            <tr>
+                <td>The Game: Penetrating the Secret Society of Pickup Artists</td>
+                <td>Neil Strauss</td>
+                <td>2005</td>
+                <td><a href="https://www.amazon.es/Game-Penetrating-Secret-Society-Artists-ebook/dp/B007MAXHUG/">https://www.amazon.es/Game-Penetrating-Secret-Society-Artists-ebook/dp/B007MAXHUG/</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+```
 ---
 
 ## :star: 3 - Multimedia
