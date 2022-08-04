@@ -265,6 +265,32 @@ Crea un nuevo documento HTML que cumpla los siguientes parámetros:
 ```
 
 ->> Se puede ver en el documento **ejercicio1.html**
+
+
+- La forma en que ellos lo resolvieron:
+
+```
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 02 - Formularios en HTML</title>
+</head>
+<body>
+    <form action="/">
+        <input type="text" name="nombre" placeholder="Tu Nombre">
+        <input type="number" name="edad" placeholder="Tu Edad">
+        <textarea name="frase-favorita"></textarea>
+        <button type="submit">Enviar</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
+```
+
 ### Ejercicio 2
 
 ---
