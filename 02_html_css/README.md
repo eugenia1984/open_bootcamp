@@ -4,9 +4,17 @@
 
 Temas:
 
-- **Introduccion a HTML** en **01_introduccion / 01_introduccion_a_html.md**
+- **Introduccion a HTML** en **01_introduccion / introduccion_a_html.md**
 
-- **Formularios y tablas** en **02_forms_tables / 02_formularios_y_tablas.md**
+- **Formularios y tablas** en **02_forms_tables / formularios_y_tablas.md**
+
+- **Multimedia** en **03_multimedia / multimedia.md**
+
+- **Introducción a CSS** en **04_intro_css / introduccion_a_css.md**
+
+- **Disposición de elementos y para multimedia** en **05_dispociisones / dispocisiones.md**
+
+- **Anidación de selectores** en **06_selectores / selectores.md**
 
 ---
 
@@ -17,70 +25,6 @@ Temas:
 
 ---
 
-
-## :star: 3 - Multimedia
-
-### Imágenes
-
-### Videos y Audio
-
-### Ejercicio 1
-
----
-
-## :star: 4 - Introduccion a CSS
-
-
-### Introduccion a las hojas de estilo
-
-### Selectores en CSS
-
-### Las tres formas de insertar estilos
-
-### Colores
-
-### Fondos de colores e imagenes
-
-### Estilos de altura , anchura, padding y margin
-
-### Fuentes en CSS
-
-### Ejercicio
-
----
-
-## :star: 5 - Disposición de elementos y para multimedia
-
-
-### Disposiciones y alineaciones
-
-### Posicionamiento
-
-### Flexbox
-
-### Overflow
-
-### Trabajo la opacidad y galeria de imagenes
-
-### Reproductores de video
-
-### Ejercicio
-
----
-
-## :star: 6 - Anidación de selectores
-
-### Anidacion de selectores
-
-### Pseudoclases
-
-### Pseudoelementos
-
-### Especificidad
-
-### Ejercicio
-
----
 
 ## :star: 7 - Creación de estilos para formularios
 
