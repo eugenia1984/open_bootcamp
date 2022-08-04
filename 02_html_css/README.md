@@ -16,23 +16,23 @@ Temas:
 
 - [**Anidación de selectores**](https://github.com/eugenia1984/open_bootcamp/tree/htmlandcss/02_html_css/06_selectores) en **06_selectores / selectores.md**
 
-- **Creación de estilos para formularios**
+- [**Creación de estilos para formularios**](https://github.com/eugenia1984/open_bootcamp/tree/htmlandcss/02_html_css/07_formularios) en **07_formularios / formulario.md**
 
-- **Bootstrap**
+- [**Bootstrap**](https://github.com/eugenia1984/open_bootcamp/tree/htmlandcss/02_html_css/08_bootstrap) en **08_bootstrap / bootstrap.md**
 
-- **Animaciones y transiciones**
+- [**Animaciones y transiciones**](https://github.com/eugenia1984/open_bootcamp/tree/htmlandcss/02_html_css/09_animaciones) en **09_animaciones / animaciones**
 
-- **Introducción al diseño responsive**
+- [**Introducción al diseño responsive**](https://github.com/eugenia1984/open_bootcamp/tree/htmlandcss/02_html_css/10_responsive) en **10_responsive / responsive.md**
 
-- **El sistema grid de Bootstrap**
+- [**El sistema grid de Bootstrap**](https://github.com/eugenia1984/open_bootcamp/tree/htmlandcss/02_html_css/11_bootstrap_grid) en **11_boostrap_grid / bootstrap_grid.md**
 
-- **Otros aspectos de interés de Bootstrap**
+- [**Otros aspectos de interés de Bootstrap**](https://github.com/eugenia1984/open_bootcamp/tree/htmlandcss/02_html_css/12_bootstrap_elementos) en **12_bootstrap_elementos / bootstrp_elementos.md**
 
-- **Usando pre-procesadores CSS**
+- [**Usando pre-procesadores CSS - SASS**](https://github.com/eugenia1984/open_bootcamp/tree/htmlandcss/02_html_css/13_sass) en **13_sass / sass.md**
 
-- **Presentación proyecto final**
+- [**Presentación proyecto final y Finalización proyecto fina**](https://github.com/eugenia1984/open_bootcamp/tree/htmlandcss/02_html_css/14_15_proyecto) en **14_15_proyecto / proyecto.md**
+ 
 
-- **Finalización proyecto final**
 
 ---
 
@@ -41,42 +41,5 @@ Temas:
 
 [https://github.com/Open-Bootcamp/HTML-CSS](https://github.com/Open-Bootcamp/HTML-CSS)
 
----
-
-
-## :star: 7 - Creación de estilos para formularios
-
-
----
-
-## :star: 8 - Bootstrap
-
----
-
-## :star: 9 - Animaciones y transiciones
-
----
-
-## :star: 10 - Introducción al diseño responsive
-
----
-
-## :star: 11 - El sistema grid de Bootstrap
-
----
-
-## :star: 12 - Otros aspectos de interés de Bootstrap
-
----
-
-## :star: 13 - Usando pre-procesadores CSS
-
----
-
-## :star: 14 - Presentación proyecto final
-
----
-
-## :star: 15 - Finalización proyecto final
 
 ---
