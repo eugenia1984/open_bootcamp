@@ -12,9 +12,27 @@ Temas:
 
 - [**Introducción a CSS**](https://github.com/eugenia1984/open_bootcamp/tree/htmlandcss/02_html_css/04_intro_css) en **04_intro_css / introduccion_a_css.md**
 
-- [**Disposición de elementos y para multimedia**](https://github.com/eugenia1984/open_bootcamp/tree/htmlandcss/02_html_css/05_disposiciones) en **05_dispociisones / dispocisiones.md**
+- [**Disposición de elementos y para multimedia**](https://github.com/eugenia1984/open_bootcamp/tree/htmlandcss/02_html_css/05_disposiciones) en **05_dispocisiones / dispocisiones.md**
 
 - [**Anidación de selectores**](https://github.com/eugenia1984/open_bootcamp/tree/htmlandcss/02_html_css/06_selectores) en **06_selectores / selectores.md**
+
+- **Creación de estilos para formularios**
+
+- **Bootstrap**
+
+- **Animaciones y transiciones**
+
+- **Introducción al diseño responsive**
+
+- **El sistema grid de Bootstrap**
+
+- **Otros aspectos de interés de Bootstrap**
+
+- **Usando pre-procesadores CSS**
+
+- **Presentación proyecto final**
+
+- **Finalización proyecto final**
 
 ---
 
