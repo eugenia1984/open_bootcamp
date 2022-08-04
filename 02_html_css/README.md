@@ -4,17 +4,17 @@
 
 Temas:
 
-- **Introduccion a HTML** en **01_introduccion / introduccion_a_html.md**
+- [**Introduccion a HTML**](https://github.com/eugenia1984/open_bootcamp/tree/htmlandcss/02_html_css/01_introduccion) en **01_introduccion / introduccion_a_html.md**
 
-- **Formularios y tablas** en **02_forms_tables / formularios_y_tablas.md**
+- [**Formularios y tablas**](https://github.com/eugenia1984/open_bootcamp/tree/htmlandcss/02_html_css/02_forms_tables) en **02_forms_tables / formularios_y_tablas.md**
 
-- **Multimedia** en **03_multimedia / multimedia.md**
+- [**Multimedia**](https://github.com/eugenia1984/open_bootcamp/tree/htmlandcss/02_html_css/03_multimedia) en **03_multimedia / multimedia.md**
 
-- **Introducción a CSS** en **04_intro_css / introduccion_a_css.md**
+- [**Introducción a CSS**](https://github.com/eugenia1984/open_bootcamp/tree/htmlandcss/02_html_css/04_intro_css) en **04_intro_css / introduccion_a_css.md**
 
-- **Disposición de elementos y para multimedia** en **05_dispociisones / dispocisiones.md**
+- [**Disposición de elementos y para multimedia**](https://github.com/eugenia1984/open_bootcamp/tree/htmlandcss/02_html_css/05_disposiciones) en **05_dispociisones / dispocisiones.md**
 
-- **Anidación de selectores** en **06_selectores / selectores.md**
+- [**Anidación de selectores**](https://github.com/eugenia1984/open_bootcamp/tree/htmlandcss/02_html_css/06_selectores) en **06_selectores / selectores.md**
 
 ---
 
