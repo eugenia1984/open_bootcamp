@@ -6,7 +6,7 @@
 
 ## ¿ Qué hay ?
 
--> [**Curso Introduccion a la programacion**](https://github.com/eugenia1984/open_bootcamp/tree/main/01_curso_introduccion_a_la_programacion)
+-> [**01 - Curso Introduccion a la programacion**](https://github.com/eugenia1984/open_bootcamp/tree/main/01_curso_introduccion_a_la_programacion)
 
 Temas:
 
@@ -33,7 +33,7 @@ Temas:
 - 11 - Lenguajes: compilados e interpretados
 
 
--> [**HTML y CSS**](https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css)
+-> [**02 - HTML y CSS**](https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css)
 
 Temas
 
