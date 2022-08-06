@@ -5,7 +5,7 @@
 
 ### Introduccion a las hojas de estilo
 
-**CSS** es Casccading Styling Shhet ó Hojas de Estilo en Cascada
+**CSS** es Casccading Styling Sheet ó Hojas de Estilo en Cascada
 
 
 El HTMl lo unimos al CSS por medio de la etiqueta:
@@ -14,6 +14,7 @@ El HTMl lo unimos al CSS por medio de la etiqueta:
 
 Los comentarios en CCS son asi: ```/* */```
 
+---
 
 ### Selectores en CSS
 
@@ -39,16 +40,31 @@ Los selectores pueden ser:
 
 - **de etiquetas**, las etiquetas de hml, como por ejemplo, p, h1, img, etc.
 
+- **universal**, va con *.
+
+---
 
 ### Las tres formas de insertar estilos
 
+---
+
 ### Colores
+
+---
 
 ### Fondos de colores e imagenes
 
+---
+
 ### Estilos de altura , anchura, padding y margin
 
+---
+
+
 ### Fuentes en CSS
+
+
+---
 
 ### Ejercicio
 
