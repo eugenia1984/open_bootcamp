@@ -46,6 +46,33 @@ Los selectores pueden ser:
 
 ### Las tres formas de insertar estilos
 
+- con la etiqueta **link** en el head, por ejemplo:
+
+``` <link rel="stylesheet" href="estilos.css" />```
+
+- con la etqieta **link** en el head, pero importandolo:
+```
+<link
+      rel="stylesheet"
+      href="https://unpkg.com/purecss@2.1.0/build/pure-min.css"
+    />
+ ```
+
+- con la etiqueta **style** dentro del head, por ejemplo:
+
+```
+<style>
+      html {
+          padding: 15px;
+      }
+      p {
+        color: red;
+      }
+ </style>
+ ```
+ 
+ - internamente **dentro de las etiquetas**
+ 
 ---
 
 ### Colores
