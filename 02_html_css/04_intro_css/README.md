@@ -5,7 +5,7 @@
 
 ### Introduccion a las hojas de estilo
 
-**CSS** es Casccading Styling Sheet ó Hojas de Estilo en Cascada
+**CSS** es Cascading Styling Sheet ó Hojas de Estilo en Cascada
 
 
 El HTMl lo unimos al CSS por medio de la etiqueta:
@@ -110,10 +110,57 @@ El **fondo** tiene distintos atributos, como:
 
 ### Estilos de altura , anchura, padding y margin
 
+- Para el **ancho**: ``` width```
+
+- Para el **alto**/ la **altura**: ```height```
+
+- **padding** es el espacio entre el elemento y el borde (**espacio interno**). Se puede cambiar un solo padding con: padding-right, padding-left, padding-top, padding-bottom, o usar el shorcut padding el cual puede tener las cuatro posiciones, van en el sentido de las agujas del reloj ```padding: 10px 20px 30px 40px;``` 10px top, 20px right, 30px bottom, 40px left. Si en vez de poner 4 valores utilizo solo dos valores, el 1ro es para top/bottom y el 2do es para left/right. Si utilizo un solo valos es el mismo a los 4 lados (top / right / bottom / left).
+
+- **border** puede escribir de dos formas:
+
+```CSS
+border-style: solid;
+border-color: rgb(150, 150, 150);
+border-width: 1px;
+````
+
+O el shortcut:
+
+```CSS
+border-style: 1px solid rgb(150, 150, 150);
+```
+
+- **margin** es el expacio desde el borde hacia afuera. Es el **espacio externo**.
+
 ---
 
 
 ### Fuentes en CSS
+
+Nativamente en CSS tenemos la propiedad **font-family** para poder utilizar algunas fuentes. Otro modo es mediante Google Fonts el cual se puede importar en el mismo archivo css o sino linkearlo en html mediante un link en el head.
+
+
+```CSS
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+
+html {
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: larger;
+    font-weight: 400;
+    font-style: italic;
+}
+```
+
+Se puede modificar el tamaño de la fuente con ```font-size: 10px / 1rem / 1em / larger;```
+
+Se puede modificar el ancho con ```font-weight: 100 / 200/ .. / 900 / bolder / lighter;```
+
+Y también se puede modificar el estilo con ```font-style: italic / underline;```
+
+---
+
+->> Se puede ver en **web_con_css.html** y **textos_con_html.html**
 
 
 ---
