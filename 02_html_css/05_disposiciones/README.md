@@ -63,6 +63,10 @@ También puedo especificar sobre que eje quiero hacer el scroll con ```overflow-
 
 ### Trabajo la opacidad y galeria de imagenes
 
+Si le damos ```widht: 100%``` nos va a ocupar todo el ancho de la pantalla.
+
+Una propiedad es ```opacity:0.5``` que va desde el **0** al **1**, 0 es opacidad total y 1 es sin nada de opacidad.
+
 ### Reproductores de video
 
 
