@@ -16,3 +16,46 @@
 .span-2 {
   float: right;
 }
+
+/* posicionamiento */
+
+.posicionamiento div {
+  border: 1px solid gray;
+  margin: 5px;
+  padding: 5px;
+}
+
+.relative {
+  position: relative;
+  left: 80px;
+  margin-left: 10px;
+  width: 80%;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: greenyellow;
+  z-index: 1;
+}
+
+.absolute {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  background-color: yellow;
+}
+
+.container {
+  width: 300px;
+  height: 800px;
+  background-color: blue;
+}
+
+.sticky {
+  position: sticky;
+  background-color: aqua;
+  top: 0px;
+  z-index: 2;
+}
