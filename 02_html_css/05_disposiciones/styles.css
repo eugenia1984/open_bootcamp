@@ -59,3 +59,31 @@
   top: 0px;
   z-index: 2;
 }
+
+/* Overflow */
+.overflow {
+  margin-bottom: 200px;
+}
+.overflow .contenedor {
+  background-color: antiquewhite;
+  width: 200px;
+  height: 100px;
+  padding: 15px;
+  margin-bottom: 10px;
+} 
+
+.contenedor-hidden {
+  overflow: hidden;
+}
+
+.contenedor-scroll {
+  overflow: scroll;
+}
+
+.contenedor-auto {
+  overflow: auto;
+}
+
+.contenedor-visible {
+  overflow: visible;
+}

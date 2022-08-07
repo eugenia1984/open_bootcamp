@@ -45,7 +45,21 @@ Es un contenido flexible, nos ajuda en las vistas responsivas.
 
 Vamos a tener dos ejes: **main-axis** (el eje principal) y el eje secundario.
 
+
+- ```flex-wrap: no-wrap / wrap / rwap-reverse```, por defecto esta no-wrap.
+
+- para alinearlos en el eje secundario ```align-items: stretch / baseline / center / flex-end / flex-start;``` por defecto son stretch
+
+
 ### Overflow
+
+Es el **desbordamiento**, donde por ejemplo tengo un contenedor de tamaño fijo y tengo mucho texto que va a desbordarse de mi contenedor.
+
+Esto no pasa en flexbox.
+
+```overflow: auto / hidden / scroll / visible;``` por defecto aparece visible.
+
+También puedo especificar sobre que eje quiero hacer el scroll con ```overflow-x``` ó ```overflow-y```
 
 ### Trabajo la opacidad y galeria de imagenes
 
