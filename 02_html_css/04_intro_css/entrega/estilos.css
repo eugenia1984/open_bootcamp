@@ -1,0 +1,31 @@
+/* Reset */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 3rem 2rem;
+}
+
+#titulo{
+  text-align: center;
+  color: green;
+}
+
+#elemento-1 {
+  color: red;
+}
+
+ol li#elemento-1,
+ul li.#elemento-1 {
+  font-size: 2rem;
+}
+
+p {
+  font-weight: 800;
+  padding-bottom: 2rem;
+}
+li {
+  padding-bottom: 1rem;
+}

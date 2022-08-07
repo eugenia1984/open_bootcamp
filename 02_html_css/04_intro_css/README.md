@@ -191,4 +191,8 @@ Consigna:
 
 - A través del encadenamiento de selectores, haz que el primer elemento de la primera lista tenga un tamaño de letra de 2rem
 
+
+->> Se puede ver dentro de la carpeta **entrega**
+
+
 ---
