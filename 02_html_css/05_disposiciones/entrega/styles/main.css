@@ -1,0 +1,18 @@
+h3 {
+  text-align: center;
+  color: rgb(150, 15, 150);
+}
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.imagen-galeria {
+  width: 300px;
+}
+
+.imagen-galeria:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}

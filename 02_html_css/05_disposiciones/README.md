@@ -4,7 +4,7 @@
 
 ### Disposiciones y alineaciones
 
-Las **disposiciones por defecto** son como elemento **nlock** para los **div**, es decir que tienen el 100 % de ancho, se ubican uno debajo de otro; es decir que tienen ```display:block;```.
+Las **disposiciones por defecto** son como elemento **inlock** para los **div**, es decir que tienen el 100 % de ancho, se ubican uno debajo de otro; es decir que tienen ```display:block;```.
 
 Los **span**  tienen disposición en linea, es decir: ```display:inline;``` (no le puedo modificar la altura).
 
