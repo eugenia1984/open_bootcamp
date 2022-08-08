@@ -69,6 +69,44 @@ Una propiedad es ```opacity:0.5``` que va desde el **0** al **1**, 0 es opacidad
 
 ### Reproductores de video
 
+Ejemplo en codigo para poner un video de fondo con un texto y un CTA:
+
+```
+<video class="video" playinline autoplay muted loop>
+  <source  src="img/video.mp4" type="video/mp4" />
+</video>
+<div class=header>
+  <h1>Visita San Sebastian</h1>
+  <button>CTA</button>
+</div>
+```
+
+```CSS
+html {
+  font-family: Helvatica;
+  color: white;
+}
+
+.video {
+  width: 100vh;
+  height: 10vh;
+  object-fit: cover;
+  position: fixed; 
+}
+
+.header {
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+```
+
+- Siempre recordar si agregamos el atributo **autoplay** que tengamos **muted**.
 
 ->> Se puede ver en el archivo **posiciones_posicionamiento.html**
 
