@@ -23,11 +23,11 @@ Se utilizan dentro del codigo CSS para hacer referencia a distintos estados.
 
 - **:first-child** va a aplicar al primer hijo, si por ejemplo tengo un div con muchos parrafos, solo va a afectar al primer párrafo.
 
-- **.link** se utiliza con los anchors, son los links no visitados, por default suelen estar en celeste.
+- **:link** se utiliza con los anchors, son los links no visitados, por default suelen estar en celeste.
 
 - **:visited** se utiliza mucho con los anchors (enlaces), para los que ya visitamos, suelen cambiar de color a violeta, por defecto.
 
-- **.active** se cambia el color del link al pasar el raton por encima.
+- **:active** se cambia el color del link al pasar el raton por encima.
 
 Es importante hacerlo en el orden que se puso aca lo de los links, sino se pisan los estilos.
 
@@ -38,7 +38,7 @@ Es importante hacerlo en el orden que se puso aca lo de los links, sino se pisan
 
 ### Pseudoelementos
 
-Se defininen con **::**, todos los elementos tienen un **::after** y un **::before**.
+Se definen con **: :**, todos los elementos tienen un **::after** y un **::before**.
 
 Otros son **::first-letter** y **.first-line**.
 
@@ -108,8 +108,10 @@ Enunciado:
 Crea un nuevo documento HTML con el título "Selectores, pseudo-clases y pseudo-elementos en CSS"
 
 - Crea un nuevo fichero CSS e impórtalo en el documento HTML principal
-- Crea un botón con el texto "Pasa por encima" (TIP: Este texto debes agregarlo a través de un pseudo-elemento)
-- Utiliza las pseudo-clases para que cuando se pase el ratón por encima de este botón, el texto se vuelva blanco y el fondo de color verde
+- Crea un botón con el texto "Pasa por encima" 
+(TIP: Este texto debes agregarlo a través de un pseudo-elemento)
+- Utiliza las pseudo-clases para que cuando se pase el ratón por encima de este botón, 
+el texto se vuelva blanco y el fondo de color verde
 - Utiliza los pseudo-elementos para cambiar el texto del botón a "¡Hecho!"
 ```
 

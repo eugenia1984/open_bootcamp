@@ -1,0 +1,8 @@
+.btn:hover {
+  color: white;
+  background-color: green;
+}
+
+/* Crea un botón con el texto "Pasa por encima" 
+(TIP: Este texto debes agregarlo a través de un pseudo-elemento)*/
+  /* Utiliza los pseudo-elementos para cambiar el texto del botón a "¡Hecho!"*/
