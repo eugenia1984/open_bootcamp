@@ -87,7 +87,12 @@ Otro elemento de un formulario es el **select** que viene con **opciones**
 
 ---
 
-## Creando un formulario moderno
+Para tomar ideas podemos ver la web **Dribble.com**
+
+---
+
+## Creando un formulario moderno (login)
+
 
 ---
 
