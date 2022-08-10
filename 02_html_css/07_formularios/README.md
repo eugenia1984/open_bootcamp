@@ -2,7 +2,7 @@
 
 ---
 
-## estilando formularios
+## Estilando formularios
 
 
 Para solo darle estilo a los input de clase **input** que sean de tipo **password**:
@@ -93,6 +93,7 @@ Para tomar ideas podemos ver la web **Dribble.com**
 
 ## Creando un formulario moderno (login)
 
+Se puede ver en el archivo [**formularios.html**](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/07_formularios/formularios.html)
 
 ---
 
