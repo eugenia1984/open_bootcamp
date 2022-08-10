@@ -39,21 +39,19 @@ body {
 .google-btn:hover {
     opacity: 0.75;
 }
-
 .google-btn picture {
-    width: 35px;
-    height: 35px;
-    background-color: white;
-    border-radius: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .google-btn picture img {
-    width: 75%;
+  width: 75%;
 }
-
 .google-btn span {
     color: white;
     font-weight: 500;
