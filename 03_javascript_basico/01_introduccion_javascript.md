@@ -62,7 +62,7 @@ Al instalar Nodejs tambien se nos instala npm
 
 ---
 
-## :star: 1.3 Promer proyecto Node 
+## :star: 1.3 Primer proyecto Node 
 
 - ```mkdir curso_javascript``` me creo una carpeta
 
@@ -79,7 +79,11 @@ Al instalar Nodejs tambien se nos instala npm
 - Una vez que tenemos el proyecto creamos nuestro archivo index.js y creamos nuestro primer hola mundo:
 
 ```Javascript
-console.log("Hola mundo")
+console.log("Hola mundo");
 ```
 
 ---
+
+##:star: 1.4 Ejecucion y comentarios
+
+
