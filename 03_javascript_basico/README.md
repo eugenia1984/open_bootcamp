@@ -8,7 +8,7 @@ Empieza tu formación en JavaScript, uno de los lenguajes más populares y utili
 
 ## Unidades:
 
-1. Introduccion a JavaSCript
+1. [Introduccion a JavaSCript](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/01_introduccion_javascript.md)
 
 2. Sintaxis, variables y palabras reservadas de JS
 
