@@ -76,8 +76,9 @@ Al instalar Nodejs tambien se nos instala npm
 
 - Abro una terminal (CTRL + SHIFT + N) y creo mi proyecto de node con : ```npm init``` y voy respondiendo todas las preguntas para completar el package.json
 
-- Una vez que tenemos el proyecto creamos nuestro archivo index.js y creamos nuestro primer hola mundo:
+- Una vez que tenemos el proyecto creamos nuestro archivo index.js y creamos nuestro archivo **hola_mundo.js** primer hola mundo:
 
+hola_mundo.js
 ```Javascript
 console.log("Hola mundo");
 ```
@@ -86,4 +87,36 @@ console.log("Hola mundo");
 
 ## :star: 1.4 Ejecucion y comentarios
 
+Volvemos a **package.json** y vemos la parte de **script**
 
+```JavaScript
+{
+ "scripts": {
+ "start": "node index.js",
+  "saludar": "node hola_mundo.js"
+ }
+}
+```
+
+- Ahora por consola: 
+``` npm run saludar``` y vemos el hola mundo
+
+- Tambien siempre los script tiene el **start** para ejecutar el index.js (algunos lo llaman app.js). Entonces en el index.js ponemos: 
+```JavaSCript
+console.log("Esta es la puerta de entrada al proyecto");
+```
+
+Y al correr por consola: ```npm start```` voy a ver por consola: *Esta es la puerta de entrada al proyecto*
+
+#### Comentarios
+
+```JavaSCript
+// Este es un comentario de una sola linea
+
+/* Este 
+es un 
+comentario
+multiplinea*/
+```
+
+---
