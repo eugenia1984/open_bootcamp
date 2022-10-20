@@ -39,3 +39,21 @@ ES6 fue la que marco una gran diferencia, es la version mas extendida entre los 
 - Live Server, para
  
 ---
+
+### Nodejs y NPM
+
+#### ¿ Que es Nodejs ?
+
+En 2009 Ryan Dahl crea Nodejs y permite que JavaScript se pueda ejecutar del lado del servidor.
+
+#### ¿ Que es NPM ?
+
+Node Package Manager, para gestionar los modulos (paquetes) que tengan que ver con el entorno de Nodejs
+
+#### Intalacion de Nodejs y npm
+
+[https://nodejs.org/en/](https://nodejs.org/en/) tenemos la version estable (LTS) y la ultima
+
+Al instalar Nodejs tambien se nos instala npm
+
+---
