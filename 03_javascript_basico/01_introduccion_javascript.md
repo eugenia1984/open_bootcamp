@@ -84,6 +84,6 @@ console.log("Hola mundo");
 
 ---
 
-##:star: 1.4 Ejecucion y comentarios
+## :star: 1.4 Ejecucion y comentarios
 
 
