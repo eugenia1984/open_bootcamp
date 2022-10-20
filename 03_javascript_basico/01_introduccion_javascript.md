@@ -1,4 +1,4 @@
-# :star: 1. Introduccion a JavaSCript
+# :star: 1. Introduccion a JavaScript
 
 ---
 
