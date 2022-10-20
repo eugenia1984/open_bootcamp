@@ -66,4 +66,44 @@ Temas
 - 14 - Presentación proyecto final
 
 - 15 - Finalización proyecto final
+
+
+-> [**03 - JavaScript Basico**](https://github.com/eugenia1984/open_bootcamp/tree/main/03_javascript_basico)
+
+Temas:
+
+- 1 - Introduccion a JavaSCript
+
+- 2 - Sintaxis, variables y palabras reservadas de JS
+
+- 3 - Estructuras de control
+
+- 4 - Cadenas de texo
+
+- 5 - Numeros en JavaScript
+
+- 6 - Trabajando con listas
+
+- 7 - Trabajando con Sets y Objetos
+
+- 8 - Introduccion a las funciones
+
+- 9 - Gestion de errores
+
+- 10 - Modulos en JavaSCript
+
+- 11 - POO en JavaSCript
+
+- 12 - Depuracion de codigo
+
+- 13 - Configuracion y uso de ESLint
+
+- 14 - Gestion de eventos
+
+- 15 - Persistencia de datos en navegador
+
+- 16 - Aplicando drag and drop
+
+- 17 - Usando geolocalizacion
+
 ---
