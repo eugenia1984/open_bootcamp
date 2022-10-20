@@ -56,4 +56,8 @@ Node Package Manager, para gestionar los modulos (paquetes) que tengan que ver c
 
 Al instalar Nodejs tambien se nos instala npm
 
+- ```node -v``` para ver la version que esta instalada y confirmo que quedo instalado
+
+- ```npm -v``` para ver la version que esta instalada y confirmo que quedo instalado
+
 ---
