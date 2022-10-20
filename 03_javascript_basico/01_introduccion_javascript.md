@@ -2,7 +2,7 @@
 
 ---
 
-## ¿ Que es JavaScript ?
+## :star: 1.1 ¿ Que es JavaScript ?
 
 - es un lenguaje **interpretado** (no necesita ser compilado). Es un "guion" que el interprete (el navegador) lo interpreta linea por linea. A diferencia de los lenguajes compilados que necesitan ser traducidos a lenguaje binario para que la maquina lo utilice, como es Java por ejemplo.
 
@@ -40,7 +40,7 @@ ES6 fue la que marco una gran diferencia, es la version mas extendida entre los 
  
 ---
 
-### Nodejs y NPM
+### :star: 1.2 Nodejs y NPM
 
 #### ¿ Que es Nodejs ?
 
@@ -59,5 +59,27 @@ Al instalar Nodejs tambien se nos instala npm
 - ```node -v``` para ver la version que esta instalada y confirmo que quedo instalado
 
 - ```npm -v``` para ver la version que esta instalada y confirmo que quedo instalado
+
+---
+
+## :star: 1.3 Promer proyecto Node 
+
+- ```mkdir curso_javascript``` me creo una carpeta
+
+- ```cd curso_javascript``` entro en la carpeta
+
+- ``` mkdir primer_proyecto_js``` creo dentro otra carpeta
+
+- ```cd mi_primer_proyecto``` entro a la carpeta
+
+- ``` code .``` abre el proyecto en VSC
+
+- Abro una terminal (CTRL + SHIFT + N) y creo mi proyecto de node con : ```npm init``` y voy respondiendo todas las preguntas para completar el package.json
+
+- Una vez que tenemos el proyecto creamos nuestro archivo index.js y creamos nuestro primer hola mundo:
+
+```Javascript
+console.log("Hola mundo")
+```
 
 ---
