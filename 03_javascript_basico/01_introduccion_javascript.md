@@ -106,7 +106,7 @@ Volvemos a **package.json** y vemos la parte de **script**
 console.log("Esta es la puerta de entrada al proyecto");
 ```
 
-Y al correr por consola: ```npm start```` voy a ver por consola: *Esta es la puerta de entrada al proyecto*
+Y al correr por consola: ```npm start``` voy a ver por consola: *Esta es la puerta de entrada al proyecto*
 
 #### Comentarios
 
@@ -136,5 +136,7 @@ Una vez le des al botón de comenzar ejercicio el tiempo del que dispones para r
 
 
 Asegúrate de tener todo lo que necesites preparado ya que una vez se acabe el tiempo si no has realizado la entrega esta contará como no superada.
+
+-> Se puede [ver aca](https://github.com/eugenia1984/open_bootcamp/tree/main/03_javascript_basico/primer_entrega)
 
 ---
