@@ -1,6 +1,6 @@
 /***** Arrays ******/
 
-/*** 6.1. Listas y métodos de mutacion de listas ***/
+/***** 6.1. Listas y métodos de mutacion de listas *****/
 // Cómo trabajar con listas (arrays, arreglos, vectores...)
 let var1 = { id: false }
 let array = [1, "hola", false, { id: 5 }, null, undefined, var1]
@@ -53,3 +53,15 @@ console.log(array3)
 // Modificar valores .splice(indice, 1, valores)
 array3.splice(2, 1, 3)
 console.log(array3)
+
+/****** 6.2 Concatenación y obtención de fragmentos de listas *********/
+
+/******* 6.3 Métodos de iteración en listas *******/
+
+/******** 6.4 Métodos avanzados, obtención de listas a partir de listas ******/
+
+/******** 6.5 Ordenación de listas y comparación entre dos listas ****/
+
+/****** 6.6 Identificar si existe un valor en un array y objetos iterables *****/
+
+/******** Ejercicio ********/
