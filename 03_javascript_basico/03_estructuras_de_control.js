@@ -215,13 +215,34 @@ bucleDecenas: while (true) {
 console.log("Ya hemos terminado")
 
 /***** Ejercicio *****/
+// Crea los siguientes archivos JS:
+// factorial-for.js -> Este archivo debe calcular el factorial de 10 utilizando un solo bucle for
+const factorial_a_calcular = 10;
+let factorial = 1;
 
-/*
-Duración aproximada: 5min
+for(let i = factorial_a_calcular; i > 0 ; i--) {
+  factorial*=i;
+}
+console.log(`El factorial de ${factorial_a_calcular} es: ${factorial}`);
 
-Enunciado del ejercicio:
-Crea los siguientes archivos JS:
-- factorial-for.js -> Este archivo debe calcular el factorial de 10 utilizando un solo bucle for
-- factorial-while.js -> Este archivo debe calcular el factorial de 10 utilizando un bucle while
-- factorial-break.js -> Este archivo debe calcular el factorial de 10 utilizando un bucle while, una bifurcación if y una sentencia break
-*/
+//factorial-while.js -> Este archivo debe calcular el factorial de 10 utilizando un bucle while
+let factorial_de_diez = 10;
+let resultado = 1;
+
+while (factorial_de_diez > 1) { 
+  resultado *= factorial_de_diez; 
+  factorial_de_diez--; 
+}
+
+console.log(`El factorail de 10 es : ${resultado}`); 
+
+// factorial-break.js -> Este archivo debe calcular el factorial de 10 utilizando un bucle while, una bifurcación if y una sentencia break
+let factorial_de_10 = 10;
+let i = factorial_de_10-1;
+
+while(factorial_de_10){
+    factorial_de_10 *= i;
+    i--;
+    if (i <= 1) break;
+}
+console.log(`El factorial de 10 es: ${factorial_de_10}`);

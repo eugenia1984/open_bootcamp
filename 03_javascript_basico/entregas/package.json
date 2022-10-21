@@ -1,15 +1,17 @@
 {
-  "name": "primer_entrega",
+  "name": "entregas",
   "version": "1.0.0",
-  "description": "Primer entrega del curso de JavaScript de Open Bootcamp",
+  "description": "Aca veran mis entregas del curso de JavaScript Basico con Open Bootcamp",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "segunda-entrega":"node segunda_entrega.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "javascript",
-    "nodejs"
+    "nodejs",
+    "frontend"
   ],
   "author": "Maria Eugenia Costa",
   "license": "ISC"
