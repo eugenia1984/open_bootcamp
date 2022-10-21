@@ -1,5 +1,6 @@
 /***** NUMEROS *****/
-/***** Numbers y presicion en JavaScript *****/
+/***** 5.1 Numbers y presicion en JavaScript *****/
+
 // Declaración de variables numéricas (enteros y con decimales)
 // No hay distincion entre numeros enteros o decimales (a diferencia de Java, por ejemplo)
 let numberInteger = 5;
@@ -16,7 +17,8 @@ console.log(numberDecimal + numberDecimal2); // 0.30000000000000004
 // Pequeño truco para obtener valores "reales"
 console.log(Math.round((0.1 + 0.2) * 100)/100); // 0.3
 
-/*****  Operaciones y redondeo *****/
+/*****  5.2 Operaciones y redondeo *****/
+
 let numberDecimal3 = 3.5;
 let numberDecimal4 = 4.8;
 // Suma (+)
@@ -55,7 +57,8 @@ console.log(e.toPrecision(7)); // 1839.123
 console.log(f.toPrecision(7)); // 2.213556e+12
 console.log(typeof f.toPrecision(3)); // string
 
-/***** Metodos de numbers y limites en JavaScript *****/
+/***** 5.3 Metodos de numbers y limites en JavaScript *****/
+
 // Operador .valueOf() - Obtener valores numéricos a partir de literales
 let a = 2;
 let b = new Number(3);
@@ -115,13 +118,20 @@ console.log(max_valor_JS); // 1.7976931348623157e+308
 /***** Ejercicio *****/
 // Crea un archivo JS que contenga las siguientes líneas
 // Una variable que contenga tu altura en centímetros (entero)
-
+let alturaEnCentimetros = 164;
+console.log(`alturaEnCentimetros: ${alturaEnCentimetros}`);
 // Una variable que contenga tu altura en metros (número de coma flotante)
-
+let alturaEnMetros = 1.64;
+console.log(`alturaEnMetros ${alturaEnMetros}`);
 // Una variable que contenga tu peso en kilogramos (número de coma flotante)
-
+let pesoEnKilos = 62.3;
+console.log(`pesoEnKilos ${pesoEnKilos}`);
 // Una variable que contenga tu altura en metros redondeada hacia arriba
-
+let AlturaEnMetrosRedondeada = Math.ceil(alturaEnMetros);
+console.log(`AlturaEnMetrosRedondeada ${AlturaEnMetrosRedondeada}`);
 // Una variable que contenga tu peso en kilogramos redondeado hacia abajo
-
+let pesoEnKilosRedondeado = Math.floor(pesoEnKilos);
+console.log(`pesoEnKilosRedondeado: ${pesoEnKilosRedondeado}`);
 // Una variable que contenga si "el máximo valor que se puede obtener en Javascript + 1" es igual al máximo valor que se puede obtener en Javascript
+let max_valor_JS_mas_uno = Number.MAX_VALUE;
+console.log(`El l máximo valor que se puede obtener en Javascript + 1 es:  ${max_valor_JS_mas_uno}`)

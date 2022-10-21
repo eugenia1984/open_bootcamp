@@ -1,6 +1,7 @@
 /***** Cadenas de texto****/
 
-/***** Tipos de declaracion de strings y cuando utilizarlos ****/
+/***** 4.1 Tipos de declaracion de strings y cuando utilizarlos ****/
+
 // Declarando con comillas simples
 let str_single = 'Hola soy un texto con comillas simples';
 // Declarando con comillas dobles
@@ -74,7 +75,8 @@ console.log(texto_largo.replace(/los/g, 'cinco'))
 Tito no es un mono cualquiera. A Tito no le gusta trepar por cinco árboles y odia comer plátanos. Él prefiere pasear por el bosque, oler las flores y recoger las nueces que se caen de cinco árboles.
 */
 
-/***** Manipulación de cadenas de texto ****/
+/***** 4.2 Manipulación de cadenas de texto ****/
+
 let input = "ESCORpio"
 let db = "escorpio"
 
@@ -113,7 +115,8 @@ console.log(str_5.indexOf("Eugenia")); // la posicion de la primer instancia que
 console.log(str_5.charAt(9));
 console.log(str_5.lastIndexOf("Eugenia")); // la posicion de la ultima instancia que encuentra
 
-/***** Expresiones regulares y metodos de busqueda de cadenas ****/
+/***** 4.3 Expresiones regulares y metodos de busqueda de cadenas ****/
+
 // https://regexr.com
 let texto_largo2 = "Tito no es un mono cualquiera. A Tito no le gusta trepar por los árboles y odia comer plátanos. Él prefiere pasear por el bosque, oler las flores y recoger las nueces que se caen de los árboles."
 

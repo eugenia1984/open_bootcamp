@@ -16,7 +16,7 @@ Empieza tu formación en JavaScript, uno de los lenguajes más populares y utili
 
 4. [Cadenas de texo](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/04_cadenas_de_texto.js) ->  [Cuarta entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/cuarta_entrega.js)
 
-5. [Numeros en JavaScript](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/05numeros.js)
+5. [Numeros en JavaScript](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/05numeros.js) ->  [Quinta entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/quinta_entrega.js)
 
 6. Trabajando con listas
 
