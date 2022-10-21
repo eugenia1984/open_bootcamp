@@ -18,7 +18,7 @@ Empieza tu formación en JavaScript, uno de los lenguajes más populares y utili
 
 5. [Numeros en JavaScript](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/05numeros.js) ->  [Quinta entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/quinta_entrega.js)
 
-6. Trabajando con listas
+6. [Trabajando con listas](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/06_arrays.js)
 
 7. Trabajando con Sets y Objetos
 
