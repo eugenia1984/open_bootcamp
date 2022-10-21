@@ -12,7 +12,7 @@ Empieza tu formación en JavaScript, uno de los lenguajes más populares y utili
 
 2. [Sintaxis, variables y palabras reservadas de JavaScript](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/02_sintaxis_variables_palabras_reservadas.js)
 
-3. [Estructuras de control](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/03_estructura_de_control.js)
+3. [Estructuras de control](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/03_estructuras_de_control.js)
 
 4. Cadenas de texo
 
