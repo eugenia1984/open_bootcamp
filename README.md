@@ -24,7 +24,7 @@
 11 - Lenguajes: compilados e interpretados
 ```
 
-->  [**02 - <img src="https://img.icons8.com/color/30/000000/html-5--v1.png"/>  HTML y <img src="https://img.icons8.com/color/30/000000/css3.png"/> CSS**](https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css)
+->  [**02 - HTML5 <img src="https://img.icons8.com/color/30/000000/html-5--v1.png"/>  y CSS3<img src="https://img.icons8.com/color/30/000000/css3.png"/>**](https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css)
 
 #### Temas:
 
@@ -46,7 +46,7 @@
 15 - Finalización proyecto final
 ```
 
-->  [**03 - <img src="https://img.icons8.com/color/30/000000/javascript--v1.png"/> JavaScript Basico**](https://github.com/eugenia1984/open_bootcamp/tree/main/03_javascript_basico)
+->  [**03 - JavaScript Basico<img src="https://img.icons8.com/color/30/000000/javascript--v1.png"/>**](https://github.com/eugenia1984/open_bootcamp/tree/main/03_javascript_basico)
 
 #### Temas:
 
