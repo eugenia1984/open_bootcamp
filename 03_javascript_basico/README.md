@@ -10,11 +10,11 @@ Empieza tu formación en JavaScript, uno de los lenguajes más populares y utili
 
 1. [Introduccion a JavaSCript](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/01_introduccion_javascript.md) -> [Primer entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/index.js)
 
-2. [Sintaxis, variables y palabras reservadas de JavaScript](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/02_sintaxis_variables_palabras_reservadas.js) -> [Segunda entrega][Primer entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/segunda_entrega.js)
+2. [Sintaxis, variables y palabras reservadas de JavaScript](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/02_sintaxis_variables_palabras_reservadas.js) -> [Segunda entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/segunda_entrega.js)
 
 3. [Estructuras de control](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/03_estructuras_de_control.js) -> [Entrega factorial for](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/factorial_for.js), [Entrega factorial while](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/factorial_while.js) y [Entrega factorial break](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/factorial_break.js)
 
-4. [Cadenas de texo](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/04_cadenas_de_texto.js)
+4. [Cadenas de texo](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/04_cadenas_de_texto.js) ->  [Cuarta entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/cuarta_entrega.js)
 
 5. Numeros en JavaScript
 
