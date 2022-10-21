@@ -78,7 +78,7 @@ console.log(typeof cadena2); // String
 const b = 4;
 b + 4;
 
-// [] -> listas, arreglos o arrays
+// [] -> listas, arreglos o arrays. En ingles se le dice square brackets
 const ar = [1, 2, 3, 4]
 console.log(ar[2])
 
@@ -87,7 +87,7 @@ function suma(a, b) {
   return a + b;
 }
 
-// {} -> Llaves para objetos, funciones y estructuras de control
+// {} -> Llaves para objetos, funciones y estructuras de control. En ingles le dicen curly brackets.
 const movil = {
   anchura: 5,
   altura: 10
@@ -102,3 +102,68 @@ if (true) {
 }
 
 /****** 2.4 Listas, Objetos y Fechas en JavaScript**********/
+// Lista - Array - Arreglo
+// es un conjunto de variables, guarda de todo los tipos
+const lista = [1, "hola", true, undefined, null, ["a", "e", "i", "o", "u"]];
+// este modo es viejo de crear nuevos arrays, ahora es directamente con []
+const lista2 = new Array(2, "chau")
+const lista3 = new Array(5); // digo que v aa tener 5 items
+
+// Objeto
+// los objetos son representaciones de la vida real, tienen atributos y metodos
+const rectangulo = {
+  base: 5,
+  altura: 2,
+  estaLleno : true,
+  // un metodo
+  calcularPerimetro: function calcularPerimetro(base, altura) {
+    return base * 2 + altura * 2;
+  },
+  // funcion constructora
+  constructor: function rectangulo(base, altura, estaLleno) {
+    this.base = base;
+    this.altura = altura;
+    this.estaLleno = true; // en este caso ya lo inciializo en true
+  }
+}
+// si por alguna necesidad mis key tiene mas de una palabra y las quiero separa con - debo agregar las "", por ejemplo "esta-lleno"
+// si bien movil es constante, si puedo modificar sus atributos
+rectangulo.base = 8; // modifico el valor del atributo
+
+// Fecha
+// MomentJs es una de las librerias que te ayudan a trabajar con fechas
+// declaro una nueva fecha, hay varios constructores
+// en la fecha en que se crea
+const ahora = new Date(); 
+// usando milisegundos
+const fecha_milis = new Date(10); // Thu Jan 01 1970 01:00:00
+// usando un string, debe estar en ingles
+const fecha_cadena = new Date("march 25 2020"); // Wed Mar 24 3030
+// usando valores (año, mes, dia) tener en cuenta que enero es el mes 0
+const fecha_valores = new Date(2022, 0, 15); // Sat Jan 15 2022
+//
+const dia = ahora.getDate(); 
+const mes = ahora.getMonth() + 1;  // porque los meses empiezan en 0
+const anio = ahora.getFullYear();
+
+/****Ejercicio *****/
+/*
+Duración aproximada: 5min
+
+Enunciado del ejercicio:
+Crea un nuevo archivo JS que contenga una lista con los siguientes elementos:
+
+- Tu nombre (string)
+- Tu edad (number)
+- ¿Eres desarrollador? (boolean)
+- Tu fecha de nacimiento (Date)
+- Tu libro favorito (Objeto con propiedades: titulo, autor, fecha, url)
+*/
+const fecha_de_nacimiento = new Date(1984, 8, 11); // Sat Jan 15 2022
+const libroFavorito = {
+  titulo: "El tunel",
+  autor: "Ernesto Sabato",
+  fecha: new Date(2022, 9, 20),
+  url: "https://www.ingenieria.unam.mx/dcsyhfi/material_didactico/Literatura_Hispanoamericana_Contemporanea/Autores_S/SABATO/El.pdf"
+}
+const Eugenia = ["Maria Eugenia", 38, true, fecha_de_nacimiento, libroFavorito];
