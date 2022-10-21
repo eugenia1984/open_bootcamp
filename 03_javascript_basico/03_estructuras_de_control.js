@@ -116,34 +116,32 @@ if (min <= max) {
 /***** 3.3 Bucles for y While *****/
 
 // Bucles FOR
-// i = i + 1
-// i += 1
-// i++
-
-for (let i = 0; i < 10; i++) {
+// i = i + 1  -->  i += 1  -->  i++
+for (let i = 0; i < 10; i++) { // inicializacion - condicion - actualizacion
   console.log(i) // Esto es el bucle
 }
+// 0 1 2 3 4 5 6 7 8 9
 
 let lista = [1, 4, 6, 2, 3, 7, 10, 12, 800];
 for (let i = 0; i < lista.length; i++) {
   console.log(lista[i] * 2)
 }
 
-// Estructura for...of
+// Estructura for...of, es para recorrer arrays
 for (let valor of lista) {
   console.log(valor)
 }
 
-// Estructura forEach
+// Estructura forEach, utilizando un arrow function
 lista.forEach(valor => {
   console.log(valor)
 })
 
 // Estructura for...in
 let persona = {
-  nombre: "Gorka",
-  apellido: "Villar",
-  edad: 34,
+  nombre: "Maria Eugenia",
+  apellido: "Costa",
+  edad: 38,
   isDeveloper: true
 }
 console.log(persona.nombre)
@@ -157,24 +155,25 @@ for (let propiedad in persona) {
 }
 
 // Bucles WHILE
+// la condicion se evalua al pricnipio
 let i = 0;
 let maximum = 10;
 while (i < maximum) {
     console.log(i);
     i++;
 }
-
 i = 15;
 // Do...while
+// siempre se ejecuta, al menos una vez, la condicion se evalua al final
 do {
     console.log("Estoy en el do while")
 } while (i < maximum)
 
 /***** 3.4 Formas de controlar los bucles con continue y break *****/
-// Casos muy específicos - break, continue
-let lista = [1, 2, 3, 4, 5, 6, 7, 8];
+// Casos muy específicos - break, continue , no es buena practica usarlos
+let lista2 = [1, 2, 3, 4, 5, 6, 7, 8];
 
-for (let i = 0; i < lista.length; i++) {
+for (let i = 0; i < lista2.length; i++) {
   if (lista[i] === 3) {
     continue;
   }
@@ -189,8 +188,8 @@ for (let i = 0; i < lista.length; i++) {
   }
 }
 
-
 // Cuál es el ámbito de un bucle
+// el alance de las variables que se declaran dentro del grupo, solo existen dentro de el, si los declaro con LET
 console.log(k);
 console.log(i);
 console.log(j);
@@ -216,3 +215,13 @@ bucleDecenas: while (true) {
 console.log("Ya hemos terminado")
 
 /***** Ejercicio *****/
+
+/*
+Duración aproximada: 5min
+
+Enunciado del ejercicio:
+Crea los siguientes archivos JS:
+- factorial-for.js -> Este archivo debe calcular el factorial de 10 utilizando un solo bucle for
+- factorial-while.js -> Este archivo debe calcular el factorial de 10 utilizando un bucle while
+- factorial-break.js -> Este archivo debe calcular el factorial de 10 utilizando un bucle while, una bifurcación if y una sentencia break
+*/
