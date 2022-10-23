@@ -5,7 +5,7 @@ const fechaActual = new Date();
 console.log(`Hoy es: ${fechaActual}`);
 
 // La fecha de tu nacimiento
-const nacimiento = new Date(1984, 8, 1);
+const nacimiento = new Date(1984, 08, 01);
 console.log(`Mi fecha de nacimiento es: ${nacimiento}`);
 
 // Un variable que indique si hoy es más tarde (>) que la fecha de tu nacimiento

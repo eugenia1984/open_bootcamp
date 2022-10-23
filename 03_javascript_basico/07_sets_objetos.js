@@ -191,3 +191,4 @@ console.log(edad); // puedo acceder al valor introducido, ingrasa como un STRING
 // esta dentro de entregas > septima_entrega > fechas.js
 
 /***** Ejercicio 4 ****/
+// esta dentro de entregas > septima_entrega > ejercicio4.js
