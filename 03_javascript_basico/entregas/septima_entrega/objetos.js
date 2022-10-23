@@ -16,6 +16,25 @@ const edad= yo.edad;
 console.log(`Mi edad es: ${edad}`);
 
 // Una lista que contenga el objeto con tus datos personales y un nuevo objeto con los datos personales de tus dos mejores amig@s
-const amigos = {};
+const amigos = [
+  {
+    ...yo
+  },
+  {
+    nombre: "Pedro",
+    apellido: "Sanches",
+    edad: 30,
+    altura: 1.78,
+    eresDesarrollador: true
+  },
+  {
+    nombre: "Analia",
+    apellido: "Gomez",
+    edad: 20,
+    altura: 1.65,
+    eresDesarrollador: false
+  }
+];
 // Una nueva lista con los objetos de la lista anterior ordenados por edad, de mayor a menor
-// const ordenadosPorEdad = amigos.sort((a, b) => a.edad - b.edad); 
+const ordenadosPorEdad = amigos.sort((a, b) => a.edad - b.edad); 
+console.log(ordenadosPorEdad);
