@@ -6,7 +6,7 @@
 
 ## ¿ Qué hay ?
 
--> [**01 - Curso Introduccion a la programacion**](https://github.com/eugenia1984/open_bootcamp/tree/main/01_curso_introduccion_a_la_programacion)
+-> [**01 - Curso Introduccion a la programacion <img src="https://img.icons8.com/color/40/000000/programming--v1.png"/>**](https://github.com/eugenia1984/open_bootcamp/tree/main/01_curso_introduccion_a_la_programacion)
 
 #### Temas:
 

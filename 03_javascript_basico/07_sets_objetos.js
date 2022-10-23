@@ -175,8 +175,17 @@ console.log(fecha2); // 1987-11-20T04:23:52.192Z
 console.log(fecha2.toLocaleDateString("en-US")); // 11/20/1987
 
 /***** 7.4 Uso de la consola en JavaSript ****/
+// about: blank -> para poder utilizar JS en el navegador
+// F12, inspeccionar, herramientas para desarrolladores > consola
+// para que salga un cartel pidiendo un dato, y lo guardo en la constante edad
+const edad = Number(prompt("Cual es tu edad?"));
+console.log(edad); // puedo acceder al valor introducido, ingrasa como un STRING, por eso lo castee a un Number
 
-/***** Ejercicio 1 ****/
+/******* Ejercicio 1 ******/
+// Crea un archivo llamado conjuntos.js que contenga las siguientes líneas
+// - Un nuevo Set con los nombres de tu familia
+// - Modifica el Set original añadiendo tu nombre (duplicado) (debería darte lo mismo)
+// - Modifica el Set original añadiendo el nombre "Javascript" (ya que empieza a formar parte de tu vida ;)
 
 /***** Ejercicio 2 ****/
 
