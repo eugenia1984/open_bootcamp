@@ -20,7 +20,7 @@ Empieza tu formación en JavaScript, uno de los lenguajes más populares y utili
 
 6. [Trabajando con listas](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/06_arrays.js) ->  [Sexta entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/sexta_entrega.js)
 
-7. [Trabajando con Sets y Objetos](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/07_sets_objetos.js)
+7. [Trabajando con Sets y Objetos](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/07_sets_objetos.js) -> Septima entrega: [ejercicio 1](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/septima_entrega/conjuntos.js)
 
 8. Introduccion a las funciones
 

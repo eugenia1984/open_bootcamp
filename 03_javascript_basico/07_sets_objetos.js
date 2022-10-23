@@ -182,12 +182,10 @@ const edad = Number(prompt("Cual es tu edad?"));
 console.log(edad); // puedo acceder al valor introducido, ingrasa como un STRING, por eso lo castee a un Number
 
 /******* Ejercicio 1 ******/
-// Crea un archivo llamado conjuntos.js que contenga las siguientes líneas
-// - Un nuevo Set con los nombres de tu familia
-// - Modifica el Set original añadiendo tu nombre (duplicado) (debería darte lo mismo)
-// - Modifica el Set original añadiendo el nombre "Javascript" (ya que empieza a formar parte de tu vida ;)
+// esta dentro de entregas > septima_entrega > conjuntos.js
 
 /***** Ejercicio 2 ****/
+// esta dentro de entregas > septima_entrega > objetos.js
 
 /***** Ejercicio 3 ****/
 
