@@ -20,9 +20,9 @@ Empieza tu formación en JavaScript, uno de los lenguajes más populares y utili
 
 6. [Trabajando con listas](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/06_arrays.js) ->  [Sexta entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/sexta_entrega.js)
 
-7. [Trabajando con Sets y Objetos](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/07_sets_objetos.js) -> Septima entrega: [ejercicio 1 - sets](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/septima_entrega/conjuntos.js), [ejercicio 2 - objetos](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/septima_entrega/objetos.js),  [ejercicio 3 - fechas](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/septima_entrega/fechas.js)
+7. [Trabajando con Sets y Objetos](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/07_sets_objetos.js) -> Septima entrega: [ejercicio 1 - sets](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/septima_entrega/conjuntos.js), [ejercicio 2 - objetos](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/septima_entrega/objetos.js),  [ejercicio 3 - fechas](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/septima_entrega/fechas.js) y [ejercicio 4](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/septima_entrega/ejercicio4.js)
 
-8. Introduccion a las funciones
+8. [Introduccion a las funciones](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/08_funciones.js)
 
 9. Gestion de errores
 
