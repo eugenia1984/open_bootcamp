@@ -24,7 +24,7 @@ Empieza tu formación en JavaScript, uno de los lenguajes más populares y utili
 
 8. [Introduccion a las funciones](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/08_funciones.js) ->  [8va entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregasoctava_entrega.js)
 
-9. Gestion de errores
+9. [Gestion de errores](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/09_gestion_errores.js)
 
 10. Modulos en JavaSCript
 
