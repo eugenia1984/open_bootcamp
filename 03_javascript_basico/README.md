@@ -26,7 +26,7 @@ Empieza tu formación en JavaScript, uno de los lenguajes más populares y utili
 
 9. [Gestion de errores](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/09_gestion_errores.js), [sesion-09-gestion-errores con la libreria winston](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/sesion-09-gestion-errores)
 
-10. Modulos en JavaScript
+10. [Modulos en JavaScript](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/10_modulos)
 
 11. POO en JavaSCript
 
