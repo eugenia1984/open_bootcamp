@@ -7,4 +7,4 @@ function factorial(a) {
     return factorial;
 }
 
-console.log(factorial(10))
+console.log(factorial(10));

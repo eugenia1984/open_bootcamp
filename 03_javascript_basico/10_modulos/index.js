@@ -8,7 +8,8 @@
 // const suma = moduloMatematicas.suma;
 // console.log(moduloMatematicas.suma)
 
-const { factorial, suma } = require("./modulos/matematicas.js")
+// aprovecho la desestructuracion
+const { factorial, suma } = require("./modulos/matematicas.js");
 
 const fact = factorial(5)
 console.log(fact)
