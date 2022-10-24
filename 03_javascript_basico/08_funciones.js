@@ -111,11 +111,15 @@ function hola() {
 
 saludar(); // Hola! Soy la función hola()
 
-/// 1. global()
-/// 2. saludar() global()
-/// 3. hola() saludar() global()
-/// 4. saludar() global()
-/// 5. global()
+/// 1. carga la funcion global()
+/// 2. saludar() sobre la funcion global()
+/// 3. hola() saludar() la funcion global()
+/// termina con la funcion hola, y la saca del stack (de la pila)
+/// 4. saludar() la funcion globalglobal()
+/// termina con la funcion saludar y la saca del stack (la pila)
+/// 5. funcion global()
+
+/// Stack overflow -> en las funciones recursivas, que por un error queda en un loop infinito
 
 // function recursivo() {
 //     recursivo()
@@ -126,9 +130,10 @@ saludar(); // Hola! Soy la función hola()
 /********** 8.4 Funciones asincronas y promesas ********/
 function miAsinc() {
   // Hace una llamada a una base de datos externa
-  // Puede darnos algún error
+  // Puede darnos algún error y tardar algo de tiempo
 }
 
+// la PROMISE tiene un CALLBACK que recibe dos parametros RESORLVE y REJECT
 const miPromesa = new Promise((resolve, reject) => {
   const i = Math.floor(Math.random() * 2)
   // Si está todo correcto
@@ -139,27 +144,28 @@ const miPromesa = new Promise((resolve, reject) => {
   }
 })
 
+// consumo la promesa, la ejecuto con .THEN(), si no se ejecuta de forma correcta tengo le REJECT que lo manejo (gestiono el error) con .CATCH() 
 miPromesa
   .then(() => console.log("Se ha ejecutado de forma correcta"))
   .catch(() => console.log("ERROR"))
-  .finally(() => console.log("Yo me ejecuto siempre"))
+  .finally(() => console.log("Yo me ejecuto siempre")) // se ejecuta siempre, ya sea que tuve un resolve o un reject
 
-// async await
+// async await es otro modo de manejar las promesas
 
 /***** 8.5 Funciones generadoras ********/
 function* generaId() {
   let id = 0;
   while(true) {
-      id++
-      if (id === 10) {
-          return id
-      }
-      yield id // Esperando hasta que se vuelva a llamar
+    id++
+    if (id === 10) {
+        return id
+    }
+    yield id // Esperando hasta que se vuelva a llamar
   }
 }
 
 const gen = generaId();
-
+// gen es un object GENERATOR por lo cual tengo le metodo .next(), nos devuelve un objeto y con .VALUE() accedemos a su valor
 console.log(gen.next().value)
 console.log(gen.next().value)
 console.log(gen.next().value)
