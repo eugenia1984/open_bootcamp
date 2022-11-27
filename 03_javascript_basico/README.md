@@ -36,11 +36,11 @@ Empieza tu formación en JavaScript, uno de los lenguajes más populares y utili
 
 14. Gestion de eventos: [14.1 - Introducción a HTML con JS](https://github.com/eugenia1984/open_bootcamp/tree/main/03_javascript_basico/14-eventos) , [14.2 - Utilización de librerías de terceros: TypeIt.js](https://github.com/eugenia1984/open_bootcamp/tree/main/03_javascript_basico/14-eventos/animation), [14.3 - Manejo de eventos en JavaScript](https://github.com/eugenia1984/open_bootcamp/tree/main/03_javascript_basico/14-eventos), [14.4 - Eventos personalizados](https://github.com/eugenia1984/open_bootcamp/tree/main/03_javascript_basico/14-eventos/event), [14.5 - JQuery](https://github.com/eugenia1984/open_bootcamp/tree/main/03_javascript_basico/14-eventos/jquery), [14.6 - Alertas y Dialogos en pantalla](https://github.com/eugenia1984/open_bootcamp/tree/main/03_javascript_basico/14-eventos/dialog)  -> [14ta entrega](https://github.com/eugenia1984/open_bootcamp/tree/main/03_javascript_basico/entregas/14-entrega)
 
-15. Persistencia de datos en navegador
+15. Persistencia de datos en navegador: 15.1 - Persistencia de datos en navegador
 
-16. Aplicando drag and drop
+16. Aplicando drag and drop: 16.1 - Drag and Drop con JavaScript
 
-17. Usando geolocalizacion
+17. Usando geolocalizacion: 17.1 - Inicializacion de Mapas en HTML, 17.2 - Geolocalizacion
 
 ---
 
