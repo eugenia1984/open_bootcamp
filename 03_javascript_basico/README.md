@@ -20,15 +20,15 @@ Empieza tu formación en JavaScript, uno de los lenguajes más populares y utili
 
 6. [Trabajando con listas](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/06_arrays.js) ->  [Sexta entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/sexta_entrega.js)
 
-7. [Trabajando con Sets y Objetos](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/07_sets_objetos.js) -> Septima entrega: [ejercicio 1 - sets](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/septima_entrega/conjuntos.js), [ejercicio 2 - objetos](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/septima_entrega/objetos.js),  [ejercicio 3 - fechas](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/septima_entrega/fechas.js) y [ejercicio 4](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/septima_entrega/ejercicio4.js)
+7. [Trabajando con Sets y Objetos](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/07_sets_objetos.js) -> Septima entrega: [ejercicio 1 - sets](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/septima_entrega/conjuntos.js), [ejercicio 2 - objetos](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/septima_entrega/objetos.js),  [ejercicio 3 - fechas](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/septima_entrega/fechas.js) y [ejercicio 4](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/septima_entrega/ejercicio4.js) ->  [7ma entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/septima_entrega)
 
-8. [Introduccion a las funciones](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/08_funciones.js) ->  [8va entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregasoctava_entrega.js)
+8. [Introduccion a las funciones](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/08_funciones.js) ->  [8va entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/octava_entrega.js)
 
-9. [Gestion de errores](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/09_gestion_errores.js), [sesion-09-gestion-errores con la libreria winston](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/sesion-09-gestion-errores)
+9. [Gestion de errores](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/09_gestion_errores.js), [Gestion de errores con la libreria winston](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/09-gestion-errores)
 
-10. [Modulos en JavaScript](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/10_modulos), Librerías en Node y NPM y su utilización: [docu](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/10_modulos/README.md) y [ejemplo practico](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/10_modulos/modulos-es6)
+10. [Modulos en JavaScript](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/10_modulos), Librerías en Node y NPM y su utilización: [docu](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/10_modulos/README.md) y [ejemplo practico](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/10_modulos/modulos-es6) ->  [10ma entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/decima_entrega.js)
 
-11. POO en JavaSCript
+11. [POO en JavaSCript](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/11_poo). [Introducción a la Programación Orientada a Objetos](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/11_poo/index.js), [Creación y uso de clases en JavaScript]()
 
 12. Depuracion de codigo
 
