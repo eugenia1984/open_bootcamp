@@ -12,6 +12,7 @@ class Persona {
   }
 }
 
+// La clase Desarrollador es hija (hereda / extiende) de la clase Persona
 class Desarrollador extends Persona {
   constructor(nombre, edad, lenguaje) {
       super(nombre, edad)

@@ -46,7 +46,7 @@
 15 - Finalización proyecto final
 ```
 
-->  [**03 - JavaScript Basico<img src="https://img.icons8.com/color/30/000000/javascript--v1.png"/>**](https://github.com/eugenia1984/open_bootcamp/tree/main/03_javascript_basico)
+->  [**03 - JavaScript Basico  <img src="https://img.icons8.com/color/30/000000/javascript--v1.png"/>**](https://github.com/eugenia1984/open_bootcamp/tree/main/03_javascript_basico)
 
 #### Temas:
 
