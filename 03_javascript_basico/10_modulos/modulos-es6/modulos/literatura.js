@@ -4,4 +4,4 @@ const getAutor = () => {
 
 export const libro = "Don Quijote de la Mancha"
 
-export default getAutor
+export default getAutor;
