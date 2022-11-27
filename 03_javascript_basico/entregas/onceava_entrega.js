@@ -9,7 +9,7 @@ Crea un nuevo fichero JS que contenga las siguientes líneas
 - Haz la llamada al método obtenDatos
 *****/
 class Estudiante {
-  nombre = "GMaria Eugenia Costa"
+  nombre = "Maria Eugenia Costa"
   asignaturas = ["Javascript", "HTML", "CSS"]
 
   obtenDatos() {
