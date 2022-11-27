@@ -22,3 +22,30 @@ const nombre2 = "Maria"
 // se pueden usar unas guias de estilos populares, como la de airbnb, o sino armamos la nuestra
 // si hacemos la nuestra: JSON / comillas / puntos y comas, etc.
 // se me crea el .eslintc.json
+
+/*********** Reglas temporales y scrips para ejecución de ESLint en nuestro código ********/
+// Este es el archivo que vamos a utilizar
+
+const nombre = "Gorka"
+
+// Para eliminar ESLint del todo
+/* eslint-disable */
+const persona2 = 'Maria';
+
+// para volver a tener EsLint
+/* eslint-enable */
+
+// En esta línea quiero tener comillas simples (quiero que me desactives la regla de las comillas dobles)
+const nuevoString = 'Esto es un nuevo string'; // eslint-disable-line
+
+/* eslint-disable-next-line indent */
+  const string2 = "Más strings"
+
+console.log("Hola")
+
+const persona3 = "Maria"
+
+
+const nombre3 = "Julián"
+
+console.log(4)
