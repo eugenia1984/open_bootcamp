@@ -115,4 +115,6 @@ axios.get('https://pokeapi.co/api/v2/pokemon/ditto')
 
 - Modifica el último console.log del entrypoint index.js para devolver el resultado en color verde
 
--> HEcho en **entregas** > **decima_entrega**
+-> Hecho en **entregas** > **decima_entrega**
+
+-> [https://www.npmjs.com/package/chalk](https://www.npmjs.com/package/chalk)
