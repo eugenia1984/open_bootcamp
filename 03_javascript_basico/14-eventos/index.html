@@ -5,18 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera web con Javascript</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <section class="container">
       <h1>Eventos con JavaSript</h1>
       <p id="parrafo">Esto es un párrafo</p>
-      <span id="myElement"></span>
-      <h2 id="h-texto">Hola</h2>
+      <hr>
+      <section class="type-it">
+        <span id="myElement"></span>
+      </section>
+      <hr>
+      <h2 id="h-texto">Evento personalizado</h2>
+      <hr>
+      <h2>Formulario</h2>
+      <form action="/" method="post" id="formulario">
+        <input type="text" name="Nombre" placeholder="Cuál es tu nombre"></input>
+        <input type="submit" value="Enviar"></input>
+      </form>
+      <hr>
+      <section class="dialogos">
+        <h2>Diálogos por pantalla</h2>
+        <button id="btn">Botón</button>
+        <button id="info">Más información</button>
+      </section>
+      <hr>
+      <section class="jquery">
+        <h3>Trabajando con JQuery</h3>
+        <ul>
+            <li id="el-1">Elemento 1</li>
+            <li id="el-2">Elemento 2</li>
+            <li id="el-3">Elemento 3</li>
+        </ul>
+        <button class="hide-btn">Hide</button>
+        <button class="show-btn">Show</button>
+        <br />
+        <button class="new-element">Add Element</button>
+      </section>
+      <hr>
     </section>  
     <script src="index.js"></script>
+    <script src="./form/form.js"></script>
+    <script src="./event/event.js"></script>
+    <script src="./dialog/dialog.js"></script>
+    <script src="./jquery/jquery.js"></script>
     <!-- Script de terceros -->
     <script src="https://unpkg.com/typeit@8.2.0/dist/index.umd.js"></script>
-    <script src="animacion.js"></script>
+    <script src="./animation/animacion.js"></script>
 </body>
 </html>
