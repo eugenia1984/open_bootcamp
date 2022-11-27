@@ -8,7 +8,7 @@ Empieza tu formación en JavaScript, uno de los lenguajes más populares y utili
 
 ## Unidades:
 
-1. [Introduccion a JavaSCript](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/01_introduccion_javascript.md) -> [Primer entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/index.js)
+1. [Introduccion a JavaScript](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/01_introduccion_javascript.md) -> [Primer entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/index.js)
 
 2. [Sintaxis, variables y palabras reservadas de JavaScript](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/02_sintaxis_variables_palabras_reservadas.js) -> [Segunda entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/segunda_entrega.js)
 
@@ -26,9 +26,9 @@ Empieza tu formación en JavaScript, uno de los lenguajes más populares y utili
 
 9. [Gestion de errores](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/09_gestion_errores.js), [Gestion de errores con la libreria winston](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/09-gestion-errores)
 
-10. [Modulos en JavaScript](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/10_modulos), Librerías en Node y NPM y su utilización: [docu](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/10_modulos/README.md) y [ejemplo practico](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/10_modulos/modulos-es6) ->  [10ma entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/decima_entrega.js)
+10. [Modulos en JavaScript](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/10_modulos), Librerías en Node y NPM y su utilización: [docu](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/10_modulos/README.md) y [ejemplo practico](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/10_modulos/modulos-es6) ->  [10ma entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/decima_entrega)
 
-11. POO en JavaScript: [Introducción a la Programación Orientada a Objetos](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/11_poo/index.js), [Creación y uso de clases en JavaScript](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/11_poo/instanciacion-clase.js), [Ámbito de las clases, métodos y atributos públicos, privados y protegidos. Getters y Setters en objetos](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/11_poo/atributos-metodos.js) y [Herencia](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/11_poo/herencia.js)
+11. POO en JavaScript: [Introducción a la Programación Orientada a Objetos](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/11_poo/index.js), [Creación y uso de clases en JavaScript](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/11_poo/instanciacion-clase.js), [Ámbito de las clases, métodos y atributos públicos, privados y protegidos. Getters y Setters en objetos](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/11_poo/atributos-metodos.js) y [Herencia](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/11_poo/herencia.js). Las interfaces se manejan en TS no en JS -> [11va entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/onceava_entrega.js)
 
 12. Depuracion de codigo
 
