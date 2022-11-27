@@ -1,0 +1,12 @@
+{
+  "name": "14-eventos",
+  "version": "1.0.0",
+  "description": "Practica de eventos en JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ."
+  },
+  "keywords": [],
+  "author": "Maria Eugenia Costa",
+  "license": "ISC"
+}
