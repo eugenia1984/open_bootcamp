@@ -32,7 +32,7 @@ Empieza tu formación en JavaScript, uno de los lenguajes más populares y utili
 
 12. Depuracion de codigo: [12.1 - Introducción a la Depuración en VSCode](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/12_deputacion.js) -> [12da entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/12-entrega-depuracion.js)
 
-13. Configuracion y uso de ESLint: [13.1 - Qué es el linting y ESLint](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/13-eslint.js) y [13.2 - Fichero de configuración ESLint](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/.eslint.json), [13.3 - Instalación y creación de ficheros de configuración personalizados]((https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/13-eslint.js))
+13. Configuracion y uso de ESLint: [13.1 - Qué es el linting y ESLint](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/13-eslint.js) y [13.2 - Fichero de configuración ESLint](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/.eslint.json), [13.3 - Instalación y creación de ficheros de configuración personalizados](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/13-eslint.js)
 
 14. Gestion de eventos
 
