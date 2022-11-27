@@ -8,3 +8,18 @@ Crea un nuevo fichero JS que contenga las siguientes líneas
 - Crea una nueva instancia de "Estudiante"
 - Haz la llamada al método obtenDatos
 *****/
+class Estudiante {
+  nombre = "GMaria Eugenia Costa"
+  asignaturas = ["Javascript", "HTML", "CSS"]
+
+  obtenDatos() {
+      return {
+          nombre: this.nombre,
+          asignaturas: this.asignaturas
+      }
+  }
+}
+
+const estudiante = new Estudiante()
+
+console.log(estudiante.obtenDatos())
