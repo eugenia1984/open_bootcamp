@@ -30,7 +30,7 @@ Empieza tu formación en JavaScript, uno de los lenguajes más populares y utili
 
 11. POO en JavaScript: [Introducción a la Programación Orientada a Objetos](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/11_poo/index.js), [Creación y uso de clases en JavaScript](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/11_poo/instanciacion-clase.js), [Ámbito de las clases, métodos y atributos públicos, privados y protegidos. Getters y Setters en objetos](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/11_poo/atributos-metodos.js) y [Herencia](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/11_poo/herencia.js). Las interfaces se manejan en TS no en JS -> [11va entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/onceava_entrega.js)
 
-12. Depuracion de codigo: [Introducción a la Depuración en VSCode](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/12_deputacion.js)
+12. Depuracion de codigo: [Introducción a la Depuración en VSCode](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/12_deputacion.js) -> [12da entrega](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/entregas/12-entrega-depuracion.js)
 
 13. Configuracion y uso de ESLint
 
