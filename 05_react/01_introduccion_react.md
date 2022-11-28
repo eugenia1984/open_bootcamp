@@ -165,4 +165,4 @@ README.md
 
 ## :star: 10 - Componente principal
 
-*+App.js** renderiza un componente React en **strict mode**, dentro del **div** que tenga como **id** a **root**.
+**App.js** renderiza un componente React en **strict mode**, dentro del **div** que tenga como **id** a **root**.
