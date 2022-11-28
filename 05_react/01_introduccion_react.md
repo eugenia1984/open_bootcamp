@@ -96,9 +96,17 @@ Esto hace que solucione problemas y mejore el **posicionamiento**.
 
 ## :star:  4 - Principales ventajas de React
 
+El más complicado es Angular, su curva de aprendizaje es la más empinada. React y Vuejs son librerías mucho más ligeras.
+
+Angular es un framework muy grande y crea soluciones enormes, a veces difíciles de mantener. Reactjs y Vuejs ofrecen componentes.
+
 ---
 
 ## :star: 5 - Instalación
+
+Como en la mayoría de aplicaciones con JavaSCript, para trabajar con React haremos uso de [**Nodejs**](https://nodejs.org/en/) y su [**npm**](https://www.npmjs.com/) (Node Package Managment, el entorno de ejecución más conocido de JavaScript.
+
+Está basado en el uso de **eventos asíncronos** y en el destaca el uso de **HTTP**, lo que lo hace perfecto para trabajar con librerías oo frameworks web.
 
 ---
 
