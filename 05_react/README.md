@@ -6,7 +6,7 @@
 #### Temas:
 
 
-- 1 - Introducción a React JS
+- 1 - Introducción a React JS: [teoria](https://github.com/eugenia1984/open_bootcamp/tree/main/05_react/01_introduccion_react.md)
 
 - 2 - Componentes y jerarquías
 
