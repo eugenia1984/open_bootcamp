@@ -1,0 +1,11 @@
+{
+  "name": "15-entrega",
+  "version": "1.0.0",
+  "description": "Entrega de almacenamiento en navegador del curso JavaScript basico de Open Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maria Eugenia Costa",
+  "license": "ISC"
+}
