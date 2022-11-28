@@ -41,7 +41,7 @@ Esta librería, **que no es framework** fue creada por Facebook en 2013 y sigue 
 
 Pero no solo es una libraría de Facebook: una de sus características más interesantes es que es de **código abierto**, lo que implica que existen numerosas comunidades por toda la red que aportan información y ayuda día a día, tanto para los usuarios como lara mejorar React.
 
-### Característias:
+### Características:
 
 - **velocidad**: un motor de renderizado rápido, tenemos una estructura de vista y controlador juntos en JSX, se puede reutilizar el contenido. 
 
@@ -112,7 +112,7 @@ Está basado en el uso de **eventos asíncronos** y en el destaca el uso de **HT
 
 ## :star: 6 - Creación de proyecto
 
-Vamos a utilizar [**create-react-app)(https://www.npmjs.com/package/create-react-app).
+Vamos a utilizar [**create-react-app**](https://www.npmjs.com/package/create-react-app).
 
 Para instalarlo: ```npm i -g create-react-app``` ó ```npm install -g create-react-app```, ```-g``` para instalarlo de manera global, para Linux y Mac utilizar ```sudo npm install -g create-react-app```.
 
@@ -123,21 +123,46 @@ Como ya lo instalamos, podemos usarlo para crear el proyecto:
 
 2. Ya dentro de la carpeta creada: ```npm create-react-app my-app```, donde ```my-app``` es el nombre que yo desee ponerle a la aplicación (siempre en minuscula, sin espacios, puedo usar - para separar palabras). En el caso de que no queremos instalarla localmentte en vez de usar ```npm``` utilizamos ```npx create-react-app my-app```.
 
+3. Dentro de mi proyecto con ```npm start``` inicializo el proyecto en un servidor local.
+
 ---
 
 ## :star: 7 -  Instalación de chrome react devtools
 
+Vamos a las extensiones de Chrome y nos instalamos las **React devtools**
 
 ---
 
 ## :star: 8 - Archivos .jsx
 
+Es una combinación de etiquetas similares a **HTML** con **javaScript**. hay particularidades, por ejemploclass ahora se nombra como **className**
 
 ---
 
 ## :star: 9 - Estructura del proyecto app
 
+Con create-react-app se nos crea una estructura:
+
+```
+> node_modules
+> public
+> src
+.gitignore
+package-lock.json
+package.json
+README.md
+```
+
+- **mode_modules** donde se guardan las librerías de terceros que voy a ir instalando por terminal.
+
+- **public**: el favicon, index.html (el archivo principal de la SPA, donde tengo el div con **id="root"** en donde renderizamos App.js), logo en dos tañamos para que sea SPA, el anifest (para ser SPA) y el robot (por los motores de busqueda)
+
+- **src**: App.css, App.js, index.css, index.js, logo.svg, reportWbVitals.js, setupTest.js
+
+- **package.json**: nombre dle proyecto, version de proyecto, las dependencias, los scripts
 
 ---
 
 ## :star: 10 - Componente principal
+
+*+App.js** renderiza un componente React en **strict mode**, dentro del **div** que tenga como **id** a **root**.
