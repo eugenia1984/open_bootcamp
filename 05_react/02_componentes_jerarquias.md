@@ -28,6 +28,8 @@ En nuestra carpeta **src** vamos a crear la carpeta **components**.
 
 Un componente de React es puro si genera la misma salida para el mismo estado y accesorios. Para los componentes de clase pura de React, React proporciona la clase base PureComponent. Los componentes de clase que amplían las clases React.
 
+Los componentes puros no tienen estado.
+
 ---
 
 ## :star:  3 - Extensiones para trabajar con React en Visual studio Code
@@ -133,6 +135,41 @@ O sea, **ceamos una nueva instancia de la clase Greeting**.
 
 3. Para poder utilizarlo debo **importarlo**:  ```import Greeting from "./components/pure/Greeting"; ``` 
 
+
+- Al ser un **componente de clase** puede tener su **método constructor** el cual puede recibir por parámetro las **props** (los atributos de la clase):
+
+```JSX
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+
+class Greeting extends Component {
+
+  constructor(props) {
+    super(props) // para poder usar las props del componente padre
+    this.state = { // informacion privada del componente 
+      age: 29
+    }
+  }
+
+  render() {
+    return (
+      <div>
+        <h1>Hola {this.props.name}!</h1>
+        <h2>Tu edad es de: {this.state.age}</h2>
+      </div>
+    )
+  }
+}
+
+Greeting.propTypes = {
+};
+
+export dafault Greeting;
+```
+
+-> La **age** es un estado, interno, por eso si lo puedo ver.
+
+-> La prop de **name** debe recibirla, debe ser pasada por el componente padre. Volvemos a App.js: ```<Greeting name="Eugenia" />``` y ahora si se va a ver el nombre.
 
 ---
 
