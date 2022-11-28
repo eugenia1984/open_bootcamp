@@ -14,7 +14,23 @@
 
 ---
 
-### Extensiones de VSC
+## :star: 1 - Entendiendo los Componentes
+
+Los **componentes** son**elementos reutilizables**, pueden ser **totalmente estáticos** (no tiene variable) o **componentes reactivos** (ser dinamicos, con renderizados condicionales, etc).
+
+Son **autocontenidos** y pueden tener relaciones con otros componentes.
+
+En nuestra carpeta **src** vamos a crear la carpeta **components**. 
+
+---
+
+## :star:  2 - Componentes puros
+
+Un componente de React es puro si genera la misma salida para el mismo estado y accesorios. Para los componentes de clase pura de React, React proporciona la clase base PureComponent. Los componentes de clase que amplían las clases React.
+
+---
+
+## :star:  3 - Extensiones para trabajar con React en Visual studio Code
 
 - Debugger for Chrome / Debugger for Firefox
 
@@ -58,16 +74,7 @@
 
 ---
 
-## :star: 1 - Entendiendo los Componentes
-
-Los **componentes** son**elementos reutilizables**, pueden ser **totalmente estáticos** (no tiene variable) o **componentes reactivos** (ser dinamicos, con renderizados condicionales, etc).
-
-Son **autocontenidos** y pueden tener relaciones con otros componentes.
-
-En nuestra carpeta **src** vamos a crear la carpeta **components**. 
----
-
-## :star:  2 - Componentes puros
+## :star:  4 - Crear nuestro primer componente de tipo clase
 
 - Dentro de **src** > **componentes** creamos **pure** para crear los componentes puros: nuestro primer componente **Geeting.jsx**
 
@@ -95,6 +102,7 @@ class Greeting extends Component {
   render() {
     return (
       <div>
+        <h1>Hola</h1>
       </div>
     )
   }
@@ -111,14 +119,20 @@ export dafault Greeting;
 
 -> **Component** es una clase que tiene el mçetodo **render** el cual debe tener un **return** con el HTML que se renderizará. Recordar que se puede devolver solo un elemento, no puedo tener elementos hermanos, si es asi debo envolver todo en un div o un **fragment**.
 
--> **propTypes** es el contenido que le puedo pasar a un componente desde un componente de orden superior.
----
+-> **propTypes** es el contenido que le puedo pasar a un componente desde un componente de orden superior
 
-## :star:  3 - Extensiones para trabajar con React en Visual studio Code
+- Ahora vamos a renderizar nuestro componente:
 
----
+1. Volvemos a **App.js**
 
-## :star:  4 - Crear nuestro primer componente de tipo clase
+2. Dentro del return agrego mi **componente**: ```<Greeting />```. Si necesito hacer un comentario, en JSX es asi: 
+```JSX 
+{/*  Aca va el comentario */} 
+```
+O sea, **ceamos una nueva instancia de la clase Greeting**.
+
+3. Para poder utilizarlo debo **importarlo**:  ```import Greeting from "./components/pure/Greeting"; ``` 
+
 
 ---
 
