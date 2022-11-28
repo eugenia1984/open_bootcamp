@@ -117,7 +117,7 @@ export dafault Greeting;
 
 -> Desde la version 17 en adelante noo es necesario importar **React**
 
--> **Component** es una clase que tiene el mçetodo **render** el cual debe tener un **return** con el HTML que se renderizará. Recordar que se puede devolver solo un elemento, no puedo tener elementos hermanos, si es asi debo envolver todo en un div o un **fragment**.
+-> **Component** es una clase que tiene el método **render** el cual debe tener un **return** con el HTML que se renderizará. Recordar que se puede devolver solo un elemento, no puedo tener elementos hermanos, si es asi debo envolver todo en un div o un **fragment**.
 
 -> **propTypes** es el contenido que le puedo pasar a un componente desde un componente de orden superior
 
