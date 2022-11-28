@@ -38,7 +38,7 @@ Empieza tu formación en JavaScript, uno de los lenguajes más populares y utili
 
 15. Persistencia de datos en navegador: [15.1 - Persistencia de datos en navegador](https://github.com/eugenia1984/open_bootcamp/tree/main/03_javascript_basico/15-persistencia), [teoria de persistencia](https://github.com/eugenia1984/open_bootcamp/blob/main/03_javascript_basico/15-persistencia/teoria.md) -> [15ta entrega](https://github.com/eugenia1984/open_bootcamp/tree/main/03_javascript_basico/entregas/15-entrega)
 
-16. Aplicando drag and drop: [16.1 - Drag and Drop con JavaScript](https://github.com/eugenia1984/open_bootcamp/tree/main/03_javascript_basico/16-drag-drop)
+16. Aplicando drag and drop: [16.1 - Drag and Drop con JavaScript](https://github.com/eugenia1984/open_bootcamp/tree/main/03_javascript_basico/16-drag-drop) ->  [16ta entrega](https://github.com/eugenia1984/open_bootcamp/tree/main/03_javascript_basico/entregas/16-entrega)
 
 17. Usando geolocalizacion: [17.1 - Inicializacion de Mapas en HTML, 17.2 - Geolocalizacion](https://github.com/eugenia1984/open_bootcamp/tree/main/03_javascript_basico/17-maps)
 
