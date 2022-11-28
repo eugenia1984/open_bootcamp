@@ -61,9 +61,11 @@ Para bajar un codigo fuente:
 ``` svn checkout <la ruta del servidor> <la rama> ```  ó ``` svn co <la ruta del servidor> <la rama> ```
 
 Ahora la ruta ya puede ser **http** o sea puede ser montado el servidor con **Apache**.
-```
+
 
 Al ser centralizado, ya se envía a un servidor, se puede trabajar en equipo.
+
+El único problema que tiene es que si el servidor central está caido o no está accesible, entonces no puedo enviar los cambios.
 
 ### Control de versiones distribuido
 
