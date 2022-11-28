@@ -112,6 +112,17 @@ Está basado en el uso de **eventos asíncronos** y en el destaca el uso de **HT
 
 ## :star: 6 - Creación de proyecto
 
+Vamos a utilizar [**create-react-app)(https://www.npmjs.com/package/create-react-app).
+
+Para instalarlo: ```npm i -g create-react-app``` ó ```npm install -g create-react-app```, ```-g``` para instalarlo de manera global, para Linux y Mac utilizar ```sudo npm install -g create-react-app```.
+
+
+Como ya lo instalamos, podemos usarlo para crear el proyecto:
+
+1. crear una carpeta donde tendre mi proyecto de react
+
+2. Ya dentro de la carpeta creada: ```npm create-react-app my-app```, donde ```my-app``` es el nombre que yo desee ponerle a la aplicación (siempre en minuscula, sin espacios, puedo usar - para separar palabras). En el caso de que no queremos instalarla localmentte en vez de usar ```npm``` utilizamos ```npx create-react-app my-app```.
+
 ---
 
 ## :star: 7 -  Instalación de chrome react devtools
