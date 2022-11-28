@@ -67,7 +67,19 @@ Al ser centralizado, ya se envía a un servidor, se puede trabajar en equipo.
 
 El único problema que tiene es que si el servidor central está caido o no está accesible, entonces no puedo enviar los cambios.
 
+Solo tengo mi copia del ultimo cambio.
+
+
 ### Control de versiones distribuido
+
+Git es uno de ellos, antes estaba Mercurial y Bazar. Los distribuidos trbajan en **local** y con un **Servidor**, en mi propia computadora tengo mi copia de codigo y por medio del servidor lo puedo compartir con el grupo.
+
+Crea referencias o ficheros, por lo que puedo volver hacia atras, para ver los cambios que se realizaron, lo hago a traves de los commits.
+
+```git log``` -> para ver el historial de los commits (de mis confirmaciones)
+
+En la computadora hay una carpeta ```.git```, en Linux y Mac hay que ver porque al ser . esta oculto. En los **objects** esta el codigo fuente.
+
 
 ### Compartir versión
 
