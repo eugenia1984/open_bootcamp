@@ -95,7 +95,7 @@
 15 - Estados globales asíncronos
 16 - Gestionando el estado con Hooks
 17 - Introducción a webpack y configuración
-18 - Build dle proyecto
+18 - Build del proyecto
 19 - Despliegue del proyecto
 ```
 
