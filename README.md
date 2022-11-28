@@ -73,6 +73,21 @@
 -> [**04 - Git <img src="https://img.icons8.com/color/30/null/git.png"/>**](https://github.com/eugenia1984/open_bootcamp/tree/main/04_git)
 
 
+#### Temas:
+
+```
+1 - Introducción al control de versiones
+2 - Instalación
+3 - Repositorio local
+4 - Repositorio remoto
+5 - Conflictos
+6 - Gitflow
+7 - Introducción a CI/CD
+8 - GitHub actions
+9 - Gitlab CI
+10 - Bitbucket Pipelines
+```
+
 -> [**05 - React <img src="https://img.icons8.com/office/30/null/react.png"/>**](https://github.com/eugenia1984/open_bootcamp/tree/main/05_react)
 
 #### Temas:
