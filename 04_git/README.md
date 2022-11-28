@@ -41,7 +41,29 @@ Luego se creo un sistema de control de versiones local, el primero que se creo f
 
 ### Control de versiones centralizado: CVS
 
-### Control de versiones centralizado: SVN
+Ya quedo viejo, fue sustituido por **SVN**. 
+
+Al ser centralizado, ya se envía a un servidor, se puede trabajar en equipo.
+
+Para bajar un codigo fuente: ``` cvs -d <usuario /la ruta> checkout -P src``` obten el codigo del servidor, con ``` -P```  me indica que rama.
+
+Se utilizaba en la plataforma Source Forge.
+
+Tenia la contra de no ser facil de gestiionar.
+
+### Control de versiones centralizado: SVN ( subversion)
+
+Este luego fue reemplazado por **GIT**.
+
+Trabaja con el modelo **cliente-servidor**. Es más amigable, utiliza las **branches** y las **tags**.
+
+Para bajar un codigo fuente: 
+``` svn checkout <la ruta del servidor> <la rama> ```  ó ``` svn co <la ruta del servidor> <la rama> ```
+
+Ahora la ruta ya puede ser **http** o sea puede ser montado el servidor con **Apache**.
+```
+
+Al ser centralizado, ya se envía a un servidor, se puede trabajar en equipo.
 
 ### Control de versiones distribuido
 
