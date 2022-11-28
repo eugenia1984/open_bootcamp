@@ -106,7 +106,7 @@ Angular es un framework muy grande y crea soluciones enormes, a veces difíciles
 
 Como en la mayoría de aplicaciones con JavaSCript, para trabajar con React haremos uso de [**Nodejs**](https://nodejs.org/en/) y su [**npm**](https://www.npmjs.com/) (Node Package Managment, el entorno de ejecución más conocido de JavaScript.
 
-Está basado en el uso de **eventos asíncronos** y en el destaca el uso de **HTTP**, lo que lo hace perfecto para trabajar con librerías oo frameworks web.
+Está basado en el uso de **eventos asíncronos** y en el destaca el uso de **HTTP**, lo que lo hace perfecto para trabajar con librerías o frameworks web.
 
 ---
 
