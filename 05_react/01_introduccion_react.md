@@ -16,6 +16,13 @@
 
 - 6 - Creación de proyecto
 
+- 7 -  Instalación de chrome react devtools
+
+- 8 - Archivos .jsx
+
+- 9 - Estructura del proyecto app
+
+- 10 - Componente principal
 ---
 
 ## :star: 1 ¿ Qué es una SPA?
@@ -38,6 +45,29 @@ De esta forma mejoramos los tiempos de respuesta y, por tanto, la experiencia de
 
 ## :star:  4 - Principales ventajas de React
 
-- 5 - Instalación
+---
 
-- 6 - Creación de proyecto
+## :star: 5 - Instalación
+
+---
+
+## :star: 6 - Creación de proyecto
+
+---
+
+## :star: 7 -  Instalación de chrome react devtools
+
+
+---
+
+## :star: 8 - Archivos .jsx
+
+
+---
+
+## :star: 9 - Estructura del proyecto app
+
+
+---
+
+## :star: 10 - Componente principal
