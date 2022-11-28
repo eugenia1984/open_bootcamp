@@ -22,6 +22,44 @@
 
 ## :star: 1 - Introducción al control de versiones
 
+### Introducción, qué es el control de versiones
+
+Guardo los cambios en distintas carpetas, para que si debo volver hacia atras, puedo.
+
+No es un sistema de copia de seguridad.
+
+Hay tres tipos: **locales**, **centralizados** y **distribuidos**. 
+
+
+###  Control de versiones local
+
+Sería como ir guardando en varias carpetas, para tener las diferentes etapas del proyecto.
+
+### Control de versiones RCS
+
+Luego se creo un sistema de control de versiones local, el primero que se creo fue: **RCS**, lo que todavía me falta que me soluciones es la forma de trabaajr en equipo.
+
+### Control de versiones centralizado: CVS
+
+### Control de versiones centralizado: SVN
+
+### Control de versiones distribuido
+
+### Compartir versión
+
+### Opciones de servidores de repositorios
+
+### GitHub
+
+### Git push
+
+### Segundo factor de autenticación
+
+### Privacidad y seguridad
+
+### Repaso
+
+### Ejemplo en GitLab
 
 ---
 
