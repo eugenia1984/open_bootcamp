@@ -51,17 +51,46 @@ esto lo consigue trabajando sobre un **Dom virtual** sobre el que aplica los cam
 
 - **componentes**: seccionamos la aplicación en pequeños bloques reutilizables, pueden ser toda una pagina o algo pequeño como un botón.
 
-- **Desarrollo declarativo**
+Los componentes permiten separar la **interfaz de usuario (UI)** en piezas independientes, reutilizables y pensar en cada pieza de forma aislada.
 
-- **anidación de componentes**: hay un árbol jerárquito tenemos por encima a **App.js** y debajo los componentes hijos, a los cuaes les pasan información
+Al trabajar con componentes estamos forzando a nuestro desarrolo a ser más mantenible.
 
-- **isomorfismo**
+React nos proporciona varios tipos de componentes (puros, de contenedor, de clase, de función, etc) con los que facilitar su reutilización en todos nuestros proyectos, tanto dentro como entre ellos.
+
+Es muy **modularizable**.
+
+Se les puede pasar información por medio de **props**
+
+- **Desarrollo declarativo**: React sigue el **paradigma de desarrollo declarativo*.
+
+Las aplicaciones que creemos estarán formadas por componentes. Tanto la aplicación global como cada componente tine un estado propio, y es por este motivo que React es declarativo.
+
+- **anidación de componentes**: hay un árbol jerárquito tenemos por encima a **App.js** y debajo los componentes hijos, a los cuales les pasan información.
+
+Los componentes pueden ser **anidados** de forma que los componentes de **orden superior** propagan datos a los de **orden inferior**.
+
+La comunicación entre ellos es **unidireccinal** y se usan los **eventos** para que los componentes inferiores sean **reconocidos** por los de orden superior.
+
+-> De arriba hacia abajo se pasa **información** / **datos** a través de **props**
+
+-> De abajo hacia arriba se manejan los **eventos**
+
+- **isomorfismo**: React permite el isomorfismo, tambiçen conocido como JavaScript Universal, capacidad con la que podemos renderizar tanto en **Servidor** como en **cliente**.
+
+Esto hace que solucione problemas y mejore el **posicionamiento**.
 
 - **agilidad de desarrollo**: create-react-app
 
 ---
 
 ## :star:  3 - Comparativa entre Reactjs / Vue / Angular 
+
+
+| Libreria / Framework | Año | Creador/es | Lenguajes |
+| -------------------- | --- | ---------- | --------- |
+| React | 2013 | Facebook | JS y TS |
+| Angular | 2010 | Google | TS |
+| Vue | 2013 | Comunidad | JS y TS |
 
 ---
 
