@@ -4,25 +4,19 @@
 
 ## :book: Temas
 
+```
 - 1 ¿ Qué es una SPA?
+- 2  ¿Qué es ReactJS ?
+- 3  Comparativa entre Reactjs / Vue / Angular 
+- 4  Principales ventajas de React
+- 5  Instalación
+- 6  Creación de proyecto
+- 7   Instalación de chrome react devtools
+- 8  Archivos .jsx
+- 9  Estructura del proyecto app
+- 10  Componente principal
+```
 
-- 2 - ¿Qué es ReactJS ?
-
-- 3 - Comparativa entre Reactjs / Vue / Angular 
-
-- 4 - Principales ventajas de React
-
-- 5 - Instalación
-
-- 6 - Creación de proyecto
-
-- 7 -  Instalación de chrome react devtools
-
-- 8 - Archivos .jsx
-
-- 9 - Estructura del proyecto app
-
-- 10 - Componente principal
 ---
 
 ## :star: 1 ¿ Qué es una SPA?
@@ -37,6 +31,11 @@ De esta forma mejoramos los tiempos de respuesta y, por tanto, la experiencia de
 
 ## :star: 2 ¿Qué es ReactJS ?
 
+**ReactJS** es una **librerçia** de JavaScript para crear interfaces de usuario.
+
+Así es como se define desde su [página oficial: https://reactjs.org/](https://reactjs.org/), a la que probablemente vamos a ir viendo a lo largo del curso.
+
+También está [la version beta: https://beta.reactjs.org/ ](https://beta.reactjs.org/)
 ---
 
 ## :star:  3 - Comparativa entre Reactjs / Vue / Angular 
