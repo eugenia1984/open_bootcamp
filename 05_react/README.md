@@ -8,7 +8,7 @@
 
 - 1 - Introducción a React JS: [teoria](https://github.com/eugenia1984/open_bootcamp/tree/main/05_react/01_introduccion_react.md)
 
-- 2 - Componentes y jerarquías
+- 2 - Componentes y jerarquías: [teoria](https://github.com/eugenia1984/open_bootcamp/blob/main/05_react/02_componentes_jerarquias.md)
 
 - 3 - Los hooks de React
 
