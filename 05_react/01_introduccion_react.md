@@ -6,12 +6,6 @@
 
 - 1 ¿ Qué es una SPA?
 
-Una web SPA (**Single Page Application**) es una forma de desarrollo web en la que la página web está contenida en un único archivo HTML.
-
-Mientras navegamos por la web, se irán solicitando los contenidos al servidor.
-
-De esta forma mejoramos los tiempos de respuesta y, por tanto, la experiencia de usuario.
-
 - 2 - ¿Qué es ReactJS ?
 
 - 3 - Comparativa entre Reactjs / Vue / Angular 
@@ -26,6 +20,11 @@ De esta forma mejoramos los tiempos de respuesta y, por tanto, la experiencia de
 
 ## :star: 1 ¿ Qué es una SPA?
 
+Una web SPA (**Single Page Application**) es una forma de desarrollo web en la que la página web está contenida en un único archivo HTML.
+
+Mientras navegamos por la web, se irán solicitando los contenidos al servidor.
+
+De esta forma mejoramos los tiempos de respuesta y, por tanto, la experiencia de usuario.
 
 ---
 
