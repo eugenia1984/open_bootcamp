@@ -225,3 +225,13 @@ Y voy a tener mi arrow function **birthday** para actualizar la edad.
 -> El componente funcional es mucho mas sencillo, es un callback que se puede llamar en cualquier momento. Además hay varios **hooks** que nos ayudan.
 
 ---
+---
+
+## Comenzamos con el proyecto : TODO TASK
+
+Asi me queda el primer componente de listado de tareas con una solo tarea mockeada:
+
+![image](https://user-images.githubusercontent.com/72580574/204667242-f9d3d5b2-2ab4-47a1-8960-d8f4495d70bc.png)
+
+
+---
