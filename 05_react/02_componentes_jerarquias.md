@@ -204,11 +204,23 @@ birthday = () => {
      <button onClick={this.birthday}>Cumplir años</button>
  </div>
 ```
- 
- ![image](https://user-images.githubusercontent.com/72580574/204650701-c03e2ac1-cdde-4a41-84ed-1fcbc9da3b2b.png)
+ ![image](https://user-images.githubusercontent.com/72580574/204651369-85580cb8-9a5e-4673-b59c-ab0bf5694248.png)
 
 
 
 ---
 
 ## :star:  5 - Crear un componente de tipo función
+
+Ahora creamos el componente funcional, el cual va a tener **hooks** y el desarrollo es mucho más fácil.
+
+Ahora al ser una **función** no vamos a tener al **constructor** por lo cual los **estados** los vamos a manejar con los **hooks**, en esta caso el **useState**, el cual tiene la sigueinte estructura:
+
+``` const [ variable, metodo_para_actualizar ] = useState ( valor_inicial)```
+
+Y voy a tener mi arrow function **birthday** para actualizar la edad.
+
+![image](https://user-images.githubusercontent.com/72580574/204654357-25049f05-9603-4cf2-b165-349d2352bc25.png)
+
+
+---
