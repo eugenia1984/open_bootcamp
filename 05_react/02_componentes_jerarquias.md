@@ -222,5 +222,6 @@ Y voy a tener mi arrow function **birthday** para actualizar la edad.
 
 ![image](https://user-images.githubusercontent.com/72580574/204654357-25049f05-9603-4cf2-b165-349d2352bc25.png)
 
+-> El componente funcional es mucho mas sencillo, es un callback que se puede llamar en cualquier momento. Además hay varios **hooks** que nos ayudan.
 
 ---
