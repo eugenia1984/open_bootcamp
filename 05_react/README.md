@@ -63,7 +63,9 @@
       > pure
          > forms
   > hooks
+  > models
   > pages
+     > 404
      > auth
      > home
   > routes
@@ -76,7 +78,12 @@
 
 - En **hooks** estarán todos los hooks.
 
-- En **pages** las paginas a renderizar: **auth**(paginas de login), **home**
+- En **models** estructuramos los datos con los que trabajamos
+
+- En **pages** las paginas a renderizar: **auth**(paginas de login), **home**, **404** (para setear y personalizar)
 
 - En **routes** va a estar el enrutado.
 
+Va a ser una app con un menú lateral y en la app tendremos un gestor de tareas:
+
+![image](https://user-images.githubusercontent.com/72580574/204662528-734c0e2d-bac5-46ee-817e-0b5f8873f0aa.png)
