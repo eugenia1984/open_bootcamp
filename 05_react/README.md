@@ -3,6 +3,12 @@
 
 ---
 
+### Deploy:
+
+:computer: -> [En este enlace pueden ver el proyecto de practica](https://github.com/eugenia1984/react_basico_open_bootcamp)
+
+---
+
 #### Temas:
 
 
