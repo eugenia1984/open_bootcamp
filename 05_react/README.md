@@ -49,3 +49,34 @@
 - 18 - Build del proyecto
 
 - 19 - Despliegue del proyecto
+
+---
+
+### <img src="https://img.icons8.com/color/48/null/project-management.png"/> Proyecto que haremos durante el curso
+
+### ¿ Cómo estructuramos el proyecto ?
+
+```
+> src
+  > components
+      > container
+      > pure
+         > forms
+  > hooks
+  > pages
+     > auth
+     > home
+  > routes
+
+```
+
+- Los **components** **container** son de orden superior, renderizan a otros componentes de bajo nivel, tienen la logica y los datos.
+
+- Los **components** **pure** y dentro tendremos **forms** para los formularios de login y registro.
+
+- En **hooks** estarán todos los hooks.
+
+- En **pages** las paginas a renderizar: **auth**(paginas de login), **home**
+
+- En **routes** va a estar el enrutado.
+
