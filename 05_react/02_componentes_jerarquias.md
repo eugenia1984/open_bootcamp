@@ -173,7 +173,40 @@ export dafault Greeting;
 
 -> Las **props** son los atributos de las etiquetas HTML, les puedo pasar el src de una imagen, el texto para el alt de una imagen, el texto de un poton, la clase, etc.
 
-![image](https://user-images.githubusercontent.com/72580574/204647166-a50c7124-fa1d-4428-92c3-28901f9fc14a.png)
+![image](https://user-images.githubusercontent.com/72580574/204648563-7b92622a-7c60-42d3-91a2-8a5781426e6c.png)
+
+-> Los **propTypes** deben tener definido el tipo de dato que serán, por eso aclaramos que son **String**, podrian ser: **node**, **object**, **bool**, **func**, **array**, **element**, **Exact**, **oneOf** (lista de elemento), **any**, con esto tipamos la estructura de la prop.
+
+```JSX
+Greeting.propTypes = {
+  name: PropTypes.string,
+};
+```
+
+-> El **estado** de un componente es **privado** e **inmutable**, solo se puede modificar a través del **setState**. Para ver esto nos vamos a crear el cumpleaños para modificar la edad y agregar un año. Usamos las **arrow function** ara tener asociada **this** con la **clase** y no con las props que pasamos; usamos **this.setState()** para modificar el estado, va a recibir por parametro **estado** y **callback** a ejecutar. Como necesitamos sumar un año vamos a recibir el **prevState**, es decir el estado previo.
+
+-> Un **nuevo estado** genera una **renderización del componente**.
+
+```JSX
+birthday = () => {
+    this.setState((prevState) => (
+      {
+        age: prevState.age+1
+      }
+    ))
+  }
+ ```
+ 
+ Ahora para poder hacer ese cambio de estado necesito un **Evento** para loq ue agregamos el boton de *Cumplir años** y la hacer click activamos el evento **onClick**:
+ 
+ ```JSX
+ <div>
+     <button onClick={this.birthday}>Cumplir años</button>
+ </div>
+```
+ 
+ ![image](https://user-images.githubusercontent.com/72580574/204650701-c03e2ac1-cdde-4a41-84ed-1fcbc9da3b2b.png)
+
 
 
 ---
