@@ -169,7 +169,12 @@ export dafault Greeting;
 
 -> La **age** es un estado, interno, por eso si lo puedo ver.
 
--> La prop de **name** debe recibirla, debe ser pasada por el componente padre. Volvemos a App.js: ```<Greeting name="Eugenia" />``` y ahora si se va a ver el nombre.
+-> La prop de **name** debe recibirla, debe ser pasada por el componente padre. Volvemos a App.js: ```<Greeting name={"Eugenia"} />``` y ahora si se va a ver el nombre.
+
+-> Las **props** son los atributos de las etiquetas HTML, les puedo pasar el src de una imagen, el texto para el alt de una imagen, el texto de un poton, la clase, etc.
+
+![image](https://user-images.githubusercontent.com/72580574/204647166-a50c7124-fa1d-4428-92c3-28901f9fc14a.png)
+
 
 ---
 
