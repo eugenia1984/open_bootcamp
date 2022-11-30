@@ -409,6 +409,24 @@ export default Ejemplo4;
 | Necesita de un constructor para inicialziar | No necesita constructor |
 | Uso de THIS bindeado de la clase | No necesita THIS para ser usado |
 
+
+**ciclo de vida** son funciones que se ejecutan de manera automática cuando el componente aparece, tiene un cambio, etc.
+
+- **1er fase: montaje / mounting**
+
+Al hacer una instancia de un componete, se llama al constructor, se inicia el **montaje** del componete, se **inicializa**.
+
+Se actualiza el DOM virtual, con render o el return devuelve los elementos que se pasan a HTML
+
+- **2da face: actualización / updating**
+
+Hay un cambio de estado, o recibe nuevas props. Con **forceUpdate()** (fuerza la actualización) se actualiza la vista. Con el **setState()** tambien cambiamos el estado y el DOM.
+
+- **3er fase: desmontaje / unmounting**
+
+Cuando un componente desaparece, por ejemplo en un renderizado condicional. O en una SPA que va poniendo y sacando los componentes.
+
+
 ---
 
 ## :star:  8 - Componente con métodos de ciclo de vida
