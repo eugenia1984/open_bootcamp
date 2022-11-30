@@ -431,6 +431,16 @@ Cuando un componente desaparece, por ejemplo en un renderizado condicional. O en
 
 ## :star:  8 - Componente con métodos de ciclo de vida
 
+
+Creamos un componente para mostrar todo el ciclo de vida de un componente:
+
+1. El constructor
+
+2. Los componentes con métodos
+
+![image](https://user-images.githubusercontent.com/72580574/204914862-3cde3a58-794f-4709-acb8-a957bd9c59e4.png)
+
+
 ---
 
 ## :star: 9 - Diferencias entre métodos de lifecycle y hooks de lifecycle
