@@ -399,16 +399,6 @@ export default Ejemplo4;
 ![image](https://user-images.githubusercontent.com/72580574/204886515-6adb9dee-b5e7-4230-adab-ad35058c1b5b.png)
 
 
-### Tabla para entender Lyfecycle
-
-|Métodos de Lifecycle|Hooks de LifeCycle|
-| ------------------ | ---------------- |
-| Introducido en versiones iniciales | Introducido en 2018 |
-| Funciona con ES5 | Funciona con >ES6 |
-| Incorporado en componentes de clase | Incorporado para componentes funcionales |
-| Necesita de un constructor para inicialziar | No necesita constructor |
-| Uso de THIS bindeado de la clase | No necesita THIS para ser usado |
-
 
 **ciclo de vida** son funciones que se ejecutan de manera automática cuando el componente aparece, tiene un cambio, etc.
 
@@ -438,30 +428,50 @@ Creamos un componente para mostrar todo el ciclo de vida de un componente:
 
 2. Los componentes con métodos
 
+Creo el **components** > **pure** > **lifeCycleExample.jsx**:
 ![image](https://user-images.githubusercontent.com/72580574/204914862-3cde3a58-794f-4709-acb8-a957bd9c59e4.png)
 
+
+Y dentro de ***hooks** > **lifecycle** con algunos componentes funcionales para ver estos ciclos. 
 
 ---
 
 ## :star: 9 - Diferencias entre métodos de lifecycle y hooks de lifecycle
 
+### Tabla para entender Lyfecycle
+
+|Métodos de Lifecycle|Hooks de LifeCycle|
+| ------------------ | ---------------- |
+| Introducido en versiones iniciales | Introducido en 2018 |
+| Funciona con ES5 | Funciona con >ES6 |
+| Incorporado en componentes de clase | Incorporado para componentes funcionales |
+| Necesita de un constructor para inicialziar | No necesita constructor |
+| Uso de THIS bindeado de la clase | No necesita THIS para ser usado |
+
 ---
 
 ## :star:  10 - Ejemplo de DidMount
+
+![image](https://user-images.githubusercontent.com/72580574/204915726-d012b147-a5b0-48e6-9ac8-9d79cf1fbd10.png)
+
 
 ---
 
 ## :star:  11 - Ejemplo de DidUpdate
 
+![image](https://user-images.githubusercontent.com/72580574/204915886-9ca2387d-18d9-4781-a499-64d1f8fe742e.png)
 
 ---
 
 ## :star:  12 - Ejemplo de WillUnMount
 
+![image](https://user-images.githubusercontent.com/72580574/204916129-a6a04192-d850-46c2-b8d4-51b2167bc121.png)
 
 ---
 
 ## :star:  13 - Ejemplo con todo
+
+![image](https://user-images.githubusercontent.com/72580574/204916193-54229cb7-fec8-41e9-b7b1-14d61a8fcc9b.png)
 
 
 ---
