@@ -81,7 +81,7 @@ Con las **react Dev Tools** puedo ver como se va modificando el estado:
 
 - **useState** para manejar los estados.
 
-- **useEffect** para los cambios en las vistas y el ciclo de vida de un componente.
+- **useEffect** para los cambios en las vistas y el ciclo de vida de un componente. REcibe como params: **callback**, **que va a estar veindo para cambiar** (este si no se pone se ejecuta siemre, si se aclara que estara viendo y se ejecuta solo cuando cambia lo indicado).
 
 -  **useRef** para referenciar elementos dentro de la vista.
  
@@ -89,7 +89,7 @@ Con las **react Dev Tools** puedo ver como se va modificando el estado:
  
  ![image](https://user-images.githubusercontent.com/72580574/204892121-cb127dd8-f331-4dc8-bc43-9fa028a4488e.png)
 
-- Caso 1 : olo cuando hay cambio en el contador1
+- Caso 1 : solo cuando hay cambio en el contador1
 
 ```JSX
 import React, { useState, useRef, useEffect } from 'react';
