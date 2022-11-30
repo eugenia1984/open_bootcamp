@@ -1,4 +1,4 @@
-# :star: Los Hooks de React
+# :star: Los Hooks de React y e ciclo de vida
 
 ---
 
@@ -11,6 +11,15 @@
 - 4 - Ejemplo combinando hooks
 - 5 - Ejemplo useContext()
 - 6 - Ejemplo uso de props.children
+- 7 - Esquema del ciclo de vida de los componentes
+- 8 - Componente con métodos de ciclo de vida
+- 9 - Diferencias entre métodos de lifecycle y hooks de lifecycle
+- 10 - Ejemplo de DidMount
+- 11 - Ejemplo de DidUpdate
+- 12 - Ejemplo de WillUnMount
+- 13 - Ejemplo con todo
+- 14 - Puesta en práctica con los componentes del proyecto
+- 15- Login form
 ```
 
 ---
@@ -382,9 +391,10 @@ export default Ejemplo4;
  
 ![image](https://user-images.githubusercontent.com/72580574/204900896-dfd15f41-9316-419f-b857-75a84bd4dcab.png)
 
+
 ---
 
-### Ciclo de vida
+## :star: 7 - Esquema del ciclo de vida de los componentes
 
 ![image](https://user-images.githubusercontent.com/72580574/204886515-6adb9dee-b5e7-4230-adab-ad35058c1b5b.png)
 
@@ -398,3 +408,39 @@ export default Ejemplo4;
 | Incorporado en componentes de clase | Incorporado para componentes funcionales |
 | Necesita de un constructor para inicialziar | No necesita constructor |
 | Uso de THIS bindeado de la clase | No necesita THIS para ser usado |
+
+---
+
+## :star:  8 - Componente con métodos de ciclo de vida
+
+---
+
+## :star: 9 - Diferencias entre métodos de lifecycle y hooks de lifecycle
+
+---
+
+## :star:  10 - Ejemplo de DidMount
+
+---
+
+## :star:  11 - Ejemplo de DidUpdate
+
+
+---
+
+## :star:  12 - Ejemplo de WillUnMount
+
+
+---
+
+## :star:  13 - Ejemplo con todo
+
+
+---
+
+## :star:  14 - Puesta en práctica con los componentes del proyecto
+
+
+---
+
+## :star:  15- Login form
