@@ -250,16 +250,6 @@ const Ejemplo2 = () => {
 export default Ejemplo2;
 ```
 
-- En vez de paar información a través de **props** lo hacemos a través de un **contexto**. Tenemos la **padre** que es el **Provider**
-
-Empieza asi:
-
-![image](https://user-images.githubusercontent.com/72580574/204899085-d7177ff7-02a5-4fbb-85bd-5c6ba9d6458e.png)
-
-Y al hacer click se actualiza:
-
-![image](https://user-images.githubusercontent.com/72580574/204899166-37b125b5-8ed0-44cd-99ca-b650cf505301.png)
-
 ---
 
 ## :star: 5 - Ejemplo useContext()
@@ -347,6 +337,16 @@ Y al hacer click se actualiza:
      )
  }
 ```
+
+- En vez de paar información a través de **props** lo hacemos a través de un **contexto**. Tenemos la **padre** que es el **Provider**
+
+Empieza asi:
+
+![image](https://user-images.githubusercontent.com/72580574/204899085-d7177ff7-02a5-4fbb-85bd-5c6ba9d6458e.png)
+
+Y al hacer click se actualiza:
+
+![image](https://user-images.githubusercontent.com/72580574/204899166-37b125b5-8ed0-44cd-99ca-b650cf505301.png)
 
 ---
 
