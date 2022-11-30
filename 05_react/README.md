@@ -16,7 +16,7 @@
 
 - 2 - Componentes y jerarquías: [teoria](https://github.com/eugenia1984/open_bootcamp/blob/main/05_react/02_componentes_jerarquias.md)
 
-- 3 - Los hooks de React:  [teoria](https://github.com/eugenia1984/open_bootcamp/blob/main/05_react/03_hooks.md)
+- 3 - Los hooks de React y el ciclo de vida:  [teoria](https://github.com/eugenia1984/open_bootcamp/blob/main/05_react/03_hooks.md)
 
 - 4 - Estilos a un proyecto con React
 
