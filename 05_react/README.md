@@ -92,6 +92,8 @@ Va a ser una app con un menú lateral y en la app tendremos un gestor de tareas:
 
 ### Ejercicios de práctica
 
+:computer: Se ùeden ver todos en la carpeta [**entregas**](https://github.com/eugenia1984/open_bootcamp/tree/main/05_react/entregas)
+
 1. **Ejercicios sesiones 1, 2 y 3**
 
 Para este primer reto de programación en React vamos a poner en practica lo aprendido hasta ahora para crear dos componentes.
@@ -123,5 +125,5 @@ Cada uno de estos componentes tendrá sus propias características.
 
 *Recordatorio*: Haz uso de Proptypes adecuadamente
 
-
+-> [Aca se puede ver el sandbox.io](https://codesandbox.io/s/determined-newton-dq2ebd)
 
