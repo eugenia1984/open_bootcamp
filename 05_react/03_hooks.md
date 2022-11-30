@@ -33,9 +33,42 @@ Para poder configurar el proyecto en cuanto a como escribimos el codigo.
 
 - Desde las extensiones de VSC buscamos **EditorConfig**
 
+indent_style = tab -> para identar
+
+end_of_line = lf -> Para que al final de cada linea, con el salto final tengamos **lf** (ya que varia en Mac, Linux y Windows)
+
+insert_final_newline = true
+
+tab_width = 2 -> La cantidad de espacios por tab
+
+charset = utf-8 -> Para que no tengamos errores al escribir en español y acepte los caracteres especiales
+
+trim_trailing_whitespace = true -> Para sacarnos los espacios finales al final de cada linea
+
 ---
 
 ## :star: 2 - ¿Qué son los hooks?
+
+- Hasta el 2018 - 2019 se utilizaban los componentes de clases. Y ahora ya tenemos los **componentes funcionales**
+
+Son funciones que simplifican los mecanismos para trabajar con **componentes funcionales**, son una función que devuelven JSX, y necesitamos un mecanismo que nos ayude a trabajar con los estados, referencias y contextos.
+
+### Ciclo de vida
+
+![image](https://user-images.githubusercontent.com/72580574/204886515-6adb9dee-b5e7-4230-adab-ad35058c1b5b.png)
+
+
+### Tabla para entender Lyfecycle
+
+|Métodos de Lifecycle|Hooks de LifeCycle|
+| ------------------ | ---------------- |
+| Introducido en versiones iniciales | Introducido en 2018 |
+| Funciona con ES5 | Funciona con >ES6 |
+| Incorporado en componentes de clase | Incorporado para componentes funcionales |
+| Necesita de un constructor para inicialziar | No necesita constructor |
+| Uso de THIS bindeado de la clase | No necesita THIS para ser usado |
+
+
 
 ---
 
