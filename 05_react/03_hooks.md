@@ -355,7 +355,9 @@ Y al hacer click se actualiza:
 - Va a pintar los elementos que se le pasen desde el padre:
 
 ```JSX
-<Ejemplo4 nombre="Euge"/>
+<Ejemplo4 nombre="Euge">
+  <h3>Contenido del props.children</h3>
+</Ejemplo4>
 ```
 Ejemplo4.jsx:
 ```JSX
@@ -377,8 +379,8 @@ const Ejemplo4 = (props) => {
 
 export default Ejemplo4;
  ```
-
-![image](https://user-images.githubusercontent.com/72580574/204900243-6afa806f-4205-4d0b-ac48-c651dc335595.png)
+ 
+![image](https://user-images.githubusercontent.com/72580574/204900896-dfd15f41-9316-419f-b857-75a84bd4dcab.png)
 
 ---
 
