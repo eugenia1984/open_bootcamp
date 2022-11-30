@@ -352,6 +352,34 @@ Y al hacer click se actualiza:
 
 ## :star: 6 - Ejemplo uso de props.children
 
+- Va a pintar los elementos que se le pasen desde el padre:
+
+```JSX
+<Ejemplo4 nombre="Euge"/>
+```
+Ejemplo4.jsx:
+```JSX
+import React from 'react';
+
+const Ejemplo4 = (props) => {
+  return (
+      <div>
+          <h1>*** Ejemplo de CHILDREN PROPS ***</h1>
+          <h2>Nombre: { props.nombre }</h2>
+          {/* props.children pintará por defecto
+          aquello que se encuentre entre las etiquetas de apertura y cierre
+          de este componente desde el componente de orden superio
+          */}
+          {props.children}
+      </div>
+  );
+}
+
+export default Ejemplo4;
+ ```
+
+![image](https://user-images.githubusercontent.com/72580574/204900243-6afa806f-4205-4d0b-ac48-c651dc335595.png)
+
 ---
 
 ### Ciclo de vida
