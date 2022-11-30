@@ -408,7 +408,7 @@ Al hacer una instancia de un componete, se llama al constructor, se inicia el **
 
 Se actualiza el DOM virtual, con render o el return devuelve los elementos que se pasan a HTML
 
-- **2da face: actualización / updating**
+- **2da fase: actualización / updating**
 
 Hay un cambio de estado, o recibe nuevas props. Con **forceUpdate()** (fuerza la actualización) se actualiza la vista. Con el **setState()** tambien cambiamos el estado y el DOM.
 
