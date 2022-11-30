@@ -53,7 +53,12 @@ trim_trailing_whitespace = true -> Para sacarnos los espacios finales al final d
 
 Son funciones que simplifican los mecanismos para trabajar con **componentes funcionales**, son una función que devuelven JSX, y necesitamos un mecanismo que nos ayude a trabajar con los estados, referencias y contextos.
 
-- Creamos el primer hook en **Ejemplo1.jsx**:
+
+---
+
+## :star: 3 - Trabajando con el Hooks useState
+
+Creamos el primer hook en **Ejemplo1.jsx**:
 
 ![image](https://user-images.githubusercontent.com/72580574/204888490-6b288a7d-c4c5-441d-a309-f34d85c52f1c.png)
 
@@ -63,6 +68,10 @@ Son funciones que simplifican los mecanismos para trabajar con **componentes fun
 - Vamos a utilizar el **useState** para **actualizar el estado**, su forma de utilizarlo es:
 
 ```const [nombreVariable, funcionParaCambiar] = useState(valorInicial)```
+
+Con las **react Dev Tools** puedo ver como se va modificando el estado:
+
+![image](https://user-images.githubusercontent.com/72580574/204889944-48dc0efe-beba-4b39-80d4-e2722e8c80ea.png)
 
 
 ### Ciclo de vida
@@ -79,12 +88,6 @@ Son funciones que simplifican los mecanismos para trabajar con **componentes fun
 | Incorporado en componentes de clase | Incorporado para componentes funcionales |
 | Necesita de un constructor para inicialziar | No necesita constructor |
 | Uso de THIS bindeado de la clase | No necesita THIS para ser usado |
-
-
-
----
-
-## :star: 3 - Trabajando con el Hooks useState
 
 ---
 
