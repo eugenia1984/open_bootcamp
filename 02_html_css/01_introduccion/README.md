@@ -1,5 +1,21 @@
 
-## :star: 1 - Introduccion a HTML
+# :star2: 1 - Introduccion a HTML
+
+---
+
+## :book: Temas:
+
+```
+1 - Introducción a HTML
+2 - IDE y extensiones
+3 - Mi primera pagina web
+4 - Etiquetas más utilizadas
+5 - Ejercicio
+```
+
+---
+
+## :star: 1 - Introducción a HTML
 
 ### ¿Qué es HTML ?
 
@@ -20,7 +36,7 @@ Compatibilidad con navegadores en [can I use](https://caniuse.com/) y [html5 tes
 
 
 
-## :star: Etiquetas y atributos
+##  Etiquetas y atributos
 
 Las etiquetas van entre ```<>```, todas las etiquetas tienen etiquetas de cierre, algunas tienen etiqueta de apertura y de cierre y otras tienen etiquetas que se autocierran (como las **meta** o **img**).
 
@@ -39,8 +55,9 @@ Ejemplo de codigo:
 </html>
 ```
 
+---
 
-### IDE y extensiones
+### :star: 2 -  IDE y extensiones
 
 
 El IDE (Integrated Development Enviroment / Entorno de Desarrollo Integrado) más recomendado en el **VSC** (¿Qué es HTML ?isual Studio Code).
@@ -65,8 +82,9 @@ Atajos en Windows:
 
 - Prettier, para dejar todo bien organizado, identa bien las cosas
 
+---
 
-### Mi primera pagina web
+### :star: 3 -  Mi primera pagina web
 
 ```
 <!DOCTYPE html>
@@ -90,7 +108,10 @@ En el **Body** va todo lo que si se renderiza y ve en el mavegador.
 
 
 --->>> Podés ver la práctica en el archivo [**mi-primera-pagina-web.html**](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/01_introduccion/mi-primera-pagina-web.html)
-### Etiquetas más utilizadas
+
+---
+
+###  :star: 4 - Etiquetas más utilizadas
 
 Una de las más utilizada es ```<div></div>``` que nos ofrece dividir el cósigo. Pero no hay que abuzar de los div ya que contamos con etiquetas semánticas como : ```<header>```, ```<nav>```, ```<section>```, ```<aside>```, ```<footer>```.
 
@@ -121,7 +142,9 @@ Los etiquetas pueden tneer distintos atributos, van a depender de la etiqueta qu
 --->>> Podés ver la práctica en el archivo [**etiquetas-habituales.html**](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/01_introduccion/etiquetas%20-habituales.html)
 
 
-### Ejercicio
+---
+
+### :staR: 5 - Ejercicio
 
 
 Duración aproximada: 5min
@@ -149,6 +172,6 @@ Enunciado del ejercicio:
 - Asegúrate de tener todo lo que necesites preparado ya que una vez se acabe el tiempo si no has realizado la entrega esta contará como no superada.
 
 
--->>> Lo podes ver en el archivo **practica.html**
+-->>> Lo podes ver en el archivo [**practica.html**](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/01_introduccion/practica.html)
 
 ---
