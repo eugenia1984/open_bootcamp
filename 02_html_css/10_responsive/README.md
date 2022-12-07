@@ -398,6 +398,43 @@ grid.css:
 }
 ```
 
+- Para tener 3 columnas
+
+![image](https://user-images.githubusercontent.com/72580574/206307388-05e69559-0e2a-44ee-aa30-0fb3dde74781.png)
+
+- Con el **gap** le doy espacio entre las filas y las columnas. Si quiero aplicar solo a las filas **row-gap** y si quiero solo a las columnas **column-gap**
+ 
+ ![image](https://user-images.githubusercontent.com/72580574/206307716-57e69a62-047d-443d-8ed0-f6fe31bb658b.png)
+
+- Si quiero hacer un grid que se repita: ```grid-template-column: repeat(4, auto);```
+
+![image](https://user-images.githubusercontent.com/72580574/206307933-8f4b0c68-32d4-4a18-b16f-516bcbeb543b.png)
+
+Puedo hacer que tengan distintos valores:
+
+![image](https://user-images.githubusercontent.com/72580574/206308022-3abfcb5d-9264-41a2-9013-76500ec96a52.png)
+
+Podemos usar como unidades a las **fr** (fracciones), tienee n cuenta toda la dimensión del grid y lo divide acorde a como indico con los fr.
+
+![image](https://user-images.githubusercontent.com/72580574/206308117-b52fddfe-ff8d-4272-b0b7-95b3a0a0ab1e.png)
+
+Así como tenenemos: ```grid-template-column``` también tenemos: ```grid-template-row```
+
+![image](https://user-images.githubusercontent.com/72580574/206308285-27904d10-fb9d-49f4-831d-6edfd4259db9.png)
+
+También podemos utilizar las **areas** con el ```grid-template-area```
+
+Determino que el 1 sea el header y el 9 sea el footer
+
+![image](https://user-images.githubusercontent.com/72580574/206308758-4a7d5520-4d10-4d40-b63a-0c645c6aab0b.png)
+
+```grid-colum: 2 / 4``` para ubicarlos acorde a las columnas
+
+```grid-colum: 2 / span 2;``` con span va a juntar
+
+Esto mismo se puede hacer con ```grid-area``` en este caso indicamos +columna / fila / columan / fila*, desde la columna / fila donde empieza a la columna / fila donde termina.
+
+
 ---
 
 ## :star: 6 - Variables reutilizables en CSS
