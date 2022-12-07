@@ -1,8 +1,23 @@
 
-## :star: 5 - Disposición de elementos y para multimedia
+# :star2:  Disposición de elementos y para multimedia
 
 
-### Disposiciones y alineaciones
+---
+
+##:book: Temas:
+
+```
+1 -  Disposiciones y alineaciones
+2 - Posicionamiento
+3 - Flexbox
+4 -  Overflow
+5 - Trabajo la opacidad y galeria de imagenes
+6 - Reproductores de video
+7 -  Ejercicio
+```
+
+
+## :star: 1 -  Disposiciones y alineaciones
 
 Las **disposiciones por defecto** son como elemento **inlock** para los **div**, es decir que tienen el 100 % de ancho, se ubican uno debajo de otro; es decir que tienen ```display:block;```.
 
@@ -17,7 +32,9 @@ Anteriormente se utilizaba **float**.
 
 Actualmente se utiliza **flexbox** y **grid** para posicionar.
 
-### Posicionamiento
+---
+
+## :star: 2 - Posicionamiento
 
 Hay 5 tipos de posicionamiento:
 
@@ -33,7 +50,10 @@ Hay 5 tipos de posicionamiento:
 
 
 Tenemos el **z-index** para crear capaz, y posicionar un elemento arriba de otro.
-### Flexbox
+
+---
+
+## :star: 3 - Flexbox
 
 Es un contenido flexible, nos ajuda en las vistas responsivas.
 
@@ -50,8 +70,9 @@ Vamos a tener dos ejes: **main-axis** (el eje principal) y el eje secundario.
 
 - para alinearlos en el eje secundario ```align-items: stretch / baseline / center / flex-end / flex-start;``` por defecto son stretch
 
+---
 
-### Overflow
+## :star: 4 -  Overflow
 
 Es el **desbordamiento**, donde por ejemplo tengo un contenedor de tamaño fijo y tengo mucho texto que va a desbordarse de mi contenedor.
 
@@ -61,13 +82,17 @@ Esto no pasa en flexbox.
 
 También puedo especificar sobre que eje quiero hacer el scroll con ```overflow-x``` ó ```overflow-y```
 
-### Trabajo la opacidad y galeria de imagenes
+---
+
+## :star: 5 - Trabajo la opacidad y galeria de imagenes
 
 Si le damos ```widht: 100%``` nos va a ocupar todo el ancho de la pantalla.
 
 Una propiedad es ```opacity:0.5``` que va desde el **0** al **1**, 0 es opacidad total y 1 es sin nada de opacidad.
 
-### Reproductores de video
+---
+
+## :star: 6 - Reproductores de video
 
 Ejemplo en codigo para poner un video de fondo con un texto y un CTA:
 
@@ -110,9 +135,11 @@ html {
 
 ->> Se puede ver en el archivo **posiciones_posicionamiento.html**
 
-### Ejercicio
+---
 
-Enunciado:
+## :star: 7 -  Ejercicio
+
+### Enunciado:
 
 ```
 - Crea un nuevo documento HTML con el título "Disposición de elementos en CSS"
@@ -121,5 +148,7 @@ Enunciado:
   -Las imágenes deben tener 300 píxeles de ancho
   -Deben reagruparse (wrap) cuando el ancho del viewport cambia
 ```
+
+:computer: -> Se puede ver en la carpeta [**entrega**](https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css/05_disposiciones/entrega)
 
 ---
