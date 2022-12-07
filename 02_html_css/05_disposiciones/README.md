@@ -4,7 +4,7 @@
 
 ---
 
-##:book: Temas:
+## :book: Temas:
 
 ```
 1 -  Disposiciones y alineaciones
@@ -133,7 +133,7 @@ html {
 
 - Siempre recordar si agregamos el atributo **autoplay** que tengamos **muted**.
 
-->> Se puede ver en el archivo **posiciones_posicionamiento.html**
+
 
 ---
 
