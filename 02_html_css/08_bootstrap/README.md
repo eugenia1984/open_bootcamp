@@ -80,9 +80,32 @@ En la misma web hay ejemplo con codigo, como por ejemplo:
 
 ![Bootstrap grid system](https://user-images.githubusercontent.com/72580574/206276484-33f5980d-f2d2-457b-92a7-14ea0e0e2780.png)
 
+Y en las columnas puedo ir seteando breakpoints para que se vean distinto en mobil, tablet y desktop. Ejemplo en código:
+
+![image](https://user-images.githubusercontent.com/72580574/206277108-da57dec0-e692-4f78-84f5-8574b1f534bb.png)
+
+- Tiene un montón de **componentes** ya armados:
+
+![image](https://user-images.githubusercontent.com/72580574/206277305-a1589dce-9420-4c26-9b81-199c61451651.png)
+
+Los cuales podemos ir modificando mediante clases, cambiarle el tamaño del texto, los colores de fondo, los colores del borde, etc, etc.
+
+- Tiene **formularios**:
+
+![image](https://user-images.githubusercontent.com/72580574/206277585-93eae1da-bcc8-4cd8-99a3-4915954dd83c.png)
+
+- Con el JavaSCript tiene **animaciones** como los placeholders , los sliders, los menu responsivos, los modals, tooltips, popover.
+
 
 ---
 
 ##  :star: 3 - Ejercicio
+
+### Consigna:
+
+- Crea un nuevo documento HTML con el título "Introducción a Bootstrap"
+
+- Utilizando la página oficial getbootstrap.com, añade la última versión de Bootstrap a este documento HTML
+
 
 ---
