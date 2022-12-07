@@ -89,7 +89,7 @@ En el **head** van las meta etiquetas y los links a css y otras cosas que utiliz
 En el **Body** va todo lo que si se renderiza y ve en el mavegador.
 
 
---->>> Podés ver la práctica en el archivo **mi-primera-pagina-web.html**
+--->>> Podés ver la práctica en el archivo [**mi-primera-pagina-web.html**](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/01_introduccion/mi-primera-pagina-web.html)
 ### Etiquetas más utilizadas
 
 Una de las más utilizada es ```<div></div>``` que nos ofrece dividir el cósigo. Pero no hay que abuzar de los div ya que contamos con etiquetas semánticas como : ```<header>```, ```<nav>```, ```<section>```, ```<aside>```, ```<footer>```.
@@ -118,7 +118,7 @@ Y para nombrar a los items que pertenecen a la lista utilizamos ```<li>``` (**li
 
 Los etiquetas pueden tneer distintos atributos, van a depender de la etiqueta que utilicemos, pero para nombrar algunos: **href**, **src**, **id**, **alt**, **class**.
 
---->>> Podés ver la práctica en el archivo **etiquetas-habituales.html**
+--->>> Podés ver la práctica en el archivo [**etiquetas-habituales.html**](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/01_introduccion/etiquetas%20-habituales.html)
 
 
 ### Ejercicio
