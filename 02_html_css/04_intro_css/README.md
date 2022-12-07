@@ -172,7 +172,7 @@ Y también se puede modificar el estilo con ```font-style: italic / underline;``
 
 ---
 
-->> Se puede ver en [**web_con_css.html**](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/04_intro_css/web_con_css.html) y [**textos_con_html.html**](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/04_intro_css/web_con_css.html)
+:computer: ->> Se puede ver en [**web_con_css.html**](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/04_intro_css/web_con_css.html) y [**textos_con_html.html**](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/04_intro_css/web_con_css.html)
 
 
 ---
