@@ -310,14 +310,26 @@ Si al contenedor le damos un alto fijo los hijos van a adaptarse:
 
 Hay dos ejes: **eje principal**(**main**) y el secundario, están va a ir variando acorde al **flex-direction** que le damos, si va como column(eje principal Y) o row(eje principal X).
 
-Para acomodarlos según el **eje principal** tenemos: ```justify-content````
+Para acomodarlos según el **eje principal** tenemos: ```justify-content```
+
+![image](https://user-images.githubusercontent.com/72580574/206301475-a23af4ab-6c1f-48f3-9bc4-aff3612e67c7.png)
+
 
 ![image](https://user-images.githubusercontent.com/72580574/206299658-42d2508b-0151-4a30-8547-a2ab37b9be6c.png)
+
+[Link a documentación de w3schools](https://www.w3schools.com/cssref/css3_pr_justify-content.php)
+
 
 Para acomodar según el **eje secundario** tenemos: ```align-items```
 
 ![image](https://user-images.githubusercontent.com/72580574/206299778-b160057b-93a6-419c-a960-86d0db2e079d.png)
 
+Para hacer una disposición particular a un solo elemento: ```align-self``` ó ```justify-self```
+
+
+```flex-wrap ``` si se v aa envolver acorde a lo que mida el contenedor o no.
+
+:tv: -> [Para practicar en codepen](https://codepen.io/enxaneta/full/adLPwv/)
 
 ---
 
