@@ -1,10 +1,21 @@
+# :star2:  Formularios y tablas
+
+---
+
+## :book: Temas:
+
+```
+1 - Etiquetas para formularios
+2 - Botones
+3 - Tablas en HTML
+4 - Ejercicio 1
+5 - Ejercicio 2
+```
+
+---
 
 
-## :star: 2 - Formularios y tablas
-
-La practica se puede ver dentro de la carpeta **02_forms_tables**
-
-### Etiquetas para formularios
+## :star: 1 -  Etiquetas para formularios
 
 ```<form></form>``` para tener el formulario, tiene dos atributos **action** (hacia donde voy a enviar la informacion) y **method** (que puede ser GET, PUT, etc). EL método POST lo tenemos que utilizar siempre que hagamos una accion desde un servidor.
 
@@ -18,7 +29,7 @@ Otros atributos pueden ser: **required** (para que sea un campo requerido, oblig
 
 ```<textarea></textarea>``` area de texto, como cuando se puede ingresar el comentario.
 
-Ejemplo del archivo **formularios.html**:
+Ejemplo del archivo [**formularios.html**](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/02_forms_tables/formularios.html):
 
 ```
 <form action="resultados.html" method="POST">
@@ -35,7 +46,7 @@ Ejemplo del archivo **formularios.html**:
 ```  
 
 
-Y para que se vea lo que ingreso tengo el archivo **resultados.html**:
+Y para que se vea lo que ingreso tengo el archivo [**resultados.html**](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/02_forms_tables/resultados.html):
 
 ```
 <!DOCTYPE html>
@@ -62,7 +73,9 @@ Y para que se vea lo que ingreso tengo el archivo **resultados.html**:
 </html>
 ```
 
-### Botones
+---
+
+## :star: 2 - Botones
 
 Hay de dos tipos:
 
@@ -70,10 +83,12 @@ Hay de dos tipos:
 
 - Resetear, para resetear todo el formulario, por ejemplo: ```<button type="reset">Reset</button>```
    
-### Tablas en HTML
+---
+   
+## :star: 3 -  Tablas en HTML
 
 
-etiquetas:
+Etiquetas:
 
 - ```<table></table>``` me indica que es una tabla
 
@@ -111,8 +126,9 @@ Ejemplos en codigo:
 </table>
 ```
 
+---
 
-### Ejercicio 1
+## :star: 4 -   Ejercicio 1
 
 Duración aproximada: 5min
 
@@ -132,7 +148,7 @@ Crea un nuevo documento HTML que cumpla los siguientes parámetros:
     -Un botón de reset
 ```
 
-->> Se puede ver en el documento **ejercicio1.html**
+:computer: ->> Se puede ver en el documento [**ejercicio1.html**](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/02_forms_tables/ejerccicio1.html)
 
 
 - La forma en que ellos lo resolvieron:
@@ -159,7 +175,7 @@ Crea un nuevo documento HTML que cumpla los siguientes parámetros:
 </html>
 ```
 
-### Ejercicio 2
+## :star: 5 -  Ejercicio 2
 
 
 Enunciado del ejercicio:
@@ -174,7 +190,7 @@ Crea un nuevo documento HTML que cumpla los siguientes parámetros:
 ```
 
 
--->> Lo podes ver en **ejercicio2.html**
+:computer: -->> Lo podes ver en [**ejercicio2.html**](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/02_forms_tables/ejercicio2.html)
 
 ->> Asi lo resolvieron ellos:
 
