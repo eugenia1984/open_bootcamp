@@ -114,7 +114,7 @@ Hay también distintos niveles de especificidad:
 
 ---
 
-## : star: 5 -  Ejercicio
+## :star: 5 -  Ejercicio
 
 ### Enunciado:
 
