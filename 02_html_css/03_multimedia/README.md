@@ -1,9 +1,22 @@
+# :star2:  Multimedia
 
-## :star: 3 - Multimedia
+---
 
-->> Pueden ver la practica en **multimedia.html**
+##:book: Temas:
 
-### Imágenes
+```
+1 - Imagenes
+2 - Videos y audio
+3 - Práctica / Entrega
+```
+
+---
+
+:computer: -> Pueden var la práctica en [**multimedia.html**](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/03_multimedia/multimedia.html)
+
+---
+
+## :star: 2 -  Imágenes
 
 La etiqueta que se utiliza es ```<img >``` (que se auto cierra, no tiene otra etiqueta de cierre) y tiene dos atributos importantes:
 
@@ -13,7 +26,9 @@ La etiqueta que se utiliza es ```<img >``` (que se auto cierra, no tiene otra et
 
 Hay otros atributos que pueden tener como ```height=""``` o ```width=""```, ambos va solo con numeros y son en pixeles.
 
-### Videos y Audio
+---
+
+##  :star: 2 - Videos y Audio
 
 
 Los **videos** se definen con la etiqueta: ```<video>  </video>```.
@@ -65,6 +80,12 @@ Y dentro también tienen la etqieuta ```<source src="" type=" video">```
 
 Además de tener path de mis archivos localizados, puedo tener paths externos.
 
+
+---
+
+##:star: 3 - Práctica / Entrega
+
+
 ### Ejercicio 1
 
 Enunciado:
@@ -98,5 +119,8 @@ Enunciado:
 - Debes incluir una etiqueta de audio que reproduzca el audio que acabas de descargar
 
 - El audio debe mostrar los controles, reproducirse automáticamente y en bucle
+
+
+:computer: ->> Pueden verla en [**entrega**](https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css/03_multimedia/entrega)
 
 ---
