@@ -180,7 +180,7 @@ mediaqueries.html:
 ```
 
 mediaqueries.css:
-```HTML
+```CSS
 h1 {
     color: red;
     font-size: 4rem;
