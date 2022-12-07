@@ -2,7 +2,7 @@
 
 ---
 
-##:book: Temas:
+## :book: Temas:
 
 ```
 1 - Imagenes
@@ -20,9 +20,9 @@
 
 La etiqueta que se utiliza es ```<img >``` (que se auto cierra, no tiene otra etiqueta de cierre) y tiene dos atributos importantes:
 
-- ````src=""``` que indica la ruta de donde va a tomar la imagen
+- ``` src=" " ``` que indica la ruta de donde va a tomar la imagen
 
-- ```alt=""``` es un texto alternatico, por si la imagen no carga y también ayuda en la accesibilidad
+- ``` alt=" " ``` es un texto alternatico, por si la imagen no carga y también ayuda en la accesibilidad
 
 Hay otros atributos que pueden tener como ```height=""``` o ```width=""```, ambos va solo con numeros y son en pixeles.
 
@@ -83,7 +83,7 @@ Además de tener path de mis archivos localizados, puedo tener paths externos.
 
 ---
 
-##:star: 3 - Práctica / Entrega
+## :star: 3 - Práctica / Entrega
 
 
 ### Ejercicio 1
