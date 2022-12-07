@@ -1,8 +1,16 @@
-## :star: 7 - Creación de estilos para formularios
+# :star2:  Creación de estilos para formularios
 
 ---
 
-## Estilando formularios
+## :book: Temas:
+
+```
+1 - Estilando formularios
+2 - Creando un formulario moderno (login)
+3 - Ejercicio
+```
+
+## :star: 1 - Estilando formularios
 
 
 Para solo darle estilo a los input de clase **input** que sean de tipo **password**:
@@ -91,17 +99,17 @@ Para tomar ideas podemos ver la web **Dribble.com**
 
 ---
 
-## Creando un formulario moderno (login)
+## :star: 2 - Creando un formulario moderno (login)
 
 Se puede ver en el archivo [**formularios.html**](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/07_formularios/formularios.html)
 
 ---
 
-## Ejercicio
+## :star: 3 - Ejercicio
 
-Duración aproximada: 5min
+### Duración aproximada: 5min
 
-Enunciado:
+### Enunciado:
 
 ```
 -Replica el ejercicio del vídeo 3 de esta sesión y realiza el siguiente cambio:
@@ -113,5 +121,7 @@ Enunciado:
   -El fondo de los inputs cuando se hace hover será del color #454045
   -Los textos tendrán un color blanco
 ```
+
+:computer: -> En la carpeta [**entrega**](https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css/07_formularios/entrega) se puede ver el ejercicio
 
 ---
