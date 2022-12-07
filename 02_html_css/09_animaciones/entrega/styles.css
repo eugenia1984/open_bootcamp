@@ -31,23 +31,8 @@ El color del texto cambie
 Todo esto con una transición de 0.4s
 */
 .btn-modern:hover {
-  animation: traslacion 4s ease-in-out 2s;
-  -webkit-animation: traslacion 4s ease-in-out 2s;
-}
-
-@keyframes traslacion {
-  0%{
-    transform: translateX(0%) translateY(0%);
-    -webkit-transform: translateX(0%) translateY(0%);
-    -moz-transform: translateX(0%) translateY(0%);
-    -ms-transform: translateX(0%) translateY(0%);
-    -o-transform: translateX(0%) translateY(0%);
-}
-  100% {
-    transform: translateX(0%) translateY(-5%);
-    -webkit-transform: translateX(0%) translateY(-5%);
-    -moz-transform: translateX(0%) translateY(-5%);
-    -ms-transform: translateX(0%) translateY(-5%);
-    -o-transform: translateX(0%) translateY(-5%);
-}
+    transform: translateY(-5px);
+    background-color: aqua;
+    color: white;
+    box-shadow: 0 5px 10px rgba(45, 206, 255, 0.5);
 }
