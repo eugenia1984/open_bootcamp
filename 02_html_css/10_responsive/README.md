@@ -223,15 +223,11 @@ p {
 }
 ```
 
-Para un dismositivo pequeño (hasta 576px):
 
 ![image](https://user-images.githubusercontent.com/72580574/206295175-b346404e-8183-4d04-8537-6b2d75e6edfe.png)
 
-Para un dispositivo mas grandes (desde 995px):
 
 ![image](https://user-images.githubusercontent.com/72580574/206295236-30923501-339c-4306-89a7-2dc00ccad39f.png)
-
-
 
 
 ```@media screen``` -> para las pantallas
@@ -240,13 +236,155 @@ Para un dispositivo mas grandes (desde 995px):
 
 ```@media speech```
 
+Puede ir variando acorde al **ancho**, **alto** o la **orientacion** (landscape - horizontal-).
+
+También se pueden ir anidando condiciones.
+
 ---
 
 ## :star: 4 - Uso avanzado de Flex Box
 
+
+flexbox.html:
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flexbox.css">
+    <title>FlexBox</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="item item1">Item 1</div>
+        <div class="item item2">Item 2</div>
+        <div class="item item3">Item 3</div>
+        <div class="item item4">Item 4</div>
+    </div>
+</body>
+</html>
+```
+
+flexbox.css:
+```CSS
+/* https://codepen.io/enxaneta/full/adLPwv */
+
+.contenedor {
+    background-color: yellow;
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    min-height: 5rem;
+    /* Eje principal */
+    justify-content: space-around;
+
+    /* Eje secundario */
+    align-items: center;
+
+    /* flex-direction: column; */
+
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: salmon;
+    padding: 0.25rem;
+    width: 10rem;
+}
+
+.item2 {
+    align-self: stretch;
+}
+```
+
+Tenemos el **container** (el contenedor) y los **hijos**.
+
+Al **container** le damos **display=flex** para poder aplicar flex box. Por default los ubica en **flex-direction:columns**, lo puedo cambiar a **row**
+
+![image](https://user-images.githubusercontent.com/72580574/206299191-5a71bfc2-d874-440d-a43a-f082ec3e76ae.png)
+
+Si al contenedor le damos un alto fijo los hijos van a adaptarse:
+![image](https://user-images.githubusercontent.com/72580574/206299268-33ba4971-c25d-48c5-a243-f33bc49d94eb.png)
+
+Hay dos ejes: **eje principal**(**main**) y el secundario, están va a ir variando acorde al **flex-direction** que le damos, si va como column(eje principal Y) o row(eje principal X).
+
+Para acomodarlos según el **eje principal** tenemos: ```justify-content````
+
+![image](https://user-images.githubusercontent.com/72580574/206299658-42d2508b-0151-4a30-8547-a2ab37b9be6c.png)
+
+Para acomodar según el **eje secundario** tenemos: ```align-items```
+
+![image](https://user-images.githubusercontent.com/72580574/206299778-b160057b-93a6-419c-a960-86d0db2e079d.png)
+
+
 ---
 
 ## :star: 5 - Viewport, Grid y templates
+
+
+grid.html:
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="item item1">1</div>
+        <div class="item item2">2</div>
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+        <div class="item item5">5</div>
+        <div class="item item6">6</div>
+        <div class="item item7">7</div>
+        <div class="item item8">8</div>
+        <div class="item item9">9</div>
+    </div>
+</body>
+</html>
+```
+
+grid.css:
+```CSS
+.contenedor {
+    display: grid;
+    gap: 0.5rem;
+    /* column-gap: 0.1rem; */
+    /* row-gap: 1rem; */
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-columns: repeat(3, auto); */
+    /* grid-template-columns: 20px 3rem 25vw; */
+    grid-template-columns: 1fr 1fr 3fr;
+    grid-template-rows: 200px 5rem 100px;
+    /* grid-template-areas: 'head head head' 'main main aside' 'footer footer footer'; */
+}
+
+.item {
+    background-color: aquamarine;
+    padding: 0.25rem;
+    font-size: 2rem;
+    border: solid 1px blue;
+}
+
+.item1 {
+    /* grid-column: 1 / 3; */
+    grid-column: 2 / span 2;
+    /* grid-area: head; */
+}
+
+.item9 {
+    /* grid-area: footer; */
+    grid-area: 2 / 1 / 4 / 3;
+    /* grid-area: filainicio / colinicio / filafin / colfin */
+}
+```
 
 ---
 
