@@ -91,7 +91,8 @@ Entonces en mi css voy a poder utilizar esos estilos: ```  <button class="pure-b
 
  ->> La mejor practica es definirlos en una hoja de estilos aparte.
 
- Tiene más peso los estilos en linea, si luego aplicaria a la misma etiqueta que teine estilos en linea una hoja de estilos, pero el en linea.
+ Tiene más peso los estilos en linea, si luego aplicaria a la misma etiqueta que tiene estilos en linea una hoja de estilos, pero el en linea.
+ 
 ---
 
 ## :star: 4 -  Colores
