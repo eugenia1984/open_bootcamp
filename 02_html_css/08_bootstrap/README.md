@@ -15,7 +15,7 @@
 :tv: Link a la documentación oficial: [**https://getbootstrap.com/**](https://getbootstrap.com/)
 
 
-Ya nos trae un template base para utilizar con los links al DDN:
+Ya nos trae un template base para utilizar con los links al CDN:
 
 ```
 <!doctype html>
