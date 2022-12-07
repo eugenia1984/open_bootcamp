@@ -16,7 +16,7 @@
 
 Para practicar creamos [animaciones.html](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/09_animaciones/animaciones.html):
 
-```
+```HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -101,6 +101,73 @@ Para practicar cree [tooltip.html](https://github.com/eugenia1984/open_bootcamp/
     <div class="triangulo"></div>
 </body>
 </html>
+```
+
+Y el CCSS en [tooltip.css](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/09_animaciones/tooltip.css):
+
+```CSS
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-tooltip {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-bottom: 2px solid darkgreen;
+    cursor: pointer;
+    transition: background-color 150ms;
+}
+
+/* .btn-tooltip:hover::before {
+    content: "Esto es un tooltip";
+} */
+
+.tooltip {
+    position: absolute;
+    /* visibility: hidden; */
+    opacity: 0;
+    top: -50px;
+    left: -100%;
+    transform: translateX(25%);
+    color: #ddd;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: opacity 150ms;
+}
+
+.btn-tooltip:hover {
+    background-color: rgb(0, 100, 0);
+}
+
+.btn-tooltip:hover .tooltip {
+    /* visibility: visible; */
+    opacity: 1;
+}
+
+.tooltip::before {
+    content: '';
+    border: solid 10px transparent;
+    border-top-color: #333;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* .triangulo {
+    border: solid 10px transparent;
+    border-top-color: #333;
+} */
 ```
 
 ---
