@@ -81,6 +81,28 @@ Con su CSS [animaciones.css](https://github.com/eugenia1984/open_bootcamp/blob/m
 
 ## :star: 2 - Tooltips
 
+
+Para practicar cree [tooltip.html](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/09_animaciones/tooltip.html):
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooltip</title>
+    <link rel="stylesheet" href="tooltip.css">
+</head>
+<body>
+    <button class="btn-tooltip">Buscar
+        <span class="tooltip">Hace una búsqueda de tu crush</span>
+    </button>
+    <div class="triangulo"></div>
+</body>
+</html>
+```
+
 ---
 
 ## :star: 3 - Ejercicios
