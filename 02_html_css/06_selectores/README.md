@@ -1,6 +1,20 @@
-## :star: 6 - Anidación de selectores
+# :star2:  Anidación de selectores
 
-### Anidacion de selectores
+---
+
+## :book: Temas:
+
+```
+1 -  Anidacion de selectores
+2 - Pseudoclases
+3 - Pseudoelementos
+4 - Especificidad
+5 -  Ejercicio
+```
+
+---
+
+## :star: 1 -  Anidacion de selectores
 
 
 Para ganar presicion.
@@ -15,7 +29,7 @@ Para ganar presicion.
 
 ---
 
-### Pseudoclases
+## :star: 2 - Pseudoclases
 
 Se utilizan dentro del codigo CSS para hacer referencia a distintos estados.
 
@@ -36,7 +50,7 @@ Es importante hacerlo en el orden que se puso aca lo de los links, sino se pisan
 
 ---
 
-### Pseudoelementos
+## :star: 3 - Pseudoelementos
 
 Se definen con **: :**, todos los elementos tienen un **::after** y un **::before**.
 
@@ -80,7 +94,7 @@ span.frase::after {
 
 ---
 
-### Especificidad
+## :star: 4 - Especificidad
 
 El CSS es CAscading Style Sheet, es decir se carga en cascada de arriba hacia abajo y de izquierda a derecha.
 
@@ -100,9 +114,9 @@ Hay también distintos niveles de especificidad:
 
 ---
 
-### Ejercicio
+## : star: 5 -  Ejercicio
 
-Enunciado:
+### Enunciado:
 
 ```
 Crea un nuevo documento HTML con el título "Selectores, pseudo-clases y pseudo-elementos en CSS"
@@ -114,5 +128,7 @@ Crea un nuevo documento HTML con el título "Selectores, pseudo-clases y pseudo-
 el texto se vuelva blanco y el fondo de color verde
 - Utiliza los pseudo-elementos para cambiar el texto del botón a "¡Hecho!"
 ```
+
+:computer: -> Se puede ver en la carpeta [**entrega**](https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css/06_selectores/entrega)
 
 ---
