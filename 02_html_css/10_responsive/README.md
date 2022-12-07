@@ -225,11 +225,14 @@ p {
 
 Para un dismositivo pequeño (hasta 576px):
 
-![image](https://user-images.githubusercontent.com/72580574/206295236-30923501-339c-4306-89a7-2dc00ccad39f.png)
+![image](https://user-images.githubusercontent.com/72580574/206295175-b346404e-8183-4d04-8537-6b2d75e6edfe.png)
 
 Para un dispositivo mas grandes (desde 995px):
 
-![image](https://user-images.githubusercontent.com/72580574/206295175-b346404e-8183-4d04-8537-6b2d75e6edfe.png)
+![image](https://user-images.githubusercontent.com/72580574/206295236-30923501-339c-4306-89a7-2dc00ccad39f.png)
+
+
+
 
 ```@media screen``` -> para las pantallas
 
