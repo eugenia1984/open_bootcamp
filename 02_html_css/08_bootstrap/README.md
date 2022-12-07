@@ -2,7 +2,7 @@
 
 ---
 
-##:book: Temas:
+## :book: Temas:
 
 ```
 1 - Incluyendo Bootstrap en nuestro proyecto
@@ -18,6 +18,6 @@
 
 ---
 
-##  :staR: 3 - Ejercicio
+##  :star: 3 - Ejercicio
 
 ---
