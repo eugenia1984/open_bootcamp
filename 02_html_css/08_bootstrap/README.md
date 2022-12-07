@@ -1,15 +1,23 @@
-## :star: 8 - Bootstrap
+# :star2:  Bootstrap
 
 ---
 
-## Incluyendo Bootstrap en nuestro proyecto
+##:book: Temas:
+
+```
+1 - Incluyendo Bootstrap en nuestro proyecto
+2 - Estilos y animaciones de Bootstrap
+3 - Ejercicio
+```
+
+## :star: 1 - Incluyendo Bootstrap en nuestro proyecto
 
 ---
 
-## Estilos y animaciones de Bootstrap
+## :star: 2 - Estilos y animaciones de Bootstrap
 
 ---
 
-## Ejercicio
+##  :staR: 3 - Ejercicio
 
 ---
