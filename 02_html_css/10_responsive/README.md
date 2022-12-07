@@ -148,10 +148,80 @@ unidades-em.css:
 }
 ```
 
+- Como **Apple** tiene su pantalla con **retina**, cada pixel fisico equivale a 2px lógicos, la escala es de 2, por esto es mejor basarnos en los **em** o los **rem**, asi es responsive en todas las pantallas.
+
+- **em** hace referencia la tamaño de fuente del contenedor, si quiero que se modifique solo en un contenedor.
+
+- **rem** hace referencia al tamaño de la raiz, la podemos definir en la fuente al determinarle un tamaño.
+
+
+![image](https://user-images.githubusercontent.com/72580574/206293513-051969dd-722e-45e4-8cf4-fda55a9f5e02.png)
+
 ---
 
 ## :star: 3 - Media Queries
 
+mediaqueries.html:
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Este es un párrafo</p>
+</body>
+</html>
+```
+
+mediaqueries.css:
+```HTML
+h1 {
+    color: red;
+    font-size: 4rem;
+}
+
+p {
+    color: black;
+    font-size: 2rem;
+}
+
+/* @media all and (max-width: 576px) { */
+/* @media (max-width: 576px) {
+    h1 {
+        color: blue;
+    }
+} */
+
+@media (min-width: 576px) {
+    h1 {
+        color: green;
+    }
+}
+
+@media (min-width: 995px) {
+    h1 {
+        color: blue;
+    }
+}
+
+@media (orientation: landscape) and (min-height: 400px) {
+    p {
+        color: brown;
+    }
+}
+
+@media (min-height: 300px), (min-width: 1100px) {
+    h1 {
+        color: darksalmon;
+    }
+}
+```
 ---
 
 ## :star: 4 - Uso avanzado de Flex Box
