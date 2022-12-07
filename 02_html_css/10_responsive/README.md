@@ -432,12 +432,56 @@ Determino que el 1 sea el header y el 9 sea el footer
 
 ```grid-colum: 2 / span 2;``` con span va a juntar
 
-Esto mismo se puede hacer con ```grid-area``` en este caso indicamos +columna / fila / columan / fila*, desde la columna / fila donde empieza a la columna / fila donde termina.
+Esto mismo se puede hacer con ```grid-area``` en este caso indicamos *columna / fila / columan / fila*, desde la columna / fila donde empieza a la columna / fila donde termina.
 
 
 ---
 
 ## :star: 6 - Variables reutilizables en CSS
+
+
+variables.html:
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+    <link rel="stylesheet" href="variables.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1 class="titulo">Título</h1>
+        <p class="parrafo">Este es el párrafo</p>
+        <p class="footer">Este es el pie de página</p>
+    </div>
+</body>
+</html>
+```
+
+variables.css:
+```CSS
+:root {
+    --color-principal: rgb(195, 0, 255);
+    --ancho-principal: 350px;
+}
+
+.titulo {
+    color: var(--color-principal);
+}
+
+.footer {
+    color: var(--color-principal);
+}
+
+.contenedor {
+    background-color: antiquewhite;
+    padding: 1rem;
+    max-width: var(--ancho-principal);
+}
+```
 
 ---
 
