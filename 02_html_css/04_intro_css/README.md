@@ -1,9 +1,21 @@
+# :star2:  Introduccion a CSS
 
+---
 
-## :star: 4 - Introduccion a CSS
+## :book: Temas:
 
+```
+1 - Introduccion a las hojas de estilo
+2 - Selectores en CSS
+3 - Las tres formas de insertar estilos
+4 -  Colores
+5 - Fondos de colores e imagenes
+6 - Estilos de altura , anchura, padding y margin
+7 - Fuentes en CSS
+8 - Ejercicio
+```
 
-### Introduccion a las hojas de estilo
+## :star: 1 - Introduccion a las hojas de estilo
 
 **CSS** es Cascading Styling Sheet ó Hojas de Estilo en Cascada
 
@@ -16,7 +28,7 @@ Los comentarios en CCS son asi: ```/* */```
 
 ---
 
-### Selectores en CSS
+## :star: 2 - Selectores en CSS
 
 Sintaxi:
 
@@ -44,7 +56,7 @@ Los selectores pueden ser:
 
 ---
 
-### Las tres formas de insertar estilos
+## :star: 3 - Las tres formas de insertar estilos
 
 - con la etiqueta **link** en el head, por ejemplo:
 
@@ -82,7 +94,7 @@ Entonces en mi css voy a poder utilizar esos estilos: ```  <button class="pure-b
  Tiene más peso los estilos en linea, si luego aplicaria a la misma etiqueta que teine estilos en linea una hoja de estilos, pero el en linea.
 ---
 
-### Colores
+## :star: 4 -  Colores
 
 Una buena pagina para generar paleta es **coolors.co**
 
@@ -96,7 +108,7 @@ Los formatos son:
 
 ---
 
-### Fondos de colores e imagenes
+## :star: 5 - Fondos de colores e imagenes
 
 El **fondo** tiene distintos atributos, como:
 
@@ -108,7 +120,7 @@ El **fondo** tiene distintos atributos, como:
 
 ---
 
-### Estilos de altura , anchura, padding y margin
+## :star: 6 - Estilos de altura , anchura, padding y margin
 
 - Para el **ancho**: ``` width```
 
@@ -135,7 +147,7 @@ border-style: 1px solid rgb(150, 150, 150);
 ---
 
 
-### Fuentes en CSS
+## :star: 7 - Fuentes en CSS
 
 Nativamente en CSS tenemos la propiedad **font-family** para poder utilizar algunas fuentes. Otro modo es mediante Google Fonts el cual se puede importar en el mismo archivo css o sino linkearlo en html mediante un link en el head.
 
@@ -160,14 +172,14 @@ Y también se puede modificar el estilo con ```font-style: italic / underline;``
 
 ---
 
-->> Se puede ver en **web_con_css.html** y **textos_con_html.html**
+->> Se puede ver en [**web_con_css.html**](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/04_intro_css/web_con_css.html) y [**textos_con_html.html**](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/04_intro_css/web_con_css.html)
 
 
 ---
 
-### Ejercicio
+## :star: 8 - Ejercicio
 
-Consigna:
+### Consigna:
 
 1. Crea un nuevo fichero CSS e impórtalo en el documento HTML principal
 
@@ -192,7 +204,7 @@ Consigna:
 - A través del encadenamiento de selectores, haz que el primer elemento de la primera lista tenga un tamaño de letra de 2rem
 
 
-->> Se puede ver dentro de la carpeta **entrega**
+:computer: -> Se puede ver dentro de la carpeta [**entrega**](https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css/04_intro_css/entrega)
 
 
 ---
