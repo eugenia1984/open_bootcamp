@@ -1,53 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-  padding: 2rem 1rem;
-  text-align: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    font-size: 2rem;
 }
 
-header {
-  margin-bottom: 2rem;
+div.sidebar {
+    background-color: #2b2b2b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
 }
 
-.btn-modern {
-  padding: 12px 18px;
-  border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
-  -webkit-border-radius: 7px;
-  border: none;
-  background-color: rgb(232, 234, 79);
-  box-shadow: -4px 4px gray;
-  font-weight: 800;
+div.main {
+    padding: 10px;
+    flex-grow: 1;
 }
 
-/*
-Implementa las líneas necesarias en el CSS para que cuando el ratón pase por encima del botón ocurra lo siguiente (hover):
-
-El botón se traslade -5px en el eje de las Y
-Se añada una sombra
-El color de fondo del botón cambie
-El color del texto cambie
-Todo esto con una transición de 0.4s
-*/
-.btn-modern:hover {
-  animation: traslacion 4s ease-in-out 2s;
-  -webkit-animation: traslacion 4s ease-in-out 2s;
-}
-
-@keyframes traslacion {
-  0%{
-    transform: translateX(0%) translateY(0%);
-    -webkit-transform: translateX(0%) translateY(0%);
-    -moz-transform: translateX(0%) translateY(0%);
-    -ms-transform: translateX(0%) translateY(0%);
-    -o-transform: translateX(0%) translateY(0%);
-}
-  100% {
-    transform: translateX(0%) translateY(-5%);
-    -webkit-transform: translateX(0%) translateY(-5%);
-    -moz-transform: translateX(0%) translateY(-5%);
-    -ms-transform: translateX(0%) translateY(-5%);
-    -o-transform: translateX(0%) translateY(-5%);
-}
+@media (max-width: 640px) {
+    body {
+        flex-direction: column-reverse;
+    }
+    div.sidebar {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }
