@@ -107,5 +107,6 @@ Los cuales podemos ir modificando mediante clases, cambiarle el tamaño del text
 
 - Utilizando la página oficial getbootstrap.com, añade la última versión de Bootstrap a este documento HTML
 
+:computer: -> Se puede ver en este [**index.html**](https://github.com/eugenia1984/open_bootcamp/blob/main/02_html_css/08_bootstrap/index.html)
 
 ---
