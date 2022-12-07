@@ -193,4 +193,6 @@ El color del texto cambie
 Todo esto con una transición de 0.4s
 ```
 
+:tv: -> En la carpeta [**entrega**](https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css/09_animaciones/entrega) esta mi resolucion
+
 ---
