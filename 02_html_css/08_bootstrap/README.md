@@ -56,6 +56,31 @@ Otro modo es  bajarse todos los archivos y agregarlo al proyecto localmente, sin
 
 ## :star: 2 - Estilos y animaciones de Bootstrap
 
+Hace muy rápido el diseño por su sistema de **layout** que combina **flex** y **grid**.
+
+Tiene [**breakpoints**](https://getbootstrap.com/docs/5.2/layout/breakpoints/#available-breakpoints) para el responsive y diseñar todo **mobile first** sin necesidad de utilizar las **media queries*:
+
+![Bootstrap Breakpoints](https://user-images.githubusercontent.com/72580574/206275066-f8c00644-6341-4981-9211-af725a9bde2f.png)
+
+Por medio de SASS se puede customizar, lo cual no es tan recomendable porque puede ocasionar inconveneintes en otros diseños que lo usan.
+
+Otra ayuda son los [**container**](https://getbootstrap.com/docs/5.2/layout/containers/#default-container)
+
+![clase container de bootstrap](https://user-images.githubusercontent.com/72580574/206275719-ac6b0ccd-e076-4008-a596-184bbc709acc.png)
+
+Pueden ser **responsive** (el que viene por default) ó **fluid**.
+
+
+El [**grid system**](https://getbootstrap.com/docs/5.2/layout/grid/#example) divide el layout en 12 columnas. con las clases: **container**, **row** y **col** puedo ir haciendo el layout.
+
+![image](https://user-images.githubusercontent.com/72580574/206276643-e5205bbd-6aca-4ad9-94e8-447f48d9ad91.png)
+
+
+En la misma web hay ejemplo con codigo, como por ejemplo:
+
+![Bootstrap grid system](https://user-images.githubusercontent.com/72580574/206276484-33f5980d-f2d2-457b-92a7-14ea0e0e2780.png)
+
+
 ---
 
 ##  :star: 3 - Ejercicio
