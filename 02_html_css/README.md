@@ -43,3 +43,9 @@ Temas:
 
 
 ---
+
+### Diploma
+
+![image](https://user-images.githubusercontent.com/72580574/206220973-2b89679c-ffb6-44bd-94cd-cc49b8943bf2.png)
+
+---
