@@ -20,7 +20,7 @@ Temas:
 
 - [**Bootstrap**](https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css/08_bootstrap) en la carpeta **08_bootstrap**
 
-- [**Animaciones y transiciones**](https://github.com/eugenia1984/open_bootcamp/tree/hmain/02_html_css/09_animaciones) en la carpeta **09_animaciones**
+- [**Animaciones y transiciones**](https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css/09_animaciones) en la carpeta **09_animaciones**
 
 - [**Introducción al diseño responsive**](https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css/10_responsive) en la carpeta **10_responsive**
 
