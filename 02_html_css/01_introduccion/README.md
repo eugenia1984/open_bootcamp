@@ -144,7 +144,7 @@ Los etiquetas pueden tneer distintos atributos, van a depender de la etiqueta qu
 
 ---
 
-### :staR: 5 - Ejercicio
+### :star: 5 - Ejercicio
 
 
 Duración aproximada: 5min
