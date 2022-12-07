@@ -83,7 +83,7 @@ body {
 ```
 El que tiene fondo rojo tiene la medida fija con **px**.
 
-El que toene el fondo rojo tiene la medida con **%**, va a depender del tamaño del elemento padre
+El que tiene el fondo rojo tiene la medida con **%**, va a depender del tamaño del elemento padre
 
 El que tiene el fondo amarillo tiene la medida con **vw**, va a depender del tamaño del viewport (la pantalla).
 
@@ -222,6 +222,21 @@ p {
     }
 }
 ```
+
+Para un dismositivo pequeño (hasta 576px):
+
+![image](https://user-images.githubusercontent.com/72580574/206295236-30923501-339c-4306-89a7-2dc00ccad39f.png)
+
+Para un dispositivo mas grandes (desde 995px):
+
+![image](https://user-images.githubusercontent.com/72580574/206295175-b346404e-8183-4d04-8537-6b2d75e6edfe.png)
+
+```@media screen``` -> para las pantallas
+
+```@media print``` -> para cuando se imprime
+
+```@media speech```
+
 ---
 
 ## :star: 4 - Uso avanzado de Flex Box
