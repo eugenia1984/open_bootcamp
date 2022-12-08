@@ -27,6 +27,116 @@
 
 ## :star: 1 - Tablas
 
+:tv: -> [Tablas -documentación de Bootrstrap-](https://getbootstrap.com/docs/5.2/content/tables)
+
+tablas.html:
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablas</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <table class="table caption-top table-sm table-bordered table-striped table-hover">
+          <caption> List of users </caption>
+          <thead class="table-dark">
+            <tr>
+              <th>Nombre</th>
+              <th>Apellido</th>
+              <th>Usuario</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-primary">
+              <td>Gorka</td>
+              <td>Villar</td>
+              <td>gorkavi</td>
+            </tr>
+            <tr class="table-success">
+              <td>Jorge</td>
+              <td>Etxeberria</td>
+              <td>jetxe77</td>
+            </tr>
+            <tr>
+              <td>María</td>
+              <td class="table-danger">Suescun</td>
+              <td>masus88</td>
+            </tr>
+            <tr>
+              <td>Julen</td>
+              <td>García</td>
+              <td>julgarcia90</td>
+            </tr>
+            <tr>
+              <td>Julen</td>
+              <td>García</td>
+              <td>julgarcia90</td>
+            </tr>
+            <tr>
+              <td>Julen</td>
+              <td>García</td>
+              <td>julgarcia90</td>
+            </tr>
+            <tr>
+              <td>Julen</td>
+              <td>García</td>
+              <td>julgarcia90</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Footer</td>
+              <td>Footer</td>
+              <td>Footer</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+</html>
+```
+
+Con **Table-dark** me da el fondo negro y si uso las clases **table-primary** / **table-danger**, etc le cambio el color de fondo
+
+Con **table-hover** cuando paso con el mouse por arriba la fila se oscurece.
+
+Con **Table-active** marco la fila que esté activa, queda más gris.
+
+Dentro de los **td** también puedo poner la clase **table-active**.
+
+Con **table-border** le doy un border a la tabla y al usar **border-primary** / **border-secondary** / **border-siccess** le doy el color.
+
+Pordefecto al tabla viene con un padding, si aplico **table-sm** achico ese espacio.
+
+![image](https://user-images.githubusercontent.com/72580574/206537010-5b750252-7587-47df-a5c8-284ed579c1d2.png)
+
+Se puede hacer nesting y guardar una tabla dentro de otra tabla.
+
+Podemos trabajar con el ```<thead>``` Y darle colores y demás, lo mismo con el ```<tfoot>```.
+
+![image](https://user-images.githubusercontent.com/72580574/206538131-57d00ae9-2485-44fc-898a-284717927116.png)
+
+
+
+
+
 ---
 
 ## :star: 2 - Imagenes
