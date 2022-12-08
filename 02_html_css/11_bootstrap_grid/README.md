@@ -79,6 +79,66 @@ index.html:
 </html>
 ```
 
+
+grid.css:
+```CSS
+.row div {
+    margin: 0.25rem;
+}
+
+.col {
+    background-color: cyan;
+}
+.col-sm {
+    background-color: red;
+}
+.col-md {
+    background-color: yellow;
+}
+.col-lg {
+    background-color: green;
+}
+.col-xl {
+    background-color: blue;
+}
+.col-xxl {
+    background-color: pink;
+}
+```
+
+Con la vista dle dispositivo más grande
+
+![image](https://user-images.githubusercontent.com/72580574/206529187-486e0ca5-ca14-4994-9810-f5526f11b23f.png)
+
+Mientras vamos achicando y pasando a otor breakpoint más chico...
+
+![image](https://user-images.githubusercontent.com/72580574/206529235-eecc4aff-231b-4cbe-bdbc-38a37669ec46.png)
+
+... y más chico
+
+![image](https://user-images.githubusercontent.com/72580574/206529292-5b2c593d-5765-4ce8-be0f-95ba7275fc36.png)
+
+
+El sistema **grid** utiliza las filas (**row**) y las columnas(**col**) y para ser responsive utiliza los **breakpoint**:
+
+- Extra small (xs)
+
+- Small (sm)
+
+- Medium (md)
+
+- Large (lg)
+
+- Extra large (xl)
+
+- Extra extra large (xxl)
+
+
+![breakpoint](https://user-images.githubusercontent.com/72580574/206528104-5e2ebaeb-eda9-4b9e-85d9-0331f394eed4.png)
+
+
+
+
 ---
 
 
