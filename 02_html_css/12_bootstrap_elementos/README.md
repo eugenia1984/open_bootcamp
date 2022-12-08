@@ -1150,6 +1150,127 @@ Con los **input-goup** armamos grupos de input y podemos tener con iconos y con 
 
 ## :star: 9 - Modales, popovers y tooltips
 
+
+- **Modals**
+- 
+:tv: ->  [Documentacion de modales](https://getbootstrap.com/docs/5.2/components/modal/#how-it-works)
+
+
+Son los pop-ups.
+
+![image](https://user-images.githubusercontent.com/72580574/206556433-b8a56f46-a6b6-4653-bec2-bff44ebf011b.png)
+
+
+
+modales.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modales</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container py-4">
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#modal-ejemplo"
+      >
+        Lanzar modal de demostración
+      </button>
+      <div class="modal fade" data-bs-backdrop="static" id="modal-ejemplo">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <h4 class="modal-header">Este es el header</h4>
+            <div class="modal-body">
+              <p>Este es el body</p>
+              <hr />
+              <p>
+                This
+                <a
+                  href="#"
+                  role="button"
+                  class="btn btn-secondary popover-test"
+                  data-bs-toggle="popover"
+                  title="Título del popover"
+                  data-bs-content="Este es el contenido del popover."
+                  >button</a
+                >
+                triggers a popover on click.
+              </p>
+              <hr />
+              <p>
+                Este es un
+                <a
+                  href="#"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Este es un tooltip"
+                  >tooltip</a
+                >
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                Cerrar
+              </button>
+              <button class="btn btn-primary">Aceptar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    var popoverTriggerList = [].slice.call(
+      document.querySelectorAll('[data-bs-toggle="popover"]')
+    );
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl);
+    });
+    var tooltipTriggerList = [].slice.call(
+      document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    );
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+  </script>
+</html>
+```
+
+- **popovers**
+
+:tv: -> [Documentacion](https://getbootstrap.com/docs/5.2/components/popovers/#overview)
+
+al hacer click sale un cartel con mensaje, tenemos que utilizar ** data-bs-toggle="popover" **
+
+![image](https://user-images.githubusercontent.com/72580574/206556699-926b0ba3-8f17-43de-a655-a439e7b0597d.png)
+
+
+
+-  **tooltips**
+
+:tv: -> [Documentacion](https://getbootstrap.com/docs/5.2/components/tooltips/#overview)
+
+![image](https://user-images.githubusercontent.com/72580574/206556892-c7828a9b-3c6a-44b3-bd0f-9890ea448e07.png)
+
+
+
 ---
 
 ## :star: 10 - Iconos
