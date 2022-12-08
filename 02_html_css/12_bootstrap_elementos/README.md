@@ -723,6 +723,17 @@ listas.html:
 </html>
 ```
 
+Con las clases **active** le doy el fondo celeste de activo  y con **disable** lo deeshabilito
+
+![image](https://user-images.githubusercontent.com/72580574/206548453-c7231483-c1f3-4031-ab01-f640815260c7.png)
+
+
+Con el **list-group-item-action** al pasar el mouse se pone más gris.
+
+![image](https://user-images.githubusercontent.com/72580574/206548652-dd974b8e-a6a8-4bc9-9727-f0b248486f0b.png)
+
+
+
 listas2.html:
 ```HTML
 <!DOCTYPE html>
@@ -751,8 +762,9 @@ listas2.html:
               href="#list-home"
               role="tab"
               aria-controls="list-home"
-              >Inicio</a
             >
+              Inicio
+            </a>
             <a
               class="list-group-item list-group-item-action"
               id="list-profile-list"
@@ -829,9 +841,170 @@ listas2.html:
 </html>
 ```
 
+
+Le aplicamos JavaScript con los **data-base**: ``` data-bs-toggle="list"```
+
 ---
 
 ## :star: 8 - Formularios
+
+:tv: -> [Documentacion](https://getbootstrap.com/docs/5.2/forms/overview/#overview)
+
+forms.html:
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container pt-4">
+      <form action="">
+        <div class="mb-3">
+          <label class="form-label" for="nombre">Introduce tu nombre</label>
+          <input
+            id="nombre"
+            type="text"
+            class="form-control"
+            placeholder="Tu nombre"
+            disabled
+          />
+          <div class="form-text">Introduce tu nombre de pila</div>
+        </div>
+        <div class="mb-3">
+          <input
+            type="checkbox"
+            id="check-mayor-edad"
+            class="form-check-input"
+            checked
+          />
+          <label class="form-check-label" for="check-mayor-edad"
+            >¿Eres mayor de edad?</label
+          >
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="apellido">Introduce tu apellido</label>
+          <input
+            id="apellido"
+            type="text"
+            class="form-control-plaintext"
+            placeholder="Tu apellido"
+            value="Villar"
+          />
+          <div class="form-text">Introduce tu apellido</div>
+        </div>
+        <div class="mb-3">
+          <label for="formFile" class="form-label">Por defecto</label>
+          <input class="form-control" type="file" id="formFile" />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control form-control-sm"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            value="gorka@gorka.com"
+            readonly
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Check me out</label
+          >
+        </div>
+        <div class="mb-3">
+          <input type="color" class="form-control form-control-color" />
+        </div>
+        <div class="mb-3">
+          <label for="exampleDataList" class="form-label"
+            >Selecciona tu ciudad</label
+          >
+          <input
+            class="form-control"
+            list="datalistOptions"
+            id="exampleDataList"
+            placeholder="Type to search..."
+          />
+          <datalist id="datalistOptions">
+            <option value="San Sebastián" />
+            <option value="Madrid" />
+            <option value="Bilbao" />
+            <option value="Barcelona" />
+            <option value="Valencia" />
+          </datalist>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/72580574/206550785-9986f5e4-c2c7-405e-9d6f-aa17e0fb9791.png)
+
+
+Con el estilo **form-control** le doy formato de formulario.
+
+Utilizamos los **label** (que debe tener un **for**) y los **input**(que debe tener un **id** -igual al for del label para relacionarlos-, su **type**), **checkbox**, el **button**.
+
+Si tiene l a clase **Read-only** va a ser un input de solo lectura, los puedo deshabilitar con el**disabled**, les puedo modificar el tamaño.
+
+Puedo hacer el input con file para subir archivos.
+
+También tengo el color picker, con el input type color y **form-control-color**
+
+Con ```<datalist>``` tengo como los **select**. También tenemos el ```<select>``` si le agregamos **multiple** para elegir más de uno.
+
+Tenemos [check y radios](https://getbootstrap.com/docs/5.2/forms/checks-radios/)
+
+![image](https://user-images.githubusercontent.com/72580574/206552776-be9d2bd2-ca55-4504-b57c-e2ef29c683dc.png)
+
+![image](https://user-images.githubusercontent.com/72580574/206552817-11092d52-87a8-4452-bd11-21d06fc1960d.png)
+
+
+```HTML
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    Default radio
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+  <label class="form-check-label" for="flexRadioDefault2">
+    Default checked radio
+  </label>
+</div>
+```
 
 ---
 
