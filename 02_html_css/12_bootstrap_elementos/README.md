@@ -499,13 +499,335 @@ spinners.html:
 </html>
 ```
 
+Hay de dos modos...
+
+... **border**, le puedo dar comlor con: **text-primary**, ** text-secondary**, etc,  las mismas clases que le dan el color al texto se aplican.
+
+![border spinner](https://user-images.githubusercontent.com/72580574/206545023-77c70fd4-8dcd-447e-8cf2-07d651f61717.png)
+
+... **growing**, le puedo dar comlor con: **text-primary**, ** text-secondary**, etc,  las mismas clases que le dan el color al texto se aplican.
+
+![spinner growing](https://user-images.githubusercontent.com/72580574/206545096-3d83ac17-7dd6-4ee4-adff-7729aef17fda.png)
+
+Por defecto tienen **inline-flex**, le podemos agregar tanto **margin**, como **padding**.
+
+Con las clases de **flex-box** los podemos ubicar:
+![image](https://user-images.githubusercontent.com/72580574/206545640-90e19358-eaee-4558-8191-320af40c1151.png)
+
+Les puedo modificar el tamaño
+
+![image](https://user-images.githubusercontent.com/72580574/206545784-14031d68-7d92-435b-b61d-97fb879f971b.png)
+
+![image](https://user-images.githubusercontent.com/72580574/206545827-2af36b69-c077-40da-89a8-c508f7e79d5b.png)
+
+
+Y aplicarlo a los botones
+
+![image](https://user-images.githubusercontent.com/72580574/206545913-9a8288a3-70a3-46f2-ad72-d4d0cd43eab5.png)
+
+
+
+
 ---
 
 ## :star: 6 - Tarjetas
 
+:tv: -> [Documentacion de bootrstrap](https://getbootstrap.com/docs/5.2/components/card/)
+
+card.html:
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarjetas</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container py-4">
+      <div class="card" style="width: 15rem">
+        <div class="card-header">Este es el encabezado</div>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Este es el body de la tarjeta</p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Item 1</li>
+            <li class="list-group-item">Item 2</li>
+            <li class="list-group-item">Item 3</li>
+          </ul>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-primary btn-sm">Llamada a la acción</button>
+        </div>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Blue_Zurich_%2831895270053%29.jpg/1200px-Blue_Zurich_%2831895270053%29.jpg"
+          class="card-img-bottom"
+          alt="imagen"
+        />
+      </div>
+      <div class="card mt-4">
+        <div class="card-header">Promoción</div>
+        <div class="card-body">
+          <h5 class="card-title display-6 col-md-9">
+            Promoción especial nuevos alumnos
+          </h5>
+          <p class="card-text col-md-9">
+            Haciendo clic en el botón de abajo conseguirás hasta un 50% de
+            descuento en tus siguientes compras
+          </p>
+          <button class="btn btn-primary btn-sm">Obtén tu descuento</button>
+        </div>
+      </div>
+      <div class="card mt-4">
+        <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Principal</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Secundario</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Terciario</a>
+            </li>
+          </ul>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">
+            With supporting text below as a natural lead-in to additional content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+</html>
+```
+
+Es un solo elemento que se compone de varios elementos internos como: image, titulo (**card-title**), texto (**Card-text**), boton, link, etc, todas están en el **card-body**.
+
+Se le puede agregar un **header** y un **footer**
+
+Usando el **Grid-system** con container, row y col puedo bicar a varias tarjetas.
+
+Para el texto puedo utilizar las alineaciones de texto.
+
+Puedo tener un componente para navegar (como un nav)
+
+![image](https://user-images.githubusercontent.com/72580574/206546778-c3ed40d7-d59a-46f7-ac65-069d66c15499.png)
+
+Se le puede dar colores de fondo, colores en el borde, etc.
+
+
+![image](https://user-images.githubusercontent.com/72580574/206546862-428d7d2d-f1fe-4c06-8560-ab73bdbde3f8.png)
+
 ---
 
 ## :star: 7 - Listas
+
+:tv: -> [Documentacion de **list group**](https://getbootstrap.com/docs/5.2/components/list-group/#basic-example)
+
+![image](https://user-images.githubusercontent.com/72580574/206547337-d2a88baf-d330-4d62-9743-1194ae8b3e6a.png)
+
+Puedo usarlas para **check list** y para **radio buttons**
+![image](https://user-images.githubusercontent.com/72580574/206547482-7ab442bf-7ebd-4f9f-9138-84b442fe9314.png)
+
+
+listas.html:
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listas</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container py-4">
+      <ul class="list-group">
+        <li class="list-group-item disabled">Item 1</li>
+        <li class="list-group-item">Item 2</li>
+        <li class="list-group-item active">Item 3</li>
+        <li class="list-group-item">Item 4</li>
+        <li class="list-group-item">Item 5</li>
+      </ul>
+      <ul class="list-group list-group-flush mt-4 rounded">
+        <a href="#" class="list-group-item list-group-item-action active"
+          >Item 1</a
+        >
+        <a href="#" class="list-group-item list-group-item-action">Item 2</a>
+        <a href="#" class="list-group-item list-group-item-action">Item 3</a>
+        <a href="#" class="list-group-item list-group-item-action">Item 4</a>
+        <a href="#" class="list-group-item list-group-item-action disabled"
+          >Item 5</a
+        >
+      </ul>
+      <ol class="mt-4 list-group list-group-numbered">
+        <li class="list-group-item list-group-item-action">Item 1</li>
+        <li class="list-group-item list-group-item-action">Item 2</li>
+        <li class="list-group-item list-group-item-action">Item 3</li>
+        <li class="list-group-item list-group-item-action">Item 4</li>
+        <li class="list-group-item list-group-item-action">Item 5</li>
+      </ol>
+      <ul class="mt-4 list-group">
+        <li class="list-group-item d-flex align-items-center justify-content-between">
+          <div>
+            <p class="mb-0 fs-4"><strong>Primer item</strong></p>
+            <p class="mb-0">Este es el texto del primer item</p>
+          </div>
+          <div>
+              Badge
+          </div>
+        </li>
+        <li class="list-group-item">Item 2</li>
+        <li class="list-group-item">Item 3</li>
+        <li class="list-group-item">Item 4</li>
+        <li class="list-group-item">Item 5</li>
+      </ul>
+      <ul class="mt-4 list-group list-group-horizontal-sm">
+          <li class="list-group-item list-group-item-warning">Item 1</li>
+          <li class="list-group-item list-group-item-action list-group-item-info">Item 2</li>
+          <li class="list-group-item">Item 3</li>
+          <li class="list-group-item">Item 4</li>
+      </ul>
+      <div class="row">
+          
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+</html>
+```
+
+listas2.html:
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listas 2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-4">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a
+              class="list-group-item list-group-item-action active"
+              id="list-home-list"
+              data-bs-toggle="list"
+              href="#list-home"
+              role="tab"
+              aria-controls="list-home"
+              >Inicio</a
+            >
+            <a
+              class="list-group-item list-group-item-action"
+              id="list-profile-list"
+              data-bs-toggle="list"
+              href="#list-profile"
+              role="tab"
+              aria-controls="list-profile"
+              >Perfil</a
+            >
+            <a
+              class="list-group-item list-group-item-action"
+              id="list-messages-list"
+              data-bs-toggle="list"
+              href="#list-messages"
+              role="tab"
+              aria-controls="list-messages"
+              >Messages</a
+            >
+            <a
+              class="list-group-item list-group-item-action"
+              id="list-settings-list"
+              data-bs-toggle="list"
+              href="#list-settings"
+              role="tab"
+              aria-controls="list-settings"
+              >Settings</a
+            >
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="tab-content" id="nav-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="list-home"
+              role="tabpanel"
+              aria-labelledby="list-home-list"
+            >
+              Esta es la home
+            </div>
+            <div
+              class="tab-pane fade"
+              id="list-profile"
+              role="tabpanel"
+              aria-labelledby="list-profile-list"
+            >
+              Este es tu perfil - personalizado
+            </div>
+            <div
+              class="tab-pane fade"
+              id="list-messages"
+              role="tabpanel"
+              aria-labelledby="list-messages-list"
+            >
+              Estos son tus mensajes
+            </div>
+            <div
+              class="tab-pane fade"
+              id="list-settings"
+              role="tabpanel"
+              aria-labelledby="list-settings-list"
+            >
+              Aquí tienes los ajustes
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+</html>
+```
 
 ---
 
