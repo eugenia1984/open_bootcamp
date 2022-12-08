@@ -1275,13 +1275,241 @@ al hacer click sale un cartel con mensaje, tenemos que utilizar ** data-bs-toggl
 
 ## :star: 10 - Iconos
 
+:tv: -> [ Link a la pagina de bootstrap con sus iconos]([)](https://icons.getbootstrap.com/)
+
+![image](https://user-images.githubusercontent.com/72580574/206558373-603907c7-45cf-44c8-baa5-a7d6d04c8256.png)
+
+
+iconos.html:
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iconos</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div class="container py-4">
+      <h4>Iconos en Bootstrap (Bootstrap Icons)</h4>
+      <i class="bi bi-terminal-fill" style="font-size: 2rem; color: blue"></i>
+      <i class="bi bi-wrench text-info fs-1"></i>
+      <button class="btn btn-secondary">
+        <i class="bi bi-wrench mx-1"></i>Ajustes
+      </button>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+</html>
+```
+
+Podemos descargar todos los iconos y utlizarlos con: ```npm i bootstrap-icons```
+
+Para que el proyecto nos pese menos por medio del CDN en ...
+
+
+... el HTML: ```<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">```
+
+... el CSS: ```@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");```
+
+![image](https://user-images.githubusercontent.com/72580574/206559119-88730a3f-4451-47a4-983a-c21d2c57d0f4.png)
+
+Con style inline lo puedo modificar: ```<i class="bi-alarm" style="font-size: 2rem; color: cornflowerblue;"></i>```
+
+
 ---
 
 ## :star: 11 - Toasts
 
+Son nostificaciones
+
+
+:tv: -> [Documentaicon]([)](https://getbootstrap.com/docs/5.2/components/toasts/#overview)
+
+toast.html:
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toasts</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container py-4">
+      <button class="btn btn-primary" id="boton-trigger">
+        Muestra el toast
+      </button>
+      <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <div
+          id="liveToast"
+          class="toast"
+          role="alert"
+          aria-live="assertive"
+          aria-atomic="true"
+        >
+          <div class="toast-header">
+            <img src="..." class="rounded me-2" alt="bs" />
+            <strong class="me-auto">Título</strong>
+            <small>Hace 4 minutos</small>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="toast"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="toast-body">Esto es el mensaje</div>
+        </div>
+      </div>
+      <div
+        class="toast-container d-flex align-items-center justify-content-center"
+      >
+        <div class="toast show">
+          <div class="toast-header">Título del primer toast</div>
+          <div class="toast-body">Mensaje</div>
+        </div>
+        <div class="toast show">
+          <div class="toast-header">Título del segundo</div>
+          <div class="toast-body">Mensaje</div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    var toastTrigger = document.getElementById("boton-trigger");
+    var toastLiveExample = document.getElementById("liveToast");
+    if (toastTrigger) {
+      toastTrigger.addEventListener("click", function () {
+        var toast = new bootstrap.Toast(toastLiveExample);
+
+        toast.show();
+      });
+    }
+  </script>
+</html>
+```
+
+Ejemplo:
+
+![image](https://user-images.githubusercontent.com/72580574/206559528-f162d3f8-ae31-4dd6-bb98-ed1078555ae3.png)
+
+
+En código:
+
+```HTML
+<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <img src="..." class="rounded me-2" alt="...">
+    <strong class="me-auto">Bootstrap</strong>
+    <small>11 mins ago</small>
+    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+  </div>
+  <div class="toast-body">
+    Hello, world! This is a toast message.
+  </div>
+</div>
+```
+
+Por default no están activados, hay que copiar el JavaScriot que nos proveen para que funcione.
+
+
 ---
 
 ## :star: 12 - Badges
+
+:tv: -> [Documentacion](https://getbootstrap.com/docs/5.2/components/badge/#examples)
+
+
+badges.html:
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Badges</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Este es el título <span class="badge bg-secondary">Nuevo!</span></h2>
+      <div class="row d-block px-4">
+        <button class="btn btn-primary w-auto">
+          Notificaciones <span class="badge bg-secondary">5</span>
+        </button>
+      </div>
+      <button class="mt-4 btn btn-primary position-relative">Emails <span class="badge position-absolute bg-danger top-0 start-100 translate-middle rounded-pill">99+</span></button>
+      <button class="mt-4 btn btn-primary position-relative">Notificaciones <span class="badge position-absolute bg-danger top-0 start-100 translate-middle rounded-pill p-2"><span class="visually-hidden">99+</span></span></button>
+
+      <span class="badge bg-success">Éxito</span>
+      <span class="badge bg-danger">Error</span>
+
+      <span class="badge bg-success rounded-pill">Éxito</span>
+      <span class="badge bg-danger rounded-pill">Error</span>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+</html>
+```
+
+Pueden ser como titulos:
+
+![image](https://user-images.githubusercontent.com/72580574/206560065-db32a432-d538-4136-8ca0-a0aa17e94cf2.png)
+
+Como botones:
+
+![image](https://user-images.githubusercontent.com/72580574/206560115-fd7e0ad0-d9aa-478e-9042-c9eabc9fef3d.png)
+
+
+Le puedo dar colores
+
+![image](https://user-images.githubusercontent.com/72580574/206560182-a18a6687-470e-45f3-a4dd-32a5b23ad14f.png)
+
+
+Y con forma de pildoras
+
+![image](https://user-images.githubusercontent.com/72580574/206560243-bc1621cb-c948-4076-9efb-069b99773c08.png)
+
+
+
 
 ---
 
