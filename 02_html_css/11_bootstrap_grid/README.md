@@ -144,4 +144,25 @@ El sistema **grid** utiliza las filas (**row**) y las columnas(**col**) y para s
 
 ##: star: 2 - Ejercicio
 
+- Crea un nuevo documento HTML con el título "Sistema grid de Bootstrap"
+ 
+- Utilizando la página oficial getboostrap.com, añade la última versión de Bootstrap a este documento HTML
+
+- Crea 6 div con un texto en su interior
+
+- Utilizando únicamente el atributo class de cada uno de los div haz lo siguiente ...
+
+... Por defecto, cada elemento ocupará el ancho máximo
+
+... Para viewports SM - cada fila contendrá 2 elementos
+
+... Para viewports MD - cada fila contendrá 3 elementos
+
+... Para viewports LG - cada fila contendrá 4 elementos
+
+... Para viewports XL - cada fila contendrá 6 elementos
+
+:computer: -> Se puede ver en al carpeta [**entrega**](https://github.com/eugenia1984/open_bootcamp/edit/main/02_html_css/11_bootstrap_grid/entrega)
+
+
 ---
