@@ -1515,9 +1515,124 @@ Y con forma de pildoras
 
 ## :star: 13 - Progress
 
+:tv: -> [Documentacion](https://getbootstrap.com/docs/5.2/components/progress/#how-it-works)
+
+
+progress.html:
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Progress Bars</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container py-4">
+      <div class="progress">
+        <div class="progress-bar" style="width: 39%">39%</div>
+      </div>
+      <div class="progress mt-4" style="height: 2px">
+        <div class="progress-bar" style="width: 87%"></div>
+      </div>
+      <div class="progress mt-4">
+        <div class="progress-bar bg-success" style="width: 18%"></div>
+        <div class="progress-bar bg-danger" style="width: 9%"></div>
+      </div>
+      <div class="progress mt-4">
+        <div
+          class="progress-bar bg-warning progress-bar-striped progress-bar-animated"
+          style="width: 56%"
+        ></div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+</html>
+```
+
+Son las barras de progreso
+
+![image](https://user-images.githubusercontent.com/72580574/206560610-4eff1ba7-8842-44a4-b3f4-436393164cf9.png)
+
+
+```HTML
+<div class="progress">
+  <div class="progress-bar" 
+       role="progressbar" 
+       aria-label="Basic example" 
+       aria-valuenow="0" 
+       aria-valuemin="0" 
+       aria-valuemax="100">
+  </div>
+</div>
+```
+
+Le puedo agregar un label
+
+![image](https://user-images.githubusercontent.com/72580574/206560800-15ae8c39-0bae-4321-955d-e93b7ed9319f.png)
+
+
+```HTML
+<div class="progress">
+  <div class="progress-bar" 
+       role="progressbar" 
+       aria-label="Example with label" 
+       style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+    25%
+  </div>
+</div>
+```
+
+Se le puede modificar la altura, el color de fondo, etc.
+
+![image](https://user-images.githubusercontent.com/72580574/206561005-78249432-0d5a-4172-b3c3-4ff74b18d741.png)
+
+
+Puedo utilizar varias juntas:
+
+![image](https://user-images.githubusercontent.com/72580574/206561062-c5a78493-3b6f-4af7-b5a0-400299d48fb0.png)
+
+
+```HTML
+<div class="progress">
+  <div class="progress-bar" 
+       role="progressbar" 
+       aria-label="Segment one" 
+       style="width: 15%" aria-valuenow="15" aria-valuemin="0" 
+       aria-valuemax="100"></div>
+  <div class="progress-bar bg-success" 
+       role="progressbar" 
+       aria-label="Segment two" 
+       style="width: 30%" aria-valuenow="30" 
+       aria-valuemin="0" 
+       aria-valuemax="100"></div>
+  <div class="progress-bar bg-info" role="progressbar" aria-label="Segment three" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+```
+
+Pueden tener rayas
+
+![image](https://user-images.githubusercontent.com/72580574/206561237-62be1f79-0c92-4b09-b309-beeb93ee5f5d.png)
+
+
+Y ser animadas
+
 ---
 
-## :star: 14 - Tipografçia en Bootrstrap
+## :star: 14 - Tipografia en Bootrstrap
 
 ---
 
