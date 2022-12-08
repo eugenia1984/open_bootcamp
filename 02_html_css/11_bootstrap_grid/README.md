@@ -106,7 +106,7 @@ grid.css:
 }
 ```
 
-Con la vista dle dispositivo más grande
+Con la vista del dispositivo más grande
 
 ![image](https://user-images.githubusercontent.com/72580574/206529187-486e0ca5-ca14-4994-9810-f5526f11b23f.png)
 
