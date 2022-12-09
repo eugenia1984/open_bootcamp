@@ -6,6 +6,7 @@
 
 ```
 1 - Presentación del proyecto
+2 - El proyecto
 ```
 
 ---
@@ -67,5 +68,11 @@ La forma de organizar el proyecto:
 En **proyecto.html** vamos a incorporar Bootstrap por medio de CDN.
 
 Los íconos de Bootstrap los intsalamos por medio de consola.
+
+---
+
+## :star: El proyecto
+
+:tv: -> [Aca se puede ver todo el codigo](https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css/14_15_proyecto/proyecto_final)
 
 ---
