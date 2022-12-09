@@ -28,9 +28,9 @@ Temas:
 
 - [**Otros aspectos de interés de Bootstrap**](https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css/12_bootstrap_elementos) en la carpeta **12_bootstrap_elementos**
 
-- [**Usando pre-procesadores CSS - SASS**](https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css/13_sass) en **13_sass / README.md**
+- [**Usando pre-procesadores CSS - SASS**](https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css/13_sass) en **13_sass**
 
-- [**Presentación proyecto final y Finalización proyecto fina**](https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css/14_15_proyecto) en **14_15_proyecto / README.md**
+- [**Presentación proyecto final y Finalización proyecto final**](https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css/14_15_proyecto) en **14_15_proyecto**
  
 
 
