@@ -1,8 +1,8 @@
-# Unidad 2 : HTML y CSS
+# :star2: Unidad 2 : HTML y CSS
 
 ---
 
-Temas:
+## :book: Temas:
 
 - [**Introduccion a HTML**](https://github.com/eugenia1984/open_bootcamp/tree/main/02_html_css/01_introduccion) en la carpeta **01_introduccion**
 
@@ -37,7 +37,7 @@ Temas:
 
 ---
 
-### Diploma / Certificado
+### :star: Diploma / Certificado
 
 ![image](https://user-images.githubusercontent.com/72580574/206220973-2b89679c-ffb6-44bd-94cd-cc49b8943bf2.png)
 
