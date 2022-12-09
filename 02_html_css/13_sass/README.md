@@ -40,7 +40,40 @@ h1
 ## :star: 2 -Variables y mixins
 
 
-- 
+- **mixins** para reutilizar el codigo, se definen con un ```@mixin nombre(variables) {}```.
+
+Un ejemplo:
+
+```SCSS
+@mixin formato-texto($bg-color: #f1f1f1) {
+  color: $text-color;
+  width: 50rem;
+  background-color: $bg-color;
+}
+
+h1 {
+  margin: 0;
+  @include: formato-texto(#f1f1f1);
+}
+```
+
+Y ademas de pasarla la variable como un parametro le puedo dar un valor por defecto : ```($bg-color: #f1f1f1)``` asi de no pasarle el parametro, va a tomar el valor por default.
+
+- Puedo **anidar** y acceder a las pseudoclases (con **&**), ejemplo en codigo:
+
+```SCSS
+ul {
+  background-color: red;
+  li {
+    font-weight: bolder;
+    &:hover {
+      background-color: yellow;
+    }
+  }
+}
+```
+
+- Ejemplos en código:
 
 introsass.html
 ```HTML
