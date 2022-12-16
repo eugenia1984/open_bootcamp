@@ -22,7 +22,7 @@
 
 ## :star: 1 - Introducción al control de versiones
 
-### Introducción, qué es el control de versiones
+### 1.1 - Introducción, qué es el control de versiones
 
 Guardo los cambios en distintas carpetas, para que si debo volver hacia atras, puedo.
 
@@ -31,15 +31,15 @@ No es un sistema de copia de seguridad.
 Hay tres tipos: **locales**, **centralizados** y **distribuidos**. 
 
 
-###  Control de versiones local
+### 1.2 - Control de versiones local
 
 Sería como ir guardando en varias carpetas, para tener las diferentes etapas del proyecto.
 
-### Control de versiones RCS
+### 1.3 - Control de versiones RCS
 
 Luego se creo un sistema de control de versiones local, el primero que se creo fue: **RCS**, lo que todavía me falta que me soluciones es la forma de trabaajr en equipo.
 
-### Control de versiones centralizado: CVS
+### 1.4 - Control de versiones centralizado: CVS
 
 Ya quedo viejo, fue sustituido por **SVN**. 
 
@@ -51,7 +51,7 @@ Se utilizaba en la plataforma Source Forge.
 
 Tenia la contra de no ser facil de gestiionar.
 
-### Control de versiones centralizado: SVN ( subversion)
+### 1.5 - Control de versiones centralizado: SVN ( subversion)
 
 Este luego fue reemplazado por **GIT**.
 
@@ -70,7 +70,7 @@ El único problema que tiene es que si el servidor central está caido o no est�
 Solo tengo mi copia del ultimo cambio.
 
 
-### Control de versiones distribuido
+### 1.6 - Control de versiones distribuido
 
 Git es uno de ellos, antes estaba Mercurial y Bazar. Los distribuidos trbajan en **local** y con un **Servidor**, en mi propia computadora tengo mi copia de codigo y por medio del servidor lo puedo compartir con el grupo.
 
@@ -81,25 +81,82 @@ Crea referencias o ficheros, por lo que puedo volver hacia atras, para ver los c
 En la computadora hay una carpeta ```.git```, en Linux y Mac hay que ver porque al ser . esta oculto. En los **objects** esta el codigo fuente.
 
 
-### Compartir versión
+### 1.7 - Compartir versión
 
-### Opciones de servidores de repositorios
+- Puedo hacer un .zip y compartir ( poco recomendado)
 
-### GitHub
+- Me creo el servidor para compartir
 
-### Git push
+- Utilizo un servidor (github, gitlab, bitbucket, sourceforge)
 
-### Segundo factor de autenticación
+### 1.8 - Opciones de servidores de repositorios
 
-### Privacidad y seguridad
 
-### Repaso
+- **github**, de Microsoft, podes deployar paginas estaticas
+
+- **gitlab**, de Attlansin, los de Jira,  podes deployar paginas estaticas
+
+- **bitbucket**
+
+- **sourceforge**, el rey destronado, ya no se usa tanto, permite crear repositorios tipo mercurian y svn.
+
+### 1.9 - GitHub
+
+- Hay que registrarse en github
+
+- Haciendo click en **new** creamos un **nuevo repositorio** y definimos: titulo, descripción, poblic / private(otorgamos permiso a quienes pueden verlo, antes deben estar registrados), agregar ficheros como **README.md**, **.gitignore**, elegir **licencia** (MIT License) y hacer click en **Crear repositorio**.
+
+Dentro de un repositorio tenemos **settings**.
+
+### 1.10 - Git push
+
+Localmente:
+
+1. Me creo mi repositorio y lo conecto a un repositorio de GitHug, o me traigo un repositorio de GitHub con ```git clone <url>```
+
+2. Agrego los cambio, ***confirmo** y me quedo en **StageArea** con: ```git add .```, si en vez de agregar todo quiero agregar un determinado archivo en vez de **.** (**all**) escribo le nombre del archivo
+
+3. Ahora debo hacer el commit con el mensaje: ```git -m "mi mensaje"```
+
+4. Y paso de Atage Area** a **confirmado** y lo subo la repositorio con: ```git push```
+
+### 1.11 - Segundo factor de autenticación
+
+Es una buena práctica y se recomienda. Con el **token**, que debe tener seteado el scope, una fecha de vencimiento, etc. Cuando se genera copiar el que dan porque despues no se verá más.
+
+Para utilizar el token al hacer:```git push <url>``` se puede utilizar otro email (si en el setting hacemos que el email esta privado) para que no se vea y no nos spaneen.
+
+### 1.12 -Privacidad y seguridad
+
+Es mejor utilizar el token,
 
 ### Ejemplo en GitLab
 
+Hizo un nuevo repositorio en GitLab para ver que son muy similares
+
+---
 ---
 
+
 ## :star: 2 - Instalación
+
+### 2.1 - Instalación en Windows
+
+### 2.2 - Instalación en Ubuntu
+
+### 2.3 - Instalación en MacOS
+
+### 2.4 - Creación de servidores mediante docker
+
+### 2.5 - Instalación de Gitea
+
+### 2.6 - Levantar servidor
+
+### 2.7- Configurar servidor
+
+### 2.8 - Instalar GitLab
+
+### 2.9 - Comparativa
 
 
 ---
